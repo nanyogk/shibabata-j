@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>{% block title %}Jリーグ AIサロン & ニュース速報{% endblock %}</title>
+  <meta name="description" content="{% block description %}Jリーグ・日本代表・海外組の最新ニュースと、4人のAI論客（経済評論家・居酒屋の名将・青田買いスカウト・熱血サポ）による痛快な議論をお届け！{% endblock %}">
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#10b981">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'media',
+      theme: {
+        extend: {
+          colors: {
+            pitch: {
+              DEFAULT: '#059669',
+              dark: '#064e3b',
+              light: '#34d399'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- View Transitions for seamless native-like page sliding -->
+  <style>
+    @view-transition {
+      navigation: auto;
+    }
+    ::view-transition-old(root) {
+      animation: 120ms cubic-bezier(0.4, 0, 1, 1) both fade-out;
+    }
+    ::view-transition-new(root) {
+      animation: 200ms cubic-bezier(0, 0, 0.2, 1) both fade-in;
+    }
+    @keyframes fade-out {
+      from { opacity: 1; }
+      to { opacity: 0; }
+    }
+    @keyframes fade-in {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+
+  {% block head_extra %}{% endblock %}
+</head>
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-screen flex flex-col font-sans antialiased selection:bg-emerald-500 selection:text-white">
+
+  <!-- Sticky Top Navigation -->
+  <header class="sticky top-0 z-40 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 shadow-sm transition-colors">
+    <div class="max-w-4xl mx-auto px-4 h-14 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-2 font-black text-lg tracking-tight group">
+        <span class="text-2xl transform group-hover:rotate-12 transition-transform">⚽</span>
+        <span class="bg-gradient-to-r from-emerald-600 to-teal-500 bg-clip-text text-transparent">J-League AIサロン</span>
+        <span class="text-xs px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 font-bold border border-emerald-300 dark:border-emerald-800">ChamberAI</span>
+      </a>
+
+      <!-- Quick Category Nav -->
+      <nav class="hidden sm:flex items-center gap-1 text-sm font-semibold">
+        <a href="/" class="px-3 py-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition">最新全般</a>
+        <a href="/c/j1/" class="px-3 py-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition">J1</a>
+        <a href="/c/j2/" class="px-3 py-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition">J2/J3</a>
+        <a href="/c/national/" class="px-3 py-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition">日本代表</a>
+        <a href="/c/overseas/" class="px-3 py-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition">海外組</a>
+      </nav>
+    </div>
+
+    <!-- Mobile Horizontal Category Scroll -->
+    <div class="sm:hidden flex items-center gap-2 overflow-x-auto px-4 py-2 border-t border-slate-100 dark:border-slate-800 text-xs font-semibold no-scrollbar">
+      <a href="/" class="whitespace-nowrap px-3 py-1 rounded-full bg-slate-200 dark:bg-slate-800">全て</a>
+      <a href="/c/j1/" class="whitespace-nowrap px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800/60">J1リーグ</a>
+      <a href="/c/j2/" class="whitespace-nowrap px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800/60">J2・J3</a>
+      <a href="/c/national/" class="whitespace-nowrap px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800/60">日本代表</a>
+      <a href="/c/overseas/" class="whitespace-nowrap px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800/60">海外組</a>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="flex-1 max-w-4xl w-full mx-auto px-4 py-6">
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Footer -->
+  <footer class="mt-12 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 py-8 text-center text-xs text-slate-500 dark:text-slate-400">
+    <div class="max-w-4xl mx-auto px-4 space-y-3">
+      <p class="font-semibold text-slate-700 dark:text-slate-300">J-League AI Salon & News Aggregator</p>
+      <p>Powered by Open-Source AI (ChamberAI Engine) & RSS Feeds. Built with 100% Static HTML on Firebase Hosting.</p>
+      <div class="flex justify-center gap-4 pt-2">
+        <a href="/" class="hover:underline">トップ</a>
+        <a href="/c/j1/" class="hover:underline">J1</a>
+        <a href="/c/national/" class="hover:underline">代表</a>
+        <a href="/c/overseas/" class="hover:underline">海外</a>
+        <a href="https://github.com/nanyogk/jleague-chamber-ai" target="_blank" rel="noopener" class="hover:underline">GitHub</a>
+      </div>
+      <p class="pt-4 text-[10px] text-slate-400">※当サイトのAIコメントは各ペルソナによる自動生成エンタメ議論です。公式発表は各クラブ公式情報をご確認ください。</p>
+    </div>
+  </footer>
+
+  {% block scripts %}{% endblock %}
+</body>
+</html>

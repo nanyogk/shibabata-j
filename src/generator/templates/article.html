@@ -1,0 +1,370 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }} | 芝ばたJ (Shibabata-J){% endblock %}
+{% block description %}{{ article.summary }}{% endblock %}
+
+{% block head_extra %}
+  <!-- Prefetch adjacent articles for instant navigation -->
+  {% if next_article %}
+    <link rel="prefetch" href="/articles/{{ next_article.slug }}/">
+  {% endif %}
+  {% if prev_article %}
+    <link rel="prefetch" href="/articles/{{ prev_article.slug }}/">
+  {% endif %}
+
+  <!-- Open Graph / X Cards -->
+  <meta property="og:title" content="{{ article.title }}">
+  <meta property="og:description" content="{{ punchy_quote }}">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ article.title }}">
+  <meta name="twitter:description" content="{{ punchy_quote }}">
+{% endblock %}
+
+{% block content %}
+<article class="space-y-6">
+
+  <!-- Breadcrumbs & Category Badge -->
+  <div class="flex items-center gap-2 text-xs font-semibold">
+    <a href="/" class="text-emerald-600 dark:text-emerald-400 hover:underline">トップ</a>
+    <span class="text-slate-400">/</span>
+    <a href="/c/{{ article.category }}/" class="px-2 py-0.5 rounded-full bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:opacity-80">
+      {% if article.category == 'j1' %}J1リーグ
+      {% elif article.category == 'j2' %}J2・J3
+      {% elif article.category == 'national' %}日本代表
+      {% elif article.category == 'overseas' %}海外組
+      {% else %}一般{% endif %}
+    </a>
+    {% for team in article.team_tags %}
+      <a href="/t/{{ team.slug }}/" class="px-2 py-0.5 rounded-full text-white text-[11px] font-bold" style="background-color: {{ team.color }};">
+        {{ team.short_name }}
+      </a>
+    {% endfor %}
+    <span class="ml-auto text-slate-400 font-normal">{{ article.published_at[:10] }}</span>
+  </div>
+
+  <!-- Headline -->
+  <header class="space-y-3">
+    <h1 class="text-xl sm:text-2xl font-black leading-snug tracking-tight text-slate-900 dark:text-white">
+      {{ article.title }}
+    </h1>
+    <div class="flex items-center gap-3 text-xs text-slate-500 dark:text-slate-400">
+      <span class="font-bold">配信元: {{ article.source }}</span>
+      <span>•</span>
+      <a href="{{ article.link }}" target="_blank" rel="noopener noreferrer" class="text-emerald-600 dark:text-emerald-400 hover:underline font-semibold flex items-center gap-1">
+        元の記事を読む <span class="text-[10px]">↗</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- News Summary Box -->
+  <section class="p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm leading-relaxed text-sm text-slate-700 dark:text-slate-300">
+    <div class="font-bold text-xs uppercase tracking-wider text-slate-400 mb-1">ニュース要約</div>
+    <p>{{ article.summary }}</p>
+  </section>
+
+  <!-- In-Article AdSense Slot 1 -->
+  <div class="my-4 p-3 rounded-lg border border-dashed border-slate-300 dark:border-slate-800 bg-slate-100/50 dark:bg-slate-900/50 text-center text-xs text-slate-400">
+    <span>【スポンサーリンク】</span>
+    <!-- Google AdSense Code -->
+    <div class="h-24 flex items-center justify-center font-mono text-[11px] text-slate-400">
+      Google AdSense (Responsive In-Article Banner)
+    </div>
+  </div>
+
+  <!-- ChamberAI Persona Banter Thread -->
+  <section class="space-y-4 pt-2">
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 dark:border-slate-800 pb-3">
+      <div>
+        <h2 class="text-base sm:text-lg font-black flex items-center gap-2">
+          <span>🍵</span>
+          <span>芝ばたJ の井戸端会議</span>
+          <span class="text-xs font-normal text-slate-500">（AI論客による自動議論）</span>
+        </h2>
+      </div>
+
+      <!-- User-Choice Noise Filter Pills -->
+      <div class="flex items-center gap-1.5 flex-wrap text-xs">
+        <span class="text-[11px] text-slate-400 font-medium">発言者フィルター:</span>
+        {% for comment in dialogue %}
+          <button 
+            type="button"
+            onclick="togglePersona('{{ comment.persona_id }}')" 
+            id="filter-btn-{{ comment.persona_id }}"
+            class="px-2 py-0.5 rounded-full text-[11px] font-bold border transition flex items-center gap-1 bg-white dark:bg-slate-800 border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 shadow-xs"
+            title="クリックでこの論客の発言を非表示/表示">
+            <span>{{ comment.avatar_emoji }}</span>
+            <span>{{ comment.short_name }}</span>
+          </button>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Speech Bubbles List -->
+    <div id="dialogue-container" class="space-y-4">
+      {% for comment in dialogue %}
+        <div class="persona-bubble flex items-start gap-3 transition-all duration-200" data-persona-id="{{ comment.persona_id }}">
+          <!-- Avatar Icon -->
+          <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-xl shadow-sm border" style="background-color: {{ comment.color }}20; border-color: {{ comment.color }};">
+            {{ comment.avatar_emoji }}
+          </div>
+
+          <!-- Comment Card -->
+          <div class="flex-1 rounded-2xl p-4 bg-white dark:bg-slate-900 border shadow-xs relative" style="border-left: 4px solid {{ comment.color }};">
+            <div class="flex items-center justify-between gap-2 mb-1.5">
+              <span class="font-bold text-xs sm:text-sm text-slate-900 dark:text-white flex items-center gap-1.5">
+                {{ comment.speaker_name }}
+                <span class="text-[10px] font-normal text-slate-400">#Turn{{ comment.turn }}</span>
+              </span>
+              <button onclick="mutePersonaPermanently('{{ comment.persona_id }}')" class="text-[10px] text-slate-400 hover:text-rose-500" title="この論客をミュート">
+                ✕
+              </button>
+            </div>
+            <p class="text-sm leading-relaxed text-slate-800 dark:text-slate-200 font-normal">
+              {{ comment.content }}
+            </p>
+          </div>
+        </div>
+      {% endfor %}
+
+      <!-- Container for dynamically injected User-Custom Persona Comments -->
+      <div id="user-custom-comments" class="space-y-4"></div>
+    </div>
+
+    <!-- User-Custom Persona Trigger Section -->
+    <div class="mt-6 p-4 rounded-xl bg-gradient-to-r from-emerald-50 to-teal-50 dark:from-slate-900 dark:to-emerald-950/30 border border-emerald-200 dark:border-emerald-800/50">
+      <div class="flex items-center justify-between">
+        <div>
+          <h3 class="font-bold text-sm text-emerald-900 dark:text-emerald-300 flex items-center gap-1.5">
+            <span>✨</span> あなたのオリジナル論客を参加させる
+          </h3>
+          <p class="text-xs text-slate-600 dark:text-slate-400 mt-0.5">
+            好きなキャラクター（例：辛口ジャーナリスト、選手のお母さん）を作ってスレッドに参戦できます。
+          </p>
+        </div>
+        <button 
+          onclick="openCustomPersonaModal()"
+          class="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs shadow-sm transition">
+          ＋ 論客を追加
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- In-Article AdSense Slot 2 -->
+  <div class="my-6 p-3 rounded-lg border border-dashed border-slate-300 dark:border-slate-800 bg-slate-100/50 dark:bg-slate-900/50 text-center text-xs text-slate-400">
+    <span>【スポンサーリンク】</span>
+    <div class="h-28 flex items-center justify-center font-mono text-[11px] text-slate-400">
+      Google AdSense (Matched Content / Display Unit)
+    </div>
+  </div>
+
+  <!-- Share on X (Twitter) -->
+  <div class="flex items-center justify-center pt-2">
+    <a 
+      href="https://twitter.com/intent/tweet?text={{ article.title | urlencode }}%0A%0A%E3%80%8C{{ punchy_quote | urlencode }}%E3%80%8D%0A%0A%23%E8%8A%9D%E3%81%B0%E3%81%9FJ%20%23J%E3%83%AA%E3%83%BC%E3%82%B0%20&url={{ ('https://shibabata-j.web.app/articles/' ~ article.slug ~ '/') | urlencode }}" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="px-5 py-2.5 rounded-full bg-black hover:bg-slate-800 text-white font-bold text-xs flex items-center gap-2 shadow-md transition">
+      <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      この議論をXにポストする
+    </a>
+  </div>
+
+  <!-- Swipe Hint & Previous / Next Articles Navigation -->
+  <nav class="pt-8 border-t border-slate-200 dark:border-slate-800 grid grid-cols-2 gap-4">
+    <div>
+      {% if prev_article %}
+        <a href="/articles/{{ prev_article.slug }}/" class="group block p-3 rounded-lg border border-slate-200 dark:border-slate-800 hover:border-emerald-500 transition text-left">
+          <div class="text-[10px] text-slate-400 font-semibold group-hover:text-emerald-500">← 前の記事（右スワイプ）</div>
+          <div class="text-xs font-bold line-clamp-2 mt-1">{{ prev_article.title }}</div>
+        </a>
+      {% endif %}
+    </div>
+    <div>
+      {% if next_article %}
+        <a href="/articles/{{ next_article.slug }}/" class="group block p-3 rounded-lg border border-slate-200 dark:border-slate-800 hover:border-emerald-500 transition text-right">
+          <div class="text-[10px] text-slate-400 font-semibold group-hover:text-emerald-500">次の記事（左スワイプ） →</div>
+          <div class="text-xs font-bold line-clamp-2 mt-1">{{ next_article.title }}</div>
+        </a>
+      {% endif %}
+    </div>
+  </nav>
+
+</article>
+
+<!-- User-Custom Persona Modal -->
+<div id="custom-persona-modal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs hidden flex items-center justify-center p-4">
+  <div class="bg-white dark:bg-slate-900 rounded-2xl max-w-md w-full p-6 shadow-2xl border border-slate-200 dark:border-slate-800 space-y-4">
+    <div class="flex items-center justify-between">
+      <h3 class="font-black text-base text-slate-900 dark:text-white">＋ オリジナル論客を作成</h3>
+      <button onclick="closeCustomPersonaModal()" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">✕</button>
+    </div>
+
+    <div class="space-y-3 text-xs">
+      <div>
+        <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1">論客の名前</label>
+        <input type="text" id="custom-name" placeholder="例: 辛口採点のフリー記者" class="w-full px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white font-medium focus:outline-emerald-500">
+      </div>
+
+      <div class="grid grid-cols-2 gap-3">
+        <div>
+          <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1">絵文字アイコン</label>
+          <input type="text" id="custom-emoji" value="⚽" class="w-full px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-center text-lg font-medium focus:outline-emerald-500">
+        </div>
+        <div>
+          <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1">テーマカラー</label>
+          <input type="color" id="custom-color" value="#059669" class="w-full h-9 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 cursor-pointer">
+        </div>
+      </div>
+
+      <div>
+        <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1">キャラクターの性格・プロンプト</label>
+        <textarea id="custom-prompt" rows="3" placeholder="例: 選手採点に厳しく、どんな好セーブも『ポジショニングが悪かったから止める羽目になった』と辛口に語る。" class="w-full px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white font-medium focus:outline-emerald-500"></textarea>
+      </div>
+
+      <div>
+        <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1">記事への一言コメント</label>
+        <textarea id="custom-comment-text" rows="2" placeholder="例: 今日の試合は採点4.5。あの失点前のポジショニングミスはプロとしてあり得ないね。" class="w-full px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white font-medium focus:outline-emerald-500"></textarea>
+      </div>
+    </div>
+
+    <div class="flex justify-end gap-2 pt-2">
+      <button onclick="closeCustomPersonaModal()" class="px-4 py-2 rounded-lg bg-slate-200 dark:bg-slate-800 text-xs font-bold text-slate-700 dark:text-slate-300">キャンセル</button>
+      <button onclick="saveAndPostCustomPersona()" class="px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-xs font-bold text-white shadow-sm">スレッドに投稿</button>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  // ==========================================
+  // 1. Client-Side Persona Noise Control (localStorage)
+  // ==========================================
+  const STORAGE_KEY_MUTED = 'shibabata_muted_personas';
+
+  function getMutedPersonas() {
+    try {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY_MUTED) || '[]');
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function saveMutedPersonas(list) {
+    localStorage.setItem(STORAGE_KEY_MUTED, JSON.stringify(list));
+  }
+
+  function applyPersonaVisibility() {
+    const muted = getMutedPersonas();
+    document.querySelectorAll('.persona-bubble').forEach(bubble => {
+      const pid = bubble.dataset.personaId;
+      const isMuted = muted.includes(pid);
+      bubble.style.display = isMuted ? 'none' : 'flex';
+
+      const btn = document.getElementById(`filter-btn-${pid}`);
+      if (btn) {
+        if (isMuted) {
+          btn.classList.add('opacity-40', 'line-through');
+        } else {
+          btn.classList.remove('opacity-40', 'line-through');
+        }
+      }
+    });
+  }
+
+  function togglePersona(personaId) {
+    let muted = getMutedPersonas();
+    if (muted.includes(personaId)) {
+      muted = muted.filter(id => id !== personaId);
+    } else {
+      muted.push(personaId);
+    }
+    saveMutedPersonas(muted);
+    applyPersonaVisibility();
+  }
+
+  function mutePersonaPermanently(personaId) {
+    let muted = getMutedPersonas();
+    if (!muted.includes(personaId)) {
+      muted.push(personaId);
+      saveMutedPersonas(muted);
+      applyPersonaVisibility();
+    }
+  }
+
+  // ==========================================
+  // 2. User-Custom Persona Modal & Post
+  // ==========================================
+  function openCustomPersonaModal() {
+    document.getElementById('custom-persona-modal').classList.remove('hidden');
+  }
+
+  function closeCustomPersonaModal() {
+    document.getElementById('custom-persona-modal').classList.add('hidden');
+  }
+
+  function saveAndPostCustomPersona() {
+    const name = document.getElementById('custom-name').value.trim() || '自作サポーター';
+    const emoji = document.getElementById('custom-emoji').value.trim() || '⚽';
+    const color = document.getElementById('custom-color').value || '#059669';
+    const text = document.getElementById('custom-comment-text').value.trim();
+
+    if (!text) {
+      alert('一言コメントを入力してください！');
+      return;
+    }
+
+    const container = document.getElementById('user-custom-comments');
+    const bubble = document.createElement('div');
+    bubble.className = 'persona-bubble flex items-start gap-3 animate-fade-in';
+    bubble.innerHTML = `
+      <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-xl shadow-sm border" style="background-color: ${color}20; border-color: ${color};">
+        ${emoji}
+      </div>
+      <div class="flex-1 rounded-2xl p-4 bg-white dark:bg-slate-900 border shadow-xs relative" style="border-left: 4px solid ${color};">
+        <div class="flex items-center justify-between gap-2 mb-1.5">
+          <span class="font-bold text-xs sm:text-sm text-slate-900 dark:text-white flex items-center gap-1.5">
+            ${name}
+            <span class="text-[10px] px-1.5 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 font-bold border border-emerald-300 dark:border-emerald-800">あなた追加</span>
+          </span>
+        </div>
+        <p class="text-sm leading-relaxed text-slate-800 dark:text-slate-200 font-normal">
+          ${text}
+        </p>
+      </div>
+    `;
+    container.appendChild(bubble);
+    closeCustomPersonaModal();
+    document.getElementById('custom-comment-text').value = '';
+  }
+
+  // ==========================================
+  // 3. 12-line Touch Listener for Native Swiping
+  // ==========================================
+  let startX = 0, startY = 0;
+  document.addEventListener('touchstart', e => {
+    startX = e.changedTouches[0].screenX;
+    startY = e.changedTouches[0].screenY;
+  }, { passive: true });
+
+  document.addEventListener('touchend', e => {
+    const dx = e.changedTouches[0].screenX - startX;
+    const dy = e.changedTouches[0].screenY - startY;
+    if (Math.abs(dx) > 80 && Math.abs(dx) > Math.abs(dy) * 2) {
+      // Swipe Left -> Next Article
+      if (dx < 0 && "{% if next_article %}/articles/{{ next_article.slug }}/{% endif %}") {
+        location.href = "{% if next_article %}/articles/{{ next_article.slug }}/{% endif %}";
+      }
+      // Swipe Right -> Prev Article
+      if (dx > 0 && "{% if prev_article %}/articles/{{ prev_article.slug }}/{% endif %}") {
+        location.href = "{% if prev_article %}/articles/{{ prev_article.slug }}/{% endif %}";
+      }
+    }
+  }, { passive: true });
+
+  // Initialize persona visibility on load
+  document.addEventListener('DOMContentLoaded', applyPersonaVisibility);
+</script>
+{% endblock %}
