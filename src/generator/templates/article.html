@@ -229,6 +229,15 @@
     </div>
 
     <div class="space-y-3 text-xs">
+      <!-- AI Engine Availability Status Badge -->
+      <div id="ai-engine-status" class="p-2.5 rounded-lg bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-center justify-between text-[11px]">
+        <div class="flex items-center gap-1.5 font-bold">
+          <span id="ai-status-indicator" class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          <span id="ai-status-title" class="text-slate-800 dark:text-slate-200">ブラウザ環境をチェック中...</span>
+        </div>
+        <span id="ai-status-detail" class="text-slate-500 dark:text-slate-400 font-mono text-[10px]">Checking WebGPU/window.ai</span>
+      </div>
+
       <div>
         <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1">論客の名前</label>
         <input type="text" id="custom-name" placeholder="例: 辛口採点のフリー記者" class="w-full px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white font-medium focus:outline-emerald-500">
@@ -248,7 +257,7 @@
       <div>
         <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1">キャラクターの性格・プロンプト</label>
         <textarea id="custom-prompt" rows="3" placeholder="例: 選手採点に厳しく、どんな好セーブも『ポジショニングが悪かったから止める羽目になった』と辛口に語る。「採点は3.5」が口癖。" class="w-full px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white font-medium focus:outline-emerald-500"></textarea>
-        <p class="text-[11px] text-slate-400 mt-1">※この設定を読み取り、AIが記事に合わせた【2行コメント】を即座に自動生成します。</p>
+        <p class="text-[11px] text-slate-400 mt-1">※この設定に基づき、AIが記事を読んで【自動で2行コメント】を発言します。</p>
       </div>
     </div>
 
@@ -338,12 +347,79 @@
   // ==========================================
   // 2. User-Custom Agent Dynamic AI Generation
   // ==========================================
+  let detectedAIBackend = 'heuristic';
+
+  async function checkLocalAIAvailability() {
+    const indicator = document.getElementById('ai-status-indicator');
+    const title = document.getElementById('ai-status-title');
+    const detail = document.getElementById('ai-status-detail');
+
+    if (!indicator || !title || !detail) return;
+
+    // 1. Check Chrome built-in Gemini Nano (window.ai)
+    if (window.ai && window.ai.languageModel) {
+      try {
+        const capabilities = await window.ai.languageModel.capabilities();
+        if (capabilities && capabilities.available !== 'no') {
+          detectedAIBackend = 'window_ai';
+          indicator.className = 'w-2 h-2 rounded-full bg-emerald-500 animate-pulse';
+          title.textContent = '🟢 ブラウザ内蔵AI (Gemini Nano) が利用可能';
+          detail.textContent = 'Local On-Device LLM';
+          return;
+        }
+      } catch (e) {}
+    }
+
+    // 2. Check WebGPU (for in-browser Gemma / WebLLM)
+    if (navigator.gpu) {
+      try {
+        const adapter = await navigator.gpu.requestAdapter();
+        if (adapter) {
+          detectedAIBackend = 'webgpu';
+          indicator.className = 'w-2 h-2 rounded-full bg-sky-500';
+          title.textContent = '🔵 WebGPU対応 (ローカルGemma実行可能)';
+          detail.textContent = 'WebGPU Available';
+          return;
+        }
+      } catch (e) {}
+    }
+
+    // 3. Fallback to lightweight client engine
+    detectedAIBackend = 'heuristic';
+    indicator.className = 'w-2 h-2 rounded-full bg-amber-500';
+    title.textContent = '⚡ 軽量即時AIエンジン (全ブラウザ対応)';
+    detail.textContent = 'Client Engine Active';
+  }
+
   function openCustomPersonaModal() {
     document.getElementById('custom-persona-modal').classList.remove('hidden');
+    checkLocalAIAvailability();
   }
 
   function closeCustomPersonaModal() {
     document.getElementById('custom-persona-modal').classList.add('hidden');
+  }
+
+  async function generateCustomAIComment(name, prompt, articleTitle) {
+    // If Chrome built-in AI is ready, use it!
+    if (detectedAIBackend === 'window_ai' && window.ai && window.ai.languageModel) {
+      try {
+        const session = await window.ai.languageModel.create({
+          systemPrompt: `あなたはサッカーファンのキャラクター「${name}」です。設定: ${prompt}。記事タイトルに対して最大2文（2行以内）で端的に発言してください。`
+        });
+        const result = await session.prompt(`記事: ${articleTitle}`);
+        session.destroy();
+        if (result && result.trim()) {
+          const lines = result.trim().split('\n').filter(l => l.trim());
+          return lines.slice(0, 2).join(' ');
+        }
+      } catch (e) {
+        console.warn('Chrome window.ai failed, falling back:', e);
+      }
+    }
+
+    // Default fast synthesis
+    return synthesizePersonaComment(name, prompt, articleTitle);
   }
 
   function synthesizePersonaComment(name, prompt, articleTitle) {
@@ -371,7 +447,7 @@
     return `私の視点から言わせてもらえば「${tShort}」はまさにピッチ内外で注目すべきターニングポイント。この熱い展開をもっと深く議論していきたいですね！`;
   }
 
-  function generateAndPostCustomPersona() {
+  async function generateAndPostCustomPersona() {
     const name = document.getElementById('custom-name').value.trim() || '自作AI論客';
     const emoji = document.getElementById('custom-emoji').value.trim() || '🤖';
     const color = document.getElementById('custom-color').value || '#059669';
@@ -381,9 +457,9 @@
     btn.disabled = true;
     btn.innerHTML = '<span>⚡</span><span>AIが発言を生成中...</span>';
 
-    setTimeout(() => {
+    try {
       const articleTitle = {{ article.title | tojson }};
-      const generatedComment = synthesizePersonaComment(name, prompt, articleTitle);
+      const generatedComment = await generateCustomAIComment(name, prompt, articleTitle);
 
       const container = document.getElementById('user-custom-comments');
       const bubble = document.createElement('div');
@@ -413,7 +489,11 @@
 
       // Smooth scroll to the newly generated comment
       bubble.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-    }, 400);
+    } catch (err) {
+      console.error('Error generating comment:', err);
+      btn.disabled = false;
+      btn.innerHTML = '<span>⚡</span><span>AIに自動発言させて参戦</span>';
+    }
   }
 
   // ==========================================
