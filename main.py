@@ -33,8 +33,48 @@ def save_articles(articles: list[dict[str, Any]]) -> None:
 
 
 def create_sample_articles() -> list[dict[str, Any]]:
-    """Generate realistic initial soccer articles for instant testing and visual review."""
+    """Generate realistic initial soccer articles including YouTube video highlights and fan buzz."""
     samples = [
+        {
+            "id": "20261015-jleague-highlight-kobe-hiroshima",
+            "slug": "20261015-jleague-highlight-kobe-hiroshima",
+            "title": "【公式ハイライト】ヴィッセル神戸 vs サンフレッチェ広島｜明治安田J1 第30節 首位攻防の死闘！",
+            "link": "https://www.youtube.com/watch?v=0kF43J6_QY0",
+            "video_id": "0kF43J6_QY0",
+            "summary": "首位を争うヴィッセル神戸とサンフレッチェ広島の直接対決。後半89分、ペナルティエリア手前から放たれた反転ボレーシュートがネットを揺らし劇的な幕切れに。両GKの神セーブが連発した今季屈指の好ゲーム。",
+            "source": "Jリーグ公式YouTube",
+            "category": "j1",
+            "team_tags": [
+                {"slug": "vissel-kobe", "name": "ヴィッセル神戸", "short_name": "神戸", "category": "j1", "color": "#9b003f"},
+                {"slug": "sanfrecce-hiroshima", "name": "サンフレッチェ広島", "short_name": "広島", "category": "j1", "color": "#51237c"}
+            ],
+            "fan_comments": [
+                "89分の反転シュート、トラップからインパクトまで完璧すぎて変な声出たわ",
+                "92分のキーパーの指先ビッグセーブえぐすぎるだろ！今季の年間最優秀セーブ候補",
+                "後半ATのペナルティエリア内の接触、VAR入るかと思ったけどインシデンタルでノーファウル妥当",
+                "これぞJ1の頂上決戦！両チームとも球際バチバチでスタジアムの熱気すごかった"
+            ],
+            "published_at": "2026-10-15T05:00:00Z",
+            "date_prefix": "20261015"
+        },
+        {
+            "id": "20261015-dazn-mitoma-assist",
+            "slug": "20261015-dazn-mitoma-assist",
+            "title": "【DAZN特報】三笘薫、敵地を沈黙させる圧巻2アシスト！地元メディア満点評価の全タッチ集",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "video_id": "dQw4w9WgXcQ",
+            "summary": "ブライトン三笘薫がプレミアリーグ第8節で無双の活躍。左サイドを単独で切り裂くドリブル突破と右足アウトサイドでの芸術的スルーパスで2ゴールを演出し、敵地サポーターすら脱帽させた。",
+            "source": "DAZN Japan公式YouTube",
+            "category": "overseas",
+            "team_tags": [{"slug": "overseas-players", "name": "海外日本人選手", "short_name": "海外組", "category": "overseas", "color": "#1e293b"}],
+            "fan_comments": [
+                "2点目のアウトサイドパス、視野が広すぎて何回見返しても鳥肌立つ",
+                "対峙したイングランド代表DFが完全に重心崩されてて草",
+                "このレベルのプレー連発してるなら早くCL常連のメガクラブに移籍してほしい"
+            ],
+            "published_at": "2026-10-15T04:30:00Z",
+            "date_prefix": "20261015"
+        },
         {
             "id": "20261015-urawa-transfer",
             "slug": "20261015-urawa-transfer",
@@ -44,43 +84,11 @@ def create_sample_articles() -> list[dict[str, Any]]:
             "source": "Yahoo!サッカー",
             "category": "j1",
             "team_tags": [{"slug": "urawa-reds", "name": "浦和レッズ", "short_name": "浦和", "category": "j1", "color": "#e60012"}],
+            "fan_comments": [
+                "8億円はJリーグとしては超破格だけど中盤の補強は最優先課題だから納得",
+                "若手の育成枠が削られるんじゃないかって不安もあるけどタイトル獲るならこれくらい必要"
+            ],
             "published_at": "2026-10-15T04:00:00Z",
-            "date_prefix": "20261015"
-        },
-        {
-            "id": "20261015-kobe-tactics",
-            "slug": "20261015-kobe-tactics",
-            "title": "ヴィッセル神戸が後半ATの劇的弾で首位浮上！ハイプレスと3-2-5可変ビルドアップが機能",
-            "link": "https://gekisaka.jp",
-            "summary": "明治安田J1第30節、ヴィッセル神戸は後半アディショナルタイムに劇的な決勝点を奪い首位へ浮上。相手のハイプレスをいなす可変システムと交代出場の若手ウインガーのスピードが試合の趨勢を決めた。",
-            "source": "ゲキサカ",
-            "category": "j1",
-            "team_tags": [{"slug": "vissel-kobe", "name": "ヴィッセル神戸", "short_name": "神戸", "category": "j1", "color": "#9b003f"}],
-            "published_at": "2026-10-15T03:30:00Z",
-            "date_prefix": "20261015"
-        },
-        {
-            "id": "20261015-mitoma-assist",
-            "slug": "20261015-mitoma-assist",
-            "title": "三笘薫がプレミアリーグで圧巻の2アシスト！地元メディア絶賛「DFを無力化する一撃」",
-            "link": "https://www.soccer-king.jp",
-            "summary": "ブライトン所属の日本代表FW三笘薫が敵地での強豪相手に2得点を演出。左サイドからの変幻自在なドリブル突破と正確無比なクロスでMOMに選出された。",
-            "source": "サッカーキング",
-            "category": "overseas",
-            "team_tags": [{"slug": "overseas-players", "name": "海外日本人選手", "short_name": "海外組", "category": "overseas", "color": "#1e293b"}],
-            "published_at": "2026-10-15T02:00:00Z",
-            "date_prefix": "20261015"
-        },
-        {
-            "id": "20261015-samurai-blue-selection",
-            "slug": "20261015-samurai-blue-selection",
-            "title": "森保ジャパン、W杯最終予選メンバー発表！高卒2年目の若手Jリーガーが電撃初招集",
-            "link": "https://gekisaka.jp",
-            "summary": "日本サッカー協会は来月のW杯アジア最終予選に向けた日本代表メンバー26名を発表。J1で躍進を続ける弱冠20歳のストライカーがサプライズ選出された。",
-            "source": "ゲキサカ",
-            "category": "national",
-            "team_tags": [{"slug": "samurai-blue", "name": "日本代表 (SAMURAI BLUE)", "short_name": "代表", "category": "national", "color": "#003b8e"}],
-            "published_at": "2026-10-15T01:30:00Z",
             "date_prefix": "20261015"
         },
         {
@@ -92,6 +100,10 @@ def create_sample_articles() -> list[dict[str, Any]]:
             "source": "PR TIMES (Jリーグ)",
             "category": "j2",
             "team_tags": [],
+            "fan_comments": [
+                "J2は毎週末胃が痛いけど面白すぎる。全試合DAZNで見逃せない",
+                "6位と11位の勝ち点差が3しかないとか狂気の世界だろ"
+            ],
             "published_at": "2026-10-15T00:45:00Z",
             "date_prefix": "20261015"
         }
