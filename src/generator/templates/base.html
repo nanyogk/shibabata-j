@@ -57,45 +57,45 @@
 </head>
 <body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-screen flex flex-col font-sans antialiased selection:bg-emerald-500 selection:text-white">
 
-  <!-- Sticky Top Navigation -->
-  <header class="sticky top-0 z-40 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 shadow-sm transition-colors">
-    <div class="max-w-4xl mx-auto px-4 h-14 flex items-center justify-between">
-      <a href="/" class="flex items-center gap-2 font-black text-lg tracking-tight group">
-        <span class="text-2xl transform group-hover:rotate-12 transition-transform">⚽</span>
-        <span class="bg-gradient-to-r from-emerald-600 to-teal-500 bg-clip-text text-transparent">J-League AIサロン</span>
-        <span class="text-xs px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 font-bold border border-emerald-300 dark:border-emerald-800">ChamberAI</span>
+  <!-- Sticky Top Navigation (Slim & Compact) -->
+  <header class="sticky top-0 z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 shadow-2xs transition-colors">
+    <div class="max-w-4xl mx-auto px-3 sm:px-4 h-11 sm:h-12 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-1.5 font-black text-base sm:text-lg tracking-tight group">
+        <span class="text-xl">⚽</span>
+        <span class="text-slate-900 dark:text-white font-extrabold">芝ばたJ</span>
+        <span class="text-[10px] text-emerald-600 dark:text-emerald-400 font-bold tracking-normal">Shibabata-J</span>
       </a>
 
-      <!-- Quick Category Nav -->
-      <nav class="hidden sm:flex items-center gap-1 text-sm font-semibold">
-        <a href="/" class="px-3 py-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition">最新全般</a>
-        <a href="/c/j1/" class="px-3 py-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition">J1</a>
-        <a href="/c/j2/" class="px-3 py-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition">J2/J3</a>
-        <a href="/c/national/" class="px-3 py-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition">日本代表</a>
-        <a href="/c/overseas/" class="px-3 py-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition">海外組</a>
+      <!-- Quick Category Nav (Desktop) -->
+      <nav class="hidden sm:flex items-center gap-1 text-xs font-bold">
+        <a href="/" class="px-2.5 py-1 rounded-md text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition">最新</a>
+        <a href="/c/j1/" class="px-2.5 py-1 rounded-md text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition">J1</a>
+        <a href="/c/j2/" class="px-2.5 py-1 rounded-md text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition">J2/J3</a>
+        <a href="/c/national/" class="px-2.5 py-1 rounded-md text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition">日本代表</a>
+        <a href="/c/overseas/" class="px-2.5 py-1 rounded-md text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition">海外組</a>
       </nav>
     </div>
 
-    <!-- Mobile Horizontal Category Scroll -->
-    <div class="sm:hidden flex items-center gap-2 overflow-x-auto px-4 py-2 border-t border-slate-100 dark:border-slate-800 text-xs font-semibold no-scrollbar">
-      <a href="/" class="whitespace-nowrap px-3 py-1 rounded-full bg-slate-200 dark:bg-slate-800">全て</a>
-      <a href="/c/j1/" class="whitespace-nowrap px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800/60">J1リーグ</a>
-      <a href="/c/j2/" class="whitespace-nowrap px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800/60">J2・J3</a>
-      <a href="/c/national/" class="whitespace-nowrap px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800/60">日本代表</a>
-      <a href="/c/overseas/" class="whitespace-nowrap px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800/60">海外組</a>
+    <!-- Mobile Horizontal Category Scroll (Compact) -->
+    <div class="sm:hidden flex items-center gap-1.5 overflow-x-auto px-3 py-1 border-t border-slate-100 dark:border-slate-800/80 text-[11px] font-semibold no-scrollbar">
+      <a href="/" class="whitespace-nowrap px-2.5 py-0.5 rounded-full bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-200">全て</a>
+      <a href="/c/j1/" class="whitespace-nowrap px-2.5 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800/60 text-slate-600 dark:text-slate-400">J1</a>
+      <a href="/c/j2/" class="whitespace-nowrap px-2.5 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800/60 text-slate-600 dark:text-slate-400">J2・J3</a>
+      <a href="/c/national/" class="whitespace-nowrap px-2.5 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800/60 text-slate-600 dark:text-slate-400">代表</a>
+      <a href="/c/overseas/" class="whitespace-nowrap px-2.5 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800/60 text-slate-600 dark:text-slate-400">海外</a>
     </div>
   </header>
 
   <!-- Main Content Container -->
-  <main class="flex-1 max-w-4xl w-full mx-auto px-4 py-6">
+  <main class="flex-1 max-w-4xl w-full mx-auto px-3 sm:px-4 py-3 sm:py-4">
     {% block content %}{% endblock %}
   </main>
 
   <!-- Footer -->
-  <footer class="mt-12 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 py-8 text-center text-xs text-slate-500 dark:text-slate-400">
-    <div class="max-w-4xl mx-auto px-4 space-y-3">
-      <p class="font-semibold text-slate-700 dark:text-slate-300">J-League AI Salon & News Aggregator</p>
-      <p>Powered by Open-Source AI (ChamberAI Engine) & RSS Feeds. Built with 100% Static HTML on Firebase Hosting.</p>
+  <footer class="mt-8 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 py-6 text-center text-xs text-slate-500 dark:text-slate-400">
+    <div class="max-w-4xl mx-auto px-4 space-y-2">
+      <p class="font-bold text-slate-700 dark:text-slate-300">芝ばたJ (Shibabata-J)</p>
+      <p class="text-[11px]">Powered by Open-Source AI (ChamberAI Engine) & RSS Feeds. 100% Static HTML.</p>
       <div class="flex justify-center gap-4 pt-2">
         <a href="/" class="hover:underline">トップ</a>
         <a href="/c/j1/" class="hover:underline">J1</a>
