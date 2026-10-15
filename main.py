@@ -111,7 +111,7 @@ def create_sample_articles() -> list[dict[str, Any]]:
     return samples
 
 
-def run_pipeline(fetch: bool, build: bool, tweet: bool, sample: bool) -> None:
+def run_pipeline(fetch: bool, build: bool, tweet: bool, sample: bool, force_dialogue: bool = False) -> None:
     existing_articles = load_articles()
     articles_map = {a["slug"]: a for a in existing_articles}
 
@@ -131,11 +131,11 @@ def run_pipeline(fetch: bool, build: bool, tweet: bool, sample: bool) -> None:
                 enriched = enrich_article_with_tags(item)
                 articles_map[slug] = enriched
 
-    # Generate ChamberAI dialogue for articles that do not have it yet
+    # Generate ChamberAI dialogue for articles that do not have it yet (or when forced)
     new_count = 0
     from src.salon.dialogue import generate_chamber_dialogue
     for slug, article in articles_map.items():
-        if "dialogue" not in article or not article["dialogue"]:
+        if force_dialogue or "dialogue" not in article or not article["dialogue"]:
             print(f"[ChamberAI] Routing topic & generating dialogue: {article['title'][:30]}...")
             dialogue, punchy_quote = generate_chamber_dialogue(article)
             article["dialogue"] = dialogue
@@ -164,19 +164,21 @@ def main():
     parser.add_argument("--build", action="store_true", help="Build static site into public/")
     parser.add_argument("--tweet", action="store_true", help="Publish latest article to X")
     parser.add_argument("--sample", action="store_true", help="Seed sample articles for testing")
+    parser.add_argument("--force-dialogue", action="store_true", help="Force regenerate ChamberAI dialogue with LLM")
     parser.add_argument("--all", action="store_true", help="Run full pipeline (Fetch -> Dialogue -> Build -> Tweet)")
     args = parser.parse_args()
 
     if args.all:
-        run_pipeline(fetch=True, build=True, tweet=True, sample=True)
+        run_pipeline(fetch=True, build=True, tweet=True, sample=True, force_dialogue=args.force_dialogue)
     elif args.sample:
-        run_pipeline(fetch=False, build=True, tweet=False, sample=True)
+        run_pipeline(fetch=False, build=True, tweet=False, sample=True, force_dialogue=args.force_dialogue)
     else:
         run_pipeline(
             fetch=args.fetch,
             build=args.build,
             tweet=args.tweet,
-            sample=False
+            sample=False,
+            force_dialogue=args.force_dialogue
         )
 
 

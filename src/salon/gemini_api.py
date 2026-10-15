@@ -10,7 +10,28 @@ import random
 from typing import Any
 import requests
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+def get_api_key() -> str:
+    """Retrieve GEMINI_API_KEY from environment or root .env file without external dependencies."""
+    key = os.getenv("GEMINI_API_KEY", "").strip()
+    if key:
+        return key
+
+    # Check root .env file
+    root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    env_path = os.path.join(root_dir, ".env")
+    if os.path.exists(env_path):
+        try:
+            with open(env_path, "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if line.startswith("GEMINI_API_KEY=") and not line.startswith("#"):
+                        val = line.split("=", 1)[1].strip().strip('"').strip("'")
+                        if val:
+                            return val
+        except Exception:
+            pass
+
+    return ""
 
 
 def generate_thread_screenplay(
@@ -20,9 +41,10 @@ def generate_thread_screenplay(
     fan_comments: list[str] | None = None
 ) -> list[dict[str, Any]]:
     """Generate the entire dialogue thread in a SINGLE 1-call request using screenplay format."""
-    if GEMINI_API_KEY:
+    api_key = get_api_key()
+    if api_key:
         try:
-            return call_gemini_screenplay_api(personas, article_title, article_summary, fan_comments)
+            return call_gemini_screenplay_api(personas, article_title, article_summary, fan_comments, api_key=api_key)
         except Exception as e:
             print(f"[Gemini 1-Call] Notice: API unavailable ({e}), using dynamic 1-call fallback.")
 
@@ -33,10 +55,15 @@ def call_gemini_screenplay_api(
     personas: list[dict[str, Any]],
     article_title: str,
     article_summary: str,
-    fan_comments: list[str] | None = None
+    fan_comments: list[str] | None = None,
+    api_key: str | None = None
 ) -> list[dict[str, Any]]:
     """Call Gemini 2.0 Flash in 1 single call returning screenplay format."""
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
+    key = api_key or get_api_key()
+    if not key:
+        raise ValueError("GEMINI_API_KEY is not set.")
+
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={key}"
 
     fan_section = ""
     if fan_comments:
