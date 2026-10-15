@@ -125,63 +125,100 @@
         onclick="toggleSettingsPane()"
         class="px-2.5 py-1 rounded-lg text-xs font-semibold text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 border border-slate-200 dark:border-slate-700/80 flex items-center gap-1.5 transition shadow-2xs">
         <span>⚙️</span>
-        <span>論客フィルター</span>
+        <span>論客設定</span>
       </button>
     </div>
 
-    <!-- Collapsible Settings & Filter Pane -->
-    <div id="settings-pane" class="hidden p-3 sm:p-4 rounded-xl bg-slate-100/80 dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800 transition-all space-y-2.5">
-      <div class="flex items-center justify-between">
-        <div class="text-xs font-bold text-slate-700 dark:text-slate-300 flex items-center gap-1.5">
-          <span>🎛️</span>
-          <span>論客フィルター（タップで表示／非表示）</span>
+    <!-- Collapsible Settings & Custom Persona Pane (All-in-One) -->
+    <div id="settings-pane" class="hidden p-4 rounded-2xl bg-slate-100/90 dark:bg-slate-900/90 border border-slate-200 dark:border-slate-800 transition-all space-y-4">
+      
+      <!-- Part A: Mute/Unmute Filter -->
+      <div class="space-y-2">
+        <div class="flex items-center justify-between">
+          <div class="text-xs font-bold text-slate-800 dark:text-slate-200 flex items-center gap-1.5">
+            <span>🎛️</span>
+            <span>論客フィルター（タップで表示／非表示）</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <button onclick="resetAllMutes()" class="text-[11px] text-emerald-600 dark:text-emerald-400 hover:underline font-semibold">
+              全て表示
+            </button>
+            <button onclick="toggleSettingsPane()" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 text-xs">✕</button>
+          </div>
         </div>
-        <div class="flex items-center gap-3">
-          <button onclick="resetAllMutes()" class="text-[11px] text-emerald-600 dark:text-emerald-400 hover:underline font-semibold">
-            全て表示
-          </button>
-          <button onclick="toggleSettingsPane()" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 text-xs">✕</button>
+        <p class="text-[11px] text-slate-500 dark:text-slate-400">
+          特定の論客を非表示にできます。ミュート設定はブラウザに自動保存されます。
+        </p>
+        <div class="flex flex-wrap gap-1.5">
+          {% for comment in dialogue %}
+            <button 
+              type="button"
+              onclick="togglePersona('{{ comment.persona_id }}')" 
+              id="filter-btn-{{ comment.persona_id }}"
+              class="px-2.5 py-1 rounded-lg text-xs font-bold border transition flex items-center gap-1.5 bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 shadow-2xs"
+              title="クリックでこの論客の発言を非表示/表示">
+              <span>{{ comment.avatar_emoji }}</span>
+              <span>{{ comment.short_name }}</span>
+            </button>
+          {% endfor %}
         </div>
       </div>
-      <p class="text-[11px] text-slate-500 dark:text-slate-400">
-        特定の論客を非表示にできます。ミュート設定はブラウザに自動保存されます。
-      </p>
-      <div class="flex flex-wrap gap-1.5">
-        {% for comment in dialogue %}
-          <button 
-            type="button"
-            onclick="togglePersona('{{ comment.persona_id }}')" 
-            id="filter-btn-{{ comment.persona_id }}"
-            class="px-2.5 py-1 rounded-lg text-xs font-bold border transition flex items-center gap-1.5 bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 shadow-2xs"
-            title="クリックでこの論客の発言を非表示/表示">
-            <span>{{ comment.avatar_emoji }}</span>
-            <span>{{ comment.short_name }}</span>
+
+      <!-- Part B: Add Custom Persona Form (Inside 1 Setting Pane) -->
+      <div class="pt-3 border-t border-slate-200 dark:border-slate-800 space-y-2.5">
+        <div class="text-xs font-bold text-emerald-700 dark:text-emerald-300 flex items-center gap-1.5">
+          <span>✨</span>
+          <span>オリジナル論客を追加して参戦させる</span>
+        </div>
+
+        <!-- AI Engine Status Indicator -->
+        <div id="ai-engine-status" class="p-2 rounded-lg bg-white/80 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 flex items-center justify-between text-[10px]">
+          <div class="flex items-center gap-1.5 font-bold">
+            <span id="ai-status-indicator" class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span id="ai-status-title" class="text-slate-800 dark:text-slate-200">ブラウザ内蔵AI環境を検出中...</span>
+          </div>
+          <span id="ai-status-detail" class="text-slate-400 font-mono">Ready</span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 text-xs">
+          <input type="text" id="custom-name" placeholder="論客名 (例: 辛口記者)" class="px-2.5 py-1.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white font-medium focus:outline-emerald-500">
+          <input type="text" id="custom-emoji" value="⚽" placeholder="絵文字" class="px-2.5 py-1.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-center font-medium focus:outline-emerald-500">
+          <input type="color" id="custom-color" value="#059669" class="w-full h-8 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 cursor-pointer">
+        </div>
+
+        <textarea id="custom-prompt" rows="2" placeholder="性格設定 (例: 選手採点に厳しく、どんな好セーブもポジショニングミスと酷評する。「採点は3.5」が口癖。)" class="w-full px-2.5 py-1.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-xs text-slate-900 dark:text-white font-medium focus:outline-emerald-500"></textarea>
+
+        <div class="flex justify-end">
+          <button id="btn-custom-generate" onclick="generateAndPostCustomPersona()" class="px-3.5 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-xs font-bold text-white shadow-xs flex items-center gap-1.5 transition">
+            <span>⚡</span>
+            <span>AIに自動発言させてスレッドに参加</span>
           </button>
-        {% endfor %}
+        </div>
       </div>
     </div>
 
-    <!-- Speech Bubbles List -->
-    <div id="dialogue-container" class="space-y-4">
+    <!-- Speech Bubbles List (Alternating Left & Right like a real chat / idobata) -->
+    <div id="dialogue-container" class="space-y-4 pt-1">
       {% for comment in dialogue %}
-        <div class="persona-bubble flex items-start gap-3 transition-all duration-200" data-persona-id="{{ comment.persona_id }}">
+        {% set is_right = (loop.index % 2 == 0) %}
+        <div class="persona-bubble flex items-start gap-2.5 sm:gap-3 transition-all duration-200 {% if is_right %}flex-row-reverse{% endif %}" data-persona-id="{{ comment.persona_id }}">
           <!-- Avatar Icon -->
-          <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-xl shadow-sm border" style="background-color: {{ comment.color }}20; border-color: {{ comment.color }};">
+          <div class="flex-shrink-0 w-9 h-9 sm:w-10 sm:h-10 rounded-full flex items-center justify-center text-lg sm:text-xl shadow-xs border" style="background-color: {{ comment.color }}20; border-color: {{ comment.color }};">
             {{ comment.avatar_emoji }}
           </div>
 
-          <!-- Comment Card -->
-          <div class="flex-1 rounded-2xl p-4 bg-white dark:bg-slate-900 border shadow-xs relative" style="border-left: 4px solid {{ comment.color }};">
-            <div class="flex items-center justify-between gap-2 mb-1.5">
-              <span class="font-bold text-xs sm:text-sm text-slate-900 dark:text-white flex items-center gap-1.5">
+          <!-- Comment Card with Tail Accent -->
+          <div class="max-w-[86%] sm:max-w-[78%] rounded-2xl p-3.5 sm:p-4 bg-white dark:bg-slate-900 border shadow-xs relative text-left {% if is_right %}rounded-tr-xs border-r-4{% else %}rounded-tl-xs border-l-4{% endif %}" style="{% if is_right %}border-right-color: {{ comment.color }};{% else %}border-left-color: {{ comment.color }};{% endif %}">
+            <div class="flex items-center justify-between gap-2 mb-1">
+              <span class="font-bold text-xs text-slate-900 dark:text-white flex items-center gap-1.5">
                 {{ comment.speaker_name }}
-                <span class="text-[10px] font-normal text-slate-400">#Turn{{ comment.turn }}</span>
+                <span class="text-[10px] font-normal text-slate-400">#{{ comment.turn }}</span>
               </span>
               <button onclick="mutePersonaPermanently('{{ comment.persona_id }}')" class="text-[10px] text-slate-400 hover:text-rose-500" title="この論客をミュート">
                 ✕
               </button>
             </div>
-            <p class="text-sm leading-relaxed text-slate-800 dark:text-slate-200 font-normal">
+            <p class="text-xs sm:text-sm leading-relaxed text-slate-800 dark:text-slate-200 font-normal">
               {{ comment.content }}
             </p>
           </div>
@@ -190,25 +227,6 @@
 
       <!-- Container for dynamically injected User-Custom Persona Comments -->
       <div id="user-custom-comments" class="space-y-4"></div>
-    </div>
-
-    <!-- User-Custom Persona Trigger Section -->
-    <div class="mt-6 p-4 rounded-xl bg-gradient-to-r from-emerald-50 to-teal-50 dark:from-slate-900 dark:to-emerald-950/30 border border-emerald-200 dark:border-emerald-800/50">
-      <div class="flex items-center justify-between">
-        <div>
-          <h3 class="font-bold text-sm text-emerald-900 dark:text-emerald-300 flex items-center gap-1.5">
-            <span>✨</span> あなたのオリジナル論客を参加させる
-          </h3>
-          <p class="text-xs text-slate-600 dark:text-slate-400 mt-0.5">
-            好きなキャラクター（例：辛口ジャーナリスト、選手のお母さん）を作ってスレッドに参戦できます。
-          </p>
-        </div>
-        <button 
-          onclick="openCustomPersonaModal()"
-          class="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs shadow-sm transition">
-          ＋ 論客を追加
-        </button>
-      </div>
     </div>
   </section>
 
@@ -254,56 +272,6 @@
 
 </article>
 
-<!-- User-Custom Persona Modal -->
-<div id="custom-persona-modal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs hidden flex items-center justify-center p-4">
-  <div class="bg-white dark:bg-slate-900 rounded-2xl max-w-md w-full p-6 shadow-2xl border border-slate-200 dark:border-slate-800 space-y-4">
-    <div class="flex items-center justify-between">
-      <h3 class="font-black text-base text-slate-900 dark:text-white">＋ オリジナル論客を作成</h3>
-      <button onclick="closeCustomPersonaModal()" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">✕</button>
-    </div>
-
-    <div class="space-y-3 text-xs">
-      <!-- AI Engine Availability Status Badge -->
-      <div id="ai-engine-status" class="p-2.5 rounded-lg bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-center justify-between text-[11px]">
-        <div class="flex items-center gap-1.5 font-bold">
-          <span id="ai-status-indicator" class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-          <span id="ai-status-title" class="text-slate-800 dark:text-slate-200">ブラウザ環境をチェック中...</span>
-        </div>
-        <span id="ai-status-detail" class="text-slate-500 dark:text-slate-400 font-mono text-[10px]">Checking WebGPU/window.ai</span>
-      </div>
-
-      <div>
-        <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1">論客の名前</label>
-        <input type="text" id="custom-name" placeholder="例: 辛口採点のフリー記者" class="w-full px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white font-medium focus:outline-emerald-500">
-      </div>
-
-      <div class="grid grid-cols-2 gap-3">
-        <div>
-          <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1">絵文字アイコン</label>
-          <input type="text" id="custom-emoji" value="⚽" class="w-full px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-center text-lg font-medium focus:outline-emerald-500">
-        </div>
-        <div>
-          <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1">テーマカラー</label>
-          <input type="color" id="custom-color" value="#059669" class="w-full h-9 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 cursor-pointer">
-        </div>
-      </div>
-
-      <div>
-        <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1">キャラクターの性格・プロンプト</label>
-        <textarea id="custom-prompt" rows="3" placeholder="例: 選手採点に厳しく、どんな好セーブも『ポジショニングが悪かったから止める羽目になった』と辛口に語る。「採点は3.5」が口癖。" class="w-full px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white font-medium focus:outline-emerald-500"></textarea>
-        <p class="text-[11px] text-slate-400 mt-1">※この設定に基づき、AIが記事を読んで【自動で2行コメント】を発言します。</p>
-      </div>
-    </div>
-
-    <div class="flex justify-end gap-2 pt-2">
-      <button onclick="closeCustomPersonaModal()" class="px-4 py-2 rounded-lg bg-slate-200 dark:bg-slate-800 text-xs font-bold text-slate-700 dark:text-slate-300">キャンセル</button>
-      <button id="btn-custom-generate" onclick="generateAndPostCustomPersona()" class="px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-xs font-bold text-white shadow-sm flex items-center gap-1.5 transition">
-        <span>⚡</span>
-        <span>AIに自動発言させて参戦</span>
-      </button>
-    </div>
-  </div>
-</div>
 {% endblock %}
 
 {% block scripts %}
@@ -497,29 +465,28 @@
 
       const container = document.getElementById('user-custom-comments');
       const bubble = document.createElement('div');
-      bubble.className = 'persona-bubble flex items-start gap-3 transition-all duration-300';
+      bubble.className = 'persona-bubble flex items-start gap-2.5 sm:gap-3 transition-all duration-300 flex-row-reverse';
       bubble.innerHTML = `
-        <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-xl shadow-sm border" style="background-color: ${color}20; border-color: ${color};">
+        <div class="flex-shrink-0 w-9 h-9 sm:w-10 sm:h-10 rounded-full flex items-center justify-center text-lg sm:text-xl shadow-xs border" style="background-color: ${color}20; border-color: ${color};">
           ${emoji}
         </div>
-        <div class="flex-1 rounded-2xl p-4 bg-white dark:bg-slate-900 border shadow-xs relative" style="border-left: 4px solid ${color};">
-          <div class="flex items-center justify-between gap-2 mb-1.5">
-            <span class="font-bold text-xs sm:text-sm text-slate-900 dark:text-white flex items-center gap-1.5">
+        <div class="max-w-[86%] sm:max-w-[78%] rounded-2xl p-3.5 sm:p-4 bg-white dark:bg-slate-900 border shadow-xs relative text-left rounded-tr-xs border-r-4" style="border-right-color: ${color};">
+          <div class="flex items-center justify-between gap-2 mb-1">
+            <span class="font-bold text-xs text-slate-900 dark:text-white flex items-center gap-1.5">
               ${name}
-              <span class="text-[10px] px-1.5 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 font-bold border border-emerald-300 dark:border-emerald-800">✨ 自作AI論客</span>
+              <span class="text-[10px] px-1.5 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 font-bold border border-emerald-300 dark:border-emerald-800">✨ 自作論客</span>
             </span>
           </div>
-          <p class="text-sm leading-relaxed text-slate-800 dark:text-slate-200 font-normal">
+          <p class="text-xs sm:text-sm leading-relaxed text-slate-800 dark:text-slate-200 font-normal">
             ${generatedComment}
           </p>
         </div>
       `;
       container.appendChild(bubble);
 
-      // Reset modal state
+      // Reset button state
       btn.disabled = false;
-      btn.innerHTML = '<span>⚡</span><span>AIに自動発言させて参戦</span>';
-      closeCustomPersonaModal();
+      btn.innerHTML = '<span>⚡</span><span>AIに自動発言させてスレッドに参加</span>';
 
       // Smooth scroll to the newly generated comment
       bubble.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
