@@ -1,6 +1,6 @@
-"""Intelligent Topic Router for 20+ Personas.
-Analyzes article keywords and automatically selects the 3-4 most relevant personas,
-preventing dialogue noise and keeping banter sharp and contextual.
+"""Democratic Persona Selector for 25+ Characters.
+Randomly selects 5 to 8 characters per article in randomized speaking order,
+mimicking an organic, diverse, lively comment forum discussion.
 """
 from __future__ import annotations
 
@@ -11,36 +11,31 @@ from typing import Any
 
 CONFIG_PATH = Path(__file__).resolve().parent.parent / "config" / "personas.json"
 
-TOPIC_RULES = {
-    "transfer_business": {
-        "keywords": ["移籍", "契約", "違約金", "年俸", "完全移籍", "期限付き", "スポンサー", "決算", "売上", "配分金", "獲得", "加入", "退団"],
-        "priority_personas": ["economist-wannabe", "transfer-guru", "fantasy-manager", "young-talent-hunter"],
-        "fallback_personas": ["ultras-supporter", "coach-wannabe"]
+# Topic affinities provide a gentle anchor, while remaining slots are drawn democratically
+TOPIC_SEEDS = {
+    "transfer": {
+        "keywords": ["移籍", "契約", "違約金", "年俸", "加入", "退団", "オファー", "交渉", "獲得"],
+        "candidates": ["economist-wannabe", "transfer-guru", "fantasy-manager", "young-talent-hunter", "stockholder-fan", "injury-pessimist"]
     },
-    "match_tactics": {
-        "keywords": ["試合", "勝利", "敗戦", "ドロー", "ゴール", "失点", "スタメン", "先発", "交代", "フォーメーション", "監督", "解任", "采配", "ハイライト", "シュート"],
-        "priority_personas": ["coach-wannabe", "stats-data-geek", "ultras-supporter", "var-referee-nerd"],
-        "fallback_personas": ["nostalgic-boomer", "economist-wannabe"]
+    "match": {
+        "keywords": ["試合", "ゴール", "勝利", "敗戦", "ドロー", "スタメン", "先発", "交代", "ハイライト", "采配", "シュート"],
+        "candidates": ["coach-wannabe", "stats-data-geek", "ultras-supporter", "note-tactics-writer", "dazn-director", "lens-photographer", "boots-gear-nerd"]
     },
-    "referee_var": {
-        "keywords": ["var", "ファウル", "レッドカード", "イエロー", "ハンド", "誤審", "審判", "主審", "退場", "オフサイド", "pk", "ペナルティ"],
-        "priority_personas": ["var-referee-nerd", "coach-wannabe", "ultras-supporter", "stats-data-geek"],
-        "fallback_personas": ["nostalgic-boomer"]
+    "referee": {
+        "keywords": ["var", "判定", "ファウル", "退場", "レッド", "イエロー", "ハンド", "誤審", "pk", "主審"],
+        "candidates": ["var-referee-nerd", "coach-wannabe", "ultras-supporter", "stats-data-geek", "peace-enjoyer"]
     },
-    "stadium_culture": {
-        "keywords": ["スタグル", "グルメ", "スタジアム", "ビール", "観客", "動員", "マスコット", "新スタ", "建設", "アウェイ", "遠征", "応援", "サポーター"],
-        "priority_personas": ["stadium-gourmet", "ultras-supporter", "economist-wannabe", "nostalgic-boomer"],
-        "fallback_personas": ["coach-wannabe"]
+    "culture": {
+        "keywords": ["スタグル", "グルメ", "スタジアム", "ビール", "マスコット", "動員", "遠征", "新スタ", "建設", "アウェイ"],
+        "candidates": ["stadium-gourmet", "mascot-otaku", "away-bus-veteran", "local-pride-patriot", "protective-mom", "uniform-fashionista"]
     },
     "national_overseas": {
-        "keywords": ["日本代表", "森保", "samurai blue", "海外", "プレミア", "ブンデス", "ラリーガ", "セリエa", "欧州", "w杯", "アジア最終予選", "u-20", "u-23"],
-        "priority_personas": ["overseas-elitist", "young-talent-hunter", "nostalgic-boomer", "coach-wannabe"],
-        "fallback_personas": ["ultras-supporter", "stats-data-geek"]
+        "keywords": ["日本代表", "森保", "海外", "プレミア", "欧州", "w杯", "アジア最終予選", "三笘", "久保"],
+        "candidates": ["overseas-elitist", "young-talent-hunter", "nostalgic-boomer", "coach-wannabe", "peace-enjoyer"]
     },
-    "j2_j3_swamp": {
-        "keywords": ["j2", "j3", "jfl", "昇格", "降格", "プレーオフ", "po圏", "地域リーグ"],
-        "priority_personas": ["j2-connoisseur", "young-talent-hunter", "ultras-supporter", "economist-wannabe"],
-        "fallback_personas": ["coach-wannabe"]
+    "derby_j2": {
+        "keywords": ["ダービー", "ライバル", "j2", "j3", "昇格", "降格", "プレーオフ"],
+        "candidates": ["derby-warrior", "j2-connoisseur", "ultras-supporter", "local-pride-patriot"]
     }
 }
 
@@ -54,45 +49,31 @@ def load_all_personas() -> dict[str, dict[str, Any]]:
 ALL_PERSONAS = load_all_personas()
 
 
-def select_personas_for_article(title: str, summary: str, turn_count: int = 4) -> list[dict[str, Any]]:
-    """Determine article topic and select the best 3-4 personas."""
+def select_personas_for_article(title: str, summary: str, min_count: int = 5, max_count: int = 8) -> list[dict[str, Any]]:
+    """Select 5 to 8 characters in random order to create a democratic discussion forum feel."""
     text = f"{title} {summary}".lower()
+    target_count = random.randint(min_count, max_count)
     
-    # Score each topic
-    topic_scores = {}
-    for topic, rule in TOPIC_RULES.items():
-        score = sum(1 for kw in rule["keywords"] if kw.lower() in text)
-        topic_scores[topic] = score
-
-    # Find highest scoring topic (if tie or 0, fallback to match_tactics)
-    best_topic = max(topic_scores, key=topic_scores.get)
-    if topic_scores[best_topic] == 0:
-        best_topic = "match_tactics"
-
-    rule = TOPIC_RULES[best_topic]
-    chosen_ids: list[str] = []
-    
-    # Pick top priorities from the matched topic
-    for pid in rule["priority_personas"]:
-        if pid in ALL_PERSONAS and pid not in chosen_ids:
-            chosen_ids.append(pid)
-        if len(chosen_ids) >= turn_count:
+    # 1. Check if any topic matches keywords to seed 2-3 contextual agents
+    seeded_ids: list[str] = []
+    for topic, data in TOPIC_SEEDS.items():
+        if any(kw in text for kw in data["keywords"]):
+            available = [cid for cid in data["candidates"] if cid in ALL_PERSONAS and cid not in seeded_ids]
+            if available:
+                seeded_ids.extend(random.sample(available, min(len(available), 2)))
+        if len(seeded_ids) >= 3:
             break
 
-    # If still need more, pick from fallbacks or random pool
-    if len(chosen_ids) < turn_count:
-        for pid in rule.get("fallback_personas", []):
-            if pid in ALL_PERSONAS and pid not in chosen_ids:
-                chosen_ids.append(pid)
-            if len(chosen_ids) >= turn_count:
-                break
+    # 2. Fill the rest democratically from the entire remaining pool of 25 personas
+    all_available_ids = [pid for pid in ALL_PERSONAS if pid not in seeded_ids]
+    random.shuffle(all_available_ids)
 
-    # If still not enough, grab from all available
-    remaining_ids = [pid for pid in ALL_PERSONAS if pid not in chosen_ids]
-    random.shuffle(remaining_ids)
-    while len(chosen_ids) < turn_count and remaining_ids:
-        chosen_ids.append(remaining_ids.pop())
+    chosen_ids = list(seeded_ids)
+    needed = target_count - len(chosen_ids)
+    if needed > 0:
+        chosen_ids.extend(all_available_ids[:needed])
 
-    # Shuffle selected personas so speaker order varies
+    # 3. Randomize the speaking order completely so the flow is spontaneous and democratic
     random.shuffle(chosen_ids)
-    return [ALL_PERSONAS[pid] for pid in chosen_ids[:turn_count]]
+    
+    return [ALL_PERSONAS[pid] for pid in chosen_ids]

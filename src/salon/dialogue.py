@@ -1,16 +1,18 @@
-"""Sequential ChamberAI Dialogue Generator with Topic Routing.
-Uses the intelligent Topic Router to select the 3-4 best personas, avoiding noise.
+"""Sequential Democratic Dialogue Generator for 25 Personas.
+Randomly selects 5 to 8 agents per article, each speaking maximum 2 lines,
+creating the illusion of a spontaneous, active soccer fan forum.
 """
 from __future__ import annotations
 
 from typing import Any
+import random
 
 from src.salon.gemini_api import generate_persona_response
 from src.salon.router import select_personas_for_article
 
 
 def generate_chamber_dialogue(article: dict[str, Any]) -> tuple[list[dict[str, Any]], str]:
-    """Run 4 turns of targeted banter between topic-relevant personas.
+    """Run a lively, democratic discussion of 5 to 8 turns between random characters.
     
     Returns:
         (thread_turns, punchy_teaser_quote)
@@ -18,8 +20,8 @@ def generate_chamber_dialogue(article: dict[str, Any]) -> tuple[list[dict[str, A
     title = article.get("title", "")
     summary = article.get("summary", "")
     
-    # Auto On/Off: Pick 4 topic-appropriate personas out of 20+
-    selected_personas = select_personas_for_article(title, summary, turn_count=4)
+    # Randomly pick 5 to 8 agents in organic randomized speaking order
+    selected_personas = select_personas_for_article(title, summary, min_count=5, max_count=8)
     
     dialogue_history: list[dict[str, Any]] = []
     
@@ -36,15 +38,15 @@ def generate_chamber_dialogue(article: dict[str, Any]) -> tuple[list[dict[str, A
             "turn": i,
             "persona_id": persona["id"],
             "speaker_name": persona["name"],
-            "short_name": persona["short_name"],
-            "color": persona["color"],
-            "badge_bg": persona.get("badge_bg", ""),
-            "border_color": persona.get("border_color", "border-blue-500"),
+            "short_name": persona.get("short_name", persona["name"]),
             "avatar_emoji": persona.get("avatar_emoji", "💬"),
+            "color": persona.get("color", "#059669"),
+            "badge_bg": persona.get("badge_bg", "bg-emerald-100 text-emerald-800"),
             "content": content
         }
         dialogue_history.append(entry)
 
-    # Turn 4 comment is the punchy teaser quote for X (Twitter)
-    punchy_quote = dialogue_history[-1]["content"] if dialogue_history else ""
-    return dialogue_history, punchy_quote
+    # Pick an entertaining comment from the latter half of the thread as the teaser quote
+    candidates = dialogue_history[-3:] if len(dialogue_history) >= 3 else dialogue_history
+    chosen_teaser = random.choice(candidates)["content"] if candidates else ""
+    return dialogue_history, chosen_teaser
