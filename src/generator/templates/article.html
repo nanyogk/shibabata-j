@@ -72,26 +72,53 @@
     </div>
   </div>
 
-  <!-- ChamberAI Persona Banter Thread -->
-  <section class="space-y-4 pt-2">
-    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 dark:border-slate-800 pb-3">
-      <div>
-        <h2 class="text-base sm:text-lg font-black flex items-center gap-2">
-          <span>🍵</span>
-          <span>芝ばたJ の井戸端会議</span>
-          <span class="text-xs font-normal text-slate-500">（AI論客による自動議論）</span>
+  <!-- Comments Section -->
+  <section class="space-y-3 pt-1">
+    <div class="flex items-center justify-between border-b border-slate-200/80 dark:border-slate-800/80 pb-2">
+      <div class="flex items-center gap-2">
+        <span class="text-base">💬</span>
+        <h2 class="text-sm sm:text-base font-bold text-slate-900 dark:text-white">
+          ピッチサイドの反応
         </h2>
+        <span class="text-[11px] px-2 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 font-semibold">
+          {{ dialogue|length }}論客が参戦
+        </span>
       </div>
 
-      <!-- User-Choice Noise Filter Pills -->
-      <div class="flex items-center gap-1.5 flex-wrap text-xs">
-        <span class="text-[11px] text-slate-400 font-medium">発言者フィルター:</span>
+      <!-- Setting Pane Trigger Button -->
+      <button 
+        type="button" 
+        onclick="toggleSettingsPane()"
+        class="px-2.5 py-1 rounded-lg text-xs font-semibold text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 border border-slate-200 dark:border-slate-700/80 flex items-center gap-1.5 transition shadow-2xs">
+        <span>⚙️</span>
+        <span>論客フィルター</span>
+      </button>
+    </div>
+
+    <!-- Collapsible Settings & Filter Pane -->
+    <div id="settings-pane" class="hidden p-3 sm:p-4 rounded-xl bg-slate-100/80 dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800 transition-all space-y-2.5">
+      <div class="flex items-center justify-between">
+        <div class="text-xs font-bold text-slate-700 dark:text-slate-300 flex items-center gap-1.5">
+          <span>🎛️</span>
+          <span>論客フィルター（タップで表示／非表示）</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <button onclick="resetAllMutes()" class="text-[11px] text-emerald-600 dark:text-emerald-400 hover:underline font-semibold">
+            全て表示
+          </button>
+          <button onclick="toggleSettingsPane()" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 text-xs">✕</button>
+        </div>
+      </div>
+      <p class="text-[11px] text-slate-500 dark:text-slate-400">
+        特定の論客を非表示にできます。ミュート設定はブラウザに自動保存されます。
+      </p>
+      <div class="flex flex-wrap gap-1.5">
         {% for comment in dialogue %}
           <button 
             type="button"
             onclick="togglePersona('{{ comment.persona_id }}')" 
             id="filter-btn-{{ comment.persona_id }}"
-            class="px-2 py-0.5 rounded-full text-[11px] font-bold border transition flex items-center gap-1 bg-white dark:bg-slate-800 border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 shadow-xs"
+            class="px-2.5 py-1 rounded-lg text-xs font-bold border transition flex items-center gap-1.5 bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 shadow-2xs"
             title="クリックでこの論客の発言を非表示/表示">
             <span>{{ comment.avatar_emoji }}</span>
             <span>{{ comment.short_name }}</span>
@@ -220,18 +247,17 @@
 
       <div>
         <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1">キャラクターの性格・プロンプト</label>
-        <textarea id="custom-prompt" rows="3" placeholder="例: 選手採点に厳しく、どんな好セーブも『ポジショニングが悪かったから止める羽目になった』と辛口に語る。" class="w-full px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white font-medium focus:outline-emerald-500"></textarea>
-      </div>
-
-      <div>
-        <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1">記事への一言コメント</label>
-        <textarea id="custom-comment-text" rows="2" placeholder="例: 今日の試合は採点4.5。あの失点前のポジショニングミスはプロとしてあり得ないね。" class="w-full px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white font-medium focus:outline-emerald-500"></textarea>
+        <textarea id="custom-prompt" rows="3" placeholder="例: 選手採点に厳しく、どんな好セーブも『ポジショニングが悪かったから止める羽目になった』と辛口に語る。「採点は3.5」が口癖。" class="w-full px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white font-medium focus:outline-emerald-500"></textarea>
+        <p class="text-[11px] text-slate-400 mt-1">※この設定を読み取り、AIが記事に合わせた【2行コメント】を即座に自動生成します。</p>
       </div>
     </div>
 
     <div class="flex justify-end gap-2 pt-2">
       <button onclick="closeCustomPersonaModal()" class="px-4 py-2 rounded-lg bg-slate-200 dark:bg-slate-800 text-xs font-bold text-slate-700 dark:text-slate-300">キャンセル</button>
-      <button onclick="saveAndPostCustomPersona()" class="px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-xs font-bold text-white shadow-sm">スレッドに投稿</button>
+      <button id="btn-custom-generate" onclick="generateAndPostCustomPersona()" class="px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-xs font-bold text-white shadow-sm flex items-center gap-1.5 transition">
+        <span>⚡</span>
+        <span>AIに自動発言させて参戦</span>
+      </button>
     </div>
   </div>
 </div>
@@ -242,7 +268,21 @@
   // ==========================================
   // 1. Client-Side Persona Noise Control (localStorage)
   // ==========================================
+  // 1. Settings Pane & Persona Filter Controls
+  // ==========================================
   const STORAGE_KEY_MUTED = 'shibabata_muted_personas';
+
+  function toggleSettingsPane() {
+    const pane = document.getElementById('settings-pane');
+    if (pane) {
+      pane.classList.toggle('hidden');
+    }
+  }
+
+  function resetAllMutes() {
+    saveMutedPersonas([]);
+    applyPersonaVisibility();
+  }
 
   function getMutedPersonas() {
     try {
@@ -260,6 +300,7 @@
     const muted = getMutedPersonas();
     document.querySelectorAll('.persona-bubble').forEach(bubble => {
       const pid = bubble.dataset.personaId;
+      if (!pid) return;
       const isMuted = muted.includes(pid);
       bubble.style.display = isMuted ? 'none' : 'flex';
 
@@ -295,7 +336,7 @@
   }
 
   // ==========================================
-  // 2. User-Custom Persona Modal & Post
+  // 2. User-Custom Agent Dynamic AI Generation
   // ==========================================
   function openCustomPersonaModal() {
     document.getElementById('custom-persona-modal').classList.remove('hidden');
@@ -305,39 +346,74 @@
     document.getElementById('custom-persona-modal').classList.add('hidden');
   }
 
-  function saveAndPostCustomPersona() {
-    const name = document.getElementById('custom-name').value.trim() || '自作サポーター';
-    const emoji = document.getElementById('custom-emoji').value.trim() || '⚽';
-    const color = document.getElementById('custom-color').value || '#059669';
-    const text = document.getElementById('custom-comment-text').value.trim();
+  function synthesizePersonaComment(name, prompt, articleTitle) {
+    const p = prompt.toLowerCase();
+    const tShort = articleTitle.length > 20 ? articleTitle.slice(0, 19) + '…' : articleTitle;
 
-    if (!text) {
-      alert('一言コメントを入力してください！');
-      return;
+    if (p.includes('採点') || p.includes('辛口') || p.includes('厳しい') || p.includes('ダメ') || p.includes('批判')) {
+      return `「${tShort}」の件、手放しで褒めてる場合じゃないね。厳しいようだが採点は3.5、基礎的な判断ミスが目立ちすぎている。`;
     }
+    if (p.includes('戦術') || p.includes('可変') || p.includes('ビルドアップ') || p.includes('配置') || p.includes('レーン')) {
+      return `戦術的観点から言えば「${tShort}」の局面で生じた構造的優位性がピッチで見事に再現されてるね。相手のブロック守備の隙間を的確に突いている。`;
+    }
+    if (p.includes('オカン') || p.includes('母') || p.includes('心配') || p.includes('ご飯') || p.includes('怪我')) {
+      return `みんな本当によく走ってて立派やわぁ。「${tShort}」も大事やけど、怪我だけは気をつけてしっかり水分と栄養摂ってや！`;
+    }
+    if (p.includes('金') || p.includes('移籍') || p.includes('年俸') || p.includes('ビジネス') || p.includes('roi')) {
+      return `「${tShort}」は中長期的なクラブ収益とブランド価値の最大化につながる一手。投資対効果の視点でも極めて興味深い展開です。`;
+    }
+    if (p.includes('応援') || p.includes('熱') || p.includes('サポ') || p.includes('魂') || p.includes('ゴール裏')) {
+      return `ピッチで泥臭く魂見せてくれたらそれで最高なんだよ！「${tShort}」の勢いそのまま、次の試合もゴール裏から全力で後押しするぞ！！`;
+    }
+    if (p.includes('スカウト') || p.includes('ユース') || p.includes('高校') || p.includes('若手')) {
+      return `「${tShort}」のニュース、育成年代の時から追っていたファンとしては感無量だよ。この才能が早く世界の舞台で開花してほしいね。`;
+    }
+    return `私の視点から言わせてもらえば「${tShort}」はまさにピッチ内外で注目すべきターニングポイント。この熱い展開をもっと深く議論していきたいですね！`;
+  }
 
-    const container = document.getElementById('user-custom-comments');
-    const bubble = document.createElement('div');
-    bubble.className = 'persona-bubble flex items-start gap-3 animate-fade-in';
-    bubble.innerHTML = `
-      <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-xl shadow-sm border" style="background-color: ${color}20; border-color: ${color};">
-        ${emoji}
-      </div>
-      <div class="flex-1 rounded-2xl p-4 bg-white dark:bg-slate-900 border shadow-xs relative" style="border-left: 4px solid ${color};">
-        <div class="flex items-center justify-between gap-2 mb-1.5">
-          <span class="font-bold text-xs sm:text-sm text-slate-900 dark:text-white flex items-center gap-1.5">
-            ${name}
-            <span class="text-[10px] px-1.5 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 font-bold border border-emerald-300 dark:border-emerald-800">あなた追加</span>
-          </span>
+  function generateAndPostCustomPersona() {
+    const name = document.getElementById('custom-name').value.trim() || '自作AI論客';
+    const emoji = document.getElementById('custom-emoji').value.trim() || '🤖';
+    const color = document.getElementById('custom-color').value || '#059669';
+    const prompt = document.getElementById('custom-prompt').value.trim() || 'サッカーを熱く語る自作ファン';
+
+    const btn = document.getElementById('btn-custom-generate');
+    btn.disabled = true;
+    btn.innerHTML = '<span>⚡</span><span>AIが発言を生成中...</span>';
+
+    setTimeout(() => {
+      const articleTitle = {{ article.title | tojson }};
+      const generatedComment = synthesizePersonaComment(name, prompt, articleTitle);
+
+      const container = document.getElementById('user-custom-comments');
+      const bubble = document.createElement('div');
+      bubble.className = 'persona-bubble flex items-start gap-3 transition-all duration-300';
+      bubble.innerHTML = `
+        <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-xl shadow-sm border" style="background-color: ${color}20; border-color: ${color};">
+          ${emoji}
         </div>
-        <p class="text-sm leading-relaxed text-slate-800 dark:text-slate-200 font-normal">
-          ${text}
-        </p>
-      </div>
-    `;
-    container.appendChild(bubble);
-    closeCustomPersonaModal();
-    document.getElementById('custom-comment-text').value = '';
+        <div class="flex-1 rounded-2xl p-4 bg-white dark:bg-slate-900 border shadow-xs relative" style="border-left: 4px solid ${color};">
+          <div class="flex items-center justify-between gap-2 mb-1.5">
+            <span class="font-bold text-xs sm:text-sm text-slate-900 dark:text-white flex items-center gap-1.5">
+              ${name}
+              <span class="text-[10px] px-1.5 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 font-bold border border-emerald-300 dark:border-emerald-800">✨ 自作AI論客</span>
+            </span>
+          </div>
+          <p class="text-sm leading-relaxed text-slate-800 dark:text-slate-200 font-normal">
+            ${generatedComment}
+          </p>
+        </div>
+      `;
+      container.appendChild(bubble);
+
+      // Reset modal state
+      btn.disabled = false;
+      btn.innerHTML = '<span>⚡</span><span>AIに自動発言させて参戦</span>';
+      closeCustomPersonaModal();
+
+      // Smooth scroll to the newly generated comment
+      bubble.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }, 400);
   }
 
   // ==========================================
@@ -353,11 +429,9 @@
     const dx = e.changedTouches[0].screenX - startX;
     const dy = e.changedTouches[0].screenY - startY;
     if (Math.abs(dx) > 80 && Math.abs(dx) > Math.abs(dy) * 2) {
-      // Swipe Left -> Next Article
       if (dx < 0 && "{% if next_article %}/articles/{{ next_article.slug }}/{% endif %}") {
         location.href = "{% if next_article %}/articles/{{ next_article.slug }}/{% endif %}";
       }
-      // Swipe Right -> Prev Article
       if (dx > 0 && "{% if prev_article %}/articles/{{ prev_article.slug }}/{% endif %}") {
         location.href = "{% if prev_article %}/articles/{{ prev_article.slug }}/{% endif %}";
       }
@@ -366,5 +440,6 @@
 
   // Initialize persona visibility on load
   document.addEventListener('DOMContentLoaded', applyPersonaVisibility);
+
 </script>
 {% endblock %}
