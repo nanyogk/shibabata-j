@@ -1,0 +1,55 @@
+{
+  "site_id": "shibabata-j",
+  "brand_name": "芝ばたJ",
+  "brand_sub": "Shibabata-J",
+  "logo_emoji": "⚽",
+  "locale": "ja",
+  "tagline": "25人のAI論客が語り尽くすサッカー井戸端速報",
+  "description": "J1・J2/J3・日本代表・EPL・欧州サッカーの最新ニュース＆動画ハイライトを、25人の個性豊かなAI論客が最大2行で語り尽くす井戸端会議メディア。",
+  "theme_color": "#10b981",
+  "base_url": "https://shibabata-j.web.app",
+  "github_url": "https://github.com/nanyogk/shibabata-j",
+  "gemini_model": "gemini-2.0-flash",
+  "hashtags": ["#芝ばたJ", "#Jリーグ", "#サッカー"],
+  "max_presets": 5,
+  "default_presets": [
+    {
+      "id": "j-and-national",
+      "name": "⭐ J+代表",
+      "categories": ["j1", "j2j3", "national"],
+      "teams": []
+    },
+    {
+      "id": "epl-and-europe",
+      "name": "🌍 EPL+欧州",
+      "categories": ["epl", "europe", "national"],
+      "teams": []
+    }
+  ],
+  "fan_buzz_rules": [
+    {
+      "keywords": ["セーブ", "GK", "守護神", "キーパー"],
+      "comment": "GKの決定機阻止が完全に試合の流れを変えてたな"
+    },
+    {
+      "keywords": ["アシスト", "パス", "クロス", "スルーパス"],
+      "comment": "ラストパスの視野とタイミングが完璧すぎて鳥肌立った"
+    },
+    {
+      "keywords": ["ゴール", "得点", "シュート", "一撃", "ボレー", "劇的"],
+      "comment": "あのシュートコースは相手キーパーもお手上げだろ"
+    },
+    {
+      "keywords": ["ダービー", "死闘", "首位", "決勝", "天王山"],
+      "comment": "スタジアムの熱気と球際のプレッシャーが画面越しにも伝わってきた"
+    },
+    {
+      "keywords": ["復帰", "怪我", "負傷", "離脱"],
+      "comment": "無理せずコンディション整えて次節暴れてほしい！"
+    },
+    {
+      "keywords": ["移籍", "オファー", "加入", "退団", "契約"],
+      "comment": "この補強はチーム戦術にドンピシャでハマる予感しかしない"
+    }
+  ]
+}

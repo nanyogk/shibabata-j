@@ -1,0 +1,76 @@
+{
+  "feeds": [
+    {
+      "id": "jleague-yt",
+      "name": "Jリーグ公式YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWc-XpFHPK1SwGcvpFPZ8NA",
+      "type": "youtube",
+      "default_category_hint": "j1",
+      "limit": 8,
+      "enabled": true
+    },
+    {
+      "id": "dazn-japan-yt",
+      "name": "DAZN Japan公式YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoFLB_Gw_AoxUuuzKjXrc_Q",
+      "type": "youtube",
+      "default_category_hint": "auto",
+      "limit": 8,
+      "enabled": true
+    },
+    {
+      "id": "jfatv-yt",
+      "name": "JFATV (日本代表公式)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgIeUSV91-FfmCayG4lSBcw",
+      "type": "youtube",
+      "default_category_hint": "national",
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "unext-football-yt",
+      "name": "U-NEXT フットボール公式",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMjvvElkdLRTgcTKklAUkSw",
+      "type": "youtube",
+      "default_category_hint": "epl",
+      "limit": 8,
+      "enabled": true
+    },
+    {
+      "id": "wowow-soccer-yt",
+      "name": "WOWOWサッカー公式",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJQj2lbG_3w8UrncJd7JZXw",
+      "type": "youtube",
+      "default_category_hint": "europe",
+      "limit": 6,
+      "enabled": true
+    },
+    {
+      "id": "yahoo-soccerk",
+      "name": "Yahoo!サッカー (サッカーキング)",
+      "url": "https://news.yahoo.co.jp/rss/media/soccerk/all.xml",
+      "type": "rss",
+      "default_category_hint": "auto",
+      "limit": 10,
+      "enabled": true
+    },
+    {
+      "id": "yahoo-gekisaka",
+      "name": "Yahoo!サッカー (ゲキサカ)",
+      "url": "https://news.yahoo.co.jp/rss/media/gekisaka/all.xml",
+      "type": "rss",
+      "default_category_hint": "auto",
+      "limit": 10,
+      "enabled": true
+    },
+    {
+      "id": "soccer-king",
+      "name": "サッカーキング",
+      "url": "https://www.soccer-king.jp/feed",
+      "type": "rss",
+      "default_category_hint": "auto",
+      "limit": 8,
+      "enabled": true
+    }
+  ]
+}
