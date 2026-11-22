@@ -14,14 +14,26 @@
   "max_presets": 5,
   "default_presets": [
     {
+      "id": "video-highlights",
+      "name": "🎬 動画ハイライト",
+      "video_only": true,
+      "sources": [],
+      "categories": [],
+      "teams": []
+    },
+    {
       "id": "j-and-national",
       "name": "⭐ J+代表",
+      "video_only": false,
+      "sources": [],
       "categories": ["j1", "j2j3", "national"],
       "teams": []
     },
     {
       "id": "epl-and-europe",
       "name": "🌍 EPL+欧州",
+      "video_only": false,
+      "sources": [],
       "categories": ["epl", "europe", "national"],
       "teams": []
     }
