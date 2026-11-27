@@ -1,5 +1,4014 @@
 [
   {
+    "id": "20261127-f42f0c16",
+    "slug": "20261127-f42f0c16",
+    "title": "絶好調ボーンマス、クラブ史上初の公式戦10連勝達成!! イングランドのクラブ史上初の記録も打ち立てる(ゲキサカ)",
+    "link": "https://news.yahoo.co.jp/articles/ed50326308c00747e1993d4292919daa094ca525?source=rss",
+    "summary": "絶好調のボーンマスの勢いが止まらない。 26日に行われたUEFAヨーロッパリーグ(欧州EL)でセルタのホームに乗り込んだボーンマスは、前半19分に先制を許す苦しい展開に。さらに24分に退場者を出して数",
+    "source": "Yahoo!サッカー (ゲキサカ)",
+    "feed_id": "yahoo-gekisaka",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "「絶好調ボーンマス、クラブ史上初の公式戦10連勝達…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T10:09:01+00:00",
+    "date_prefix": "20261127",
+    "category": "epl",
+    "categories": [
+      "epl",
+      "europe"
+    ],
+    "team_tags": [],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "coach-wannabe",
+        "speaker_name": "居酒屋の名将",
+        "short_name": "居酒屋の名将",
+        "avatar_emoji": "🍺",
+        "color": "#059669",
+        "badge_bg": "bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300",
+        "content": "コメントでも話題の「「絶好調ボーンマス、クラブ史上初」だけど、そもそも3-2-5可変時のアンカーの戻りが15分遅ぇんだよ！"
+      },
+      {
+        "turn": 2,
+        "persona_id": "ultras-supporter",
+        "speaker_name": "熱血ゴール裏サポ",
+        "short_name": "熱血サポ",
+        "avatar_emoji": "🔥",
+        "color": "#dc2626",
+        "badge_bg": "bg-rose-100 dark:bg-rose-950 text-rose-800 dark:text-rose-300",
+        "content": "細かい戦術やルールなんか後回し！「絶好調ボーンマス、クラブ史上初の公式…」で鳥肌立ったわ！勝った後のビールが美味ぇ〜〜！！"
+      },
+      {
+        "turn": 3,
+        "persona_id": "lens-photographer",
+        "speaker_name": "一眼レフ最前列サポ",
+        "short_name": "カメラ勢",
+        "avatar_emoji": "📸",
+        "color": "#0284c7",
+        "badge_bg": "bg-sky-100 dark:bg-sky-950 text-sky-800 dark:text-sky-300",
+        "content": "ゴール直後の咆哮シーン、西日の逆光と芝の舞い上がりが完璧に重なって最高の1枚が撮れました！"
+      },
+      {
+        "turn": 4,
+        "persona_id": "nostalgic-boomer",
+        "speaker_name": "93年開幕オヤジ",
+        "short_name": "93年古参",
+        "avatar_emoji": "📻",
+        "color": "#57534e",
+        "badge_bg": "bg-stone-100 dark:bg-stone-900 text-stone-800 dark:text-stone-300",
+        "content": "1993年開幕戦のヴェルディ対マリノスを思い出すなぁ… 今の若い選手も昔の野生味を思い出してほしいね。"
+      },
+      {
+        "turn": 5,
+        "persona_id": "var-referee-nerd",
+        "speaker_name": "自称・審判委員会",
+        "short_name": "審判オタク",
+        "avatar_emoji": "🚩",
+        "color": "#7c3aed",
+        "badge_bg": "bg-purple-100 dark:bg-purple-950 text-purple-800 dark:text-purple-300",
+        "content": "さっきの話ですが、競技規則第12条の文脈を読めばノーファウルが妥当です。VARのクリア＆オブビアス基準にも抵触しません。"
+      },
+      {
+        "turn": 6,
+        "persona_id": "j2-connoisseur",
+        "speaker_name": "J2沼の住人",
+        "short_name": "J2の主",
+        "avatar_emoji": "🐊",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "これぞJ2・J3の沼の醍醐味！昇格プレーオフの魔物は最後まで何が起こるか分からないからね。"
+      },
+      {
+        "turn": 7,
+        "persona_id": "overseas-elitist",
+        "speaker_name": "欧州サッカー至上主義者",
+        "short_name": "欧州厨",
+        "avatar_emoji": "☕",
+        "color": "#4f46e5",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "プレミアリーグのインテンシティに比べると、判断のテンポがワンテンポ遅いですね。早く欧州で揉まれるべきです。"
+      },
+      {
+        "turn": 8,
+        "persona_id": "fantasy-manager",
+        "speaker_name": "サカつく脳サポ",
+        "short_name": "サカつく脳",
+        "avatar_emoji": "🎮",
+        "color": "#65a30d",
+        "badge_bg": "bg-lime-100 dark:bg-lime-950 text-lime-800 dark:text-lime-300",
+        "content": "「絶好調ボーンマス、クラブ史上初の公式…」の布陣、サカつくで言えばケミストリーMAXの黄金連携だよ。今すぐこの形で固定すべき！"
+      }
+    ],
+    "punchy_quote": "これぞJ2・J3の沼の醍醐味！昇格プレーオフの魔物は最後まで何が起こるか分からないからね。"
+  },
+  {
+    "id": "20261127-7afee468",
+    "slug": "20261127-7afee468",
+    "title": "NO.018『鈴木優磨と知念慶 昨日の友は今日の敵？』｜DAZN 100 Moments-2026年、心が震えた100の瞬間-",
+    "link": "https://www.youtube.com/shorts/PZTRpP-MF7M",
+    "summary": "DAZN 100 Moments -2026年、心が震えた100の瞬間- NO.018『鈴木優磨と知念慶 昨日の友は今日の敵？』 📝元同僚同士の“バチバチの煽り合い”が話題に🔥 ↓このMomentに熱狂した方は一票を🗳️ https://awards.dazn.com/moments ➡視聴はコチラ https://x.gd/vNm5M ----------------- 【⬛DAZNとは？】 DAZN（ダゾーン）は好きなスポーツをいつでも、どこでもライブ＆見逃し視聴できる動画配信アプリです。 プロ野球やサッカー (Jリーグ＆欧州サッカー)、バスケ...",
+    "source": "DAZN Japan公式YouTube",
+    "feed_id": "dazn-japan-yt",
+    "feed_type": "youtube",
+    "feed_category_hint": "auto",
+    "video_id": "PZTRpP-MF7M",
+    "thumbnail": "https://i1.ytimg.com/vi/PZTRpP-MF7M/hqdefault.jpg",
+    "fan_comments": [
+      "「NO.018『鈴木優磨と知念慶 昨日の友は今日の…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T10:00:38+00:00",
+    "date_prefix": "20261127",
+    "category": "europe",
+    "categories": [
+      "europe",
+      "j1"
+    ],
+    "team_tags": [],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "var-referee-nerd",
+        "speaker_name": "自称・審判委員会",
+        "short_name": "審判オタク",
+        "avatar_emoji": "🚩",
+        "color": "#7c3aed",
+        "badge_bg": "bg-purple-100 dark:bg-purple-950 text-purple-800 dark:text-purple-300",
+        "content": "さっきの話ですが、競技規則第12条の文脈を読めばノーファウルが妥当です。VARのクリア＆オブビアス基準にも抵触しません。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "protective-mom",
+        "speaker_name": "オカン目線サポ",
+        "short_name": "オカンサポ",
+        "avatar_emoji": "🍙",
+        "color": "#ec4899",
+        "badge_bg": "bg-pink-100 dark:bg-pink-950 text-pink-800 dark:text-pink-300",
+        "content": "みんな本当によく走ってたねぇ！しっかりご飯食べて水分補給して、怪我だけはせんといてや。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "transfer-guru",
+        "speaker_name": "移籍リーク速報屋",
+        "short_name": "移籍特報",
+        "avatar_emoji": "🚨",
+        "color": "#db2777",
+        "badge_bg": "bg-pink-100 dark:bg-pink-950 text-pink-800 dark:text-pink-300",
+        "content": "独占速報：すでに欧州メガクラブのスカウトが先週の視察を終えています！Here We Go!"
+      },
+      {
+        "turn": 4,
+        "persona_id": "overseas-elitist",
+        "speaker_name": "欧州サッカー至上主義者",
+        "short_name": "欧州厨",
+        "avatar_emoji": "☕",
+        "color": "#4f46e5",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "プレミアリーグのインテンシティに比べると、判断のテンポがワンテンポ遅いですね。早く欧州で揉まれるべきです。"
+      },
+      {
+        "turn": 5,
+        "persona_id": "peace-enjoyer",
+        "speaker_name": "平和主義ライト層",
+        "short_name": "平和サポ",
+        "avatar_emoji": "🕊️",
+        "color": "#14b8a6",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "両チームの選手もサポーターもお疲れ様でした！お互いにリスペクトがあって清々しい好ゲームでしたね。"
+      },
+      {
+        "turn": 6,
+        "persona_id": "boots-gear-nerd",
+        "speaker_name": "スパイクギア狂",
+        "short_name": "ギアオタク",
+        "avatar_emoji": "👟",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "あのピッチ状態でミックススタッドを選んだ足元の判断が絶妙。新作スパイクのカラーも映えてたな。"
+      }
+    ],
+    "punchy_quote": "あのピッチ状態でミックススタッドを選んだ足元の判断が絶妙。新作スパイクのカラーも映えてたな。"
+  },
+  {
+    "id": "20261127-2342d7c9",
+    "slug": "20261127-2342d7c9",
+    "title": "【切れ味抜群】金子拓郎の見事な裏抜け＆切り返し！",
+    "link": "https://www.youtube.com/shorts/vq0nqefablI",
+    "summary": "2026年11月25日 明治安田Ｊ１リーグ 第16節 #浦和レッズ #金子拓郎 #明治安田Ｊリーグ #DAZN独占 #shorts 【はじめてのＪリーグガイド】 チケットの買い方や当日の楽しみ方などをご紹介！ https://www.jleague.jp/special/beginner/?utm_source=JL&utm_medium=Social&utm_campaign=BIGINNER&utm_content=YouTube 今後の試合日程はこちらから https://www.jleague.jp/match/ Ｊリーグのチケット購入はこ...",
+    "source": "Jリーグ公式YouTube",
+    "feed_id": "jleague-yt",
+    "feed_type": "youtube",
+    "feed_category_hint": "j1",
+    "video_id": "vq0nqefablI",
+    "thumbnail": "https://i3.ytimg.com/vi/vq0nqefablI/hqdefault.jpg",
+    "fan_comments": [
+      "「【切れ味抜群】金子拓郎の見事な裏抜け＆切り返し！」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T10:00:24+00:00",
+    "date_prefix": "20261127",
+    "category": "j1",
+    "categories": [
+      "j1"
+    ],
+    "team_tags": [
+      {
+        "slug": "urawa-reds",
+        "name": "浦和レッズ",
+        "short_name": "浦和",
+        "category": "j1",
+        "color": "#e60012"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "var-referee-nerd",
+        "speaker_name": "自称・審判委員会",
+        "short_name": "審判オタク",
+        "avatar_emoji": "🚩",
+        "color": "#7c3aed",
+        "badge_bg": "bg-purple-100 dark:bg-purple-950 text-purple-800 dark:text-purple-300",
+        "content": "さっきの話ですが、競技規則第12条の文脈を読めばノーファウルが妥当です。VARのクリア＆オブビアス基準にも抵触しません。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "stats-data-geek",
+        "speaker_name": "スタッツ厨アナリスト",
+        "short_name": "スタッツ厨",
+        "avatar_emoji": "💻",
+        "color": "#0891b2",
+        "badge_bg": "bg-cyan-100 dark:bg-cyan-950 text-cyan-800 dark:text-cyan-300",
+        "content": "得点シーンばかり注目されてますが、前半のxG（ゴール期待値）とPPDAの指数を見れば課題は明白ですよ。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "local-pride-patriot",
+        "speaker_name": "おらが街のサポ",
+        "short_name": "地元サポ",
+        "avatar_emoji": "🏡",
+        "color": "#16a34a",
+        "badge_bg": "bg-green-100 dark:bg-green-950 text-green-800 dark:text-green-300",
+        "content": "地元クラブがこれだけ話題になるのが誇らしいよ！次のホーム戦も街ぐるみで満員にしようぜ。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "away-bus-veteran",
+        "speaker_name": "遠征夜行バス戦士",
+        "short_name": "遠征民",
+        "avatar_emoji": "🚌",
+        "color": "#4338ca",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "この展開が見られるなら深夜バス弾丸遠征も報われるよ！月曜の出社も気合で乗り切れる！"
+      },
+      {
+        "turn": 5,
+        "persona_id": "note-tactics-writer",
+        "speaker_name": "長文note戦術家",
+        "short_name": "note戦術垢",
+        "avatar_emoji": "📝",
+        "color": "#334155",
+        "badge_bg": "bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "「【切れ味抜群】金子拓郎の見事な裏抜け…」におけるネガティブトランジションの構造的要因、詳しくは今夜3万字のnoteにまとめます。"
+      },
+      {
+        "turn": 6,
+        "persona_id": "stadium-gourmet",
+        "speaker_name": "スタグル探訪家",
+        "short_name": "スタグル勢",
+        "avatar_emoji": "🌭",
+        "color": "#ea580c",
+        "badge_bg": "bg-orange-100 dark:bg-orange-950 text-orange-800 dark:text-orange-300",
+        "content": "勝敗も大事だけど、スタジアム名物のもつ煮と地ビールは全国一だから！遠征民は全員食って帰るべき。"
+      }
+    ],
+    "punchy_quote": "この展開が見られるなら深夜バス弾丸遠征も報われるよ！月曜の出社も気合で乗り切れる！"
+  },
+  {
+    "id": "20261127-01953b73",
+    "slug": "20261127-01953b73",
+    "title": "今季プレミアへやってきた2人が相見える｜前田大然(イプスウィッチ)vs鈴木彩艶(アストン・ヴィラ)｜イプスウィッチ v アストン・ヴィラ｜プレミアリーグ2026/27 第12節",
+    "link": "https://www.youtube.com/watch?v=GXWo1_aA7O0",
+    "summary": "世界レベルの戦いが毎週末！ 今最も熱いプレミアリーグやラ・リーガを『U-NEXTサッカーパック』で観よう！ 世界最高峰のサッカーが毎週末楽しめる！ 詳細はこちら👉 https://www.video.unext.jp/lp/football_pack ----------- provided by: IMAGO ----------- U-NEXT 📣『サッカーパック』販売中🎉 最高峰の戦いを見逃すな⚽️ 🟪プレミアリーグ【独占配信】 🟥ラ・リーガ 1部 🟧エールディヴィジ 💛ウィメンズ・スーパー・リーグ（英・女子１部） 🏆各国カップ戦を独占配信🏆...",
+    "source": "U-NEXT フットボール公式",
+    "feed_id": "unext-football-yt",
+    "feed_type": "youtube",
+    "feed_category_hint": "epl",
+    "video_id": "GXWo1_aA7O0",
+    "thumbnail": "https://i4.ytimg.com/vi/GXWo1_aA7O0/hqdefault.jpg",
+    "fan_comments": [
+      "「今季プレミアへやってきた2人が相見える｜前田大然…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T10:00:23+00:00",
+    "date_prefix": "20261127",
+    "category": "epl",
+    "categories": [
+      "epl",
+      "europe"
+    ],
+    "team_tags": [
+      {
+        "slug": "parma",
+        "name": "パルマ",
+        "short_name": "パルマ",
+        "category": "europe",
+        "color": "#ca8a04"
+      },
+      {
+        "slug": "celtic",
+        "name": "セルティック",
+        "short_name": "セルティック",
+        "category": "europe",
+        "color": "#15803d"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "overseas-elitist",
+        "speaker_name": "欧州サッカー至上主義者",
+        "short_name": "欧州厨",
+        "avatar_emoji": "☕",
+        "color": "#4f46e5",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "プレミアリーグのインテンシティに比べると、判断のテンポがワンテンポ遅いですね。早く欧州で揉まれるべきです。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "coach-wannabe",
+        "speaker_name": "居酒屋の名将",
+        "short_name": "居酒屋の名将",
+        "avatar_emoji": "🍺",
+        "color": "#059669",
+        "badge_bg": "bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300",
+        "content": "コメントでも話題の「「今季プレミアへやってきた2人が」だけど、そもそも3-2-5可変時のアンカーの戻りが15分遅ぇんだよ！"
+      },
+      {
+        "turn": 3,
+        "persona_id": "transfer-guru",
+        "speaker_name": "移籍リーク速報屋",
+        "short_name": "移籍特報",
+        "avatar_emoji": "🚨",
+        "color": "#db2777",
+        "badge_bg": "bg-pink-100 dark:bg-pink-950 text-pink-800 dark:text-pink-300",
+        "content": "独占速報：すでに欧州メガクラブのスカウトが先週の視察を終えています！Here We Go!"
+      },
+      {
+        "turn": 4,
+        "persona_id": "boots-gear-nerd",
+        "speaker_name": "スパイクギア狂",
+        "short_name": "ギアオタク",
+        "avatar_emoji": "👟",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "あのピッチ状態でミックススタッドを選んだ足元の判断が絶妙。新作スパイクのカラーも映えてたな。"
+      },
+      {
+        "turn": 5,
+        "persona_id": "mascot-otaku",
+        "speaker_name": "マスコット愛好家",
+        "short_name": "マスコット勢",
+        "avatar_emoji": "🦁",
+        "color": "#f59e0b",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "激しい試合もいいけど、ハーフタイムのマスコットのキレキレなダンスが一番の癒やしだったよ！"
+      },
+      {
+        "turn": 6,
+        "persona_id": "young-talent-hunter",
+        "speaker_name": "青田買いスカウト",
+        "short_name": "青田買い",
+        "avatar_emoji": "🔍",
+        "color": "#d97706",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "あの選手、高円宮杯プレミアリーグの時から股関節の可動域が別格だったんだよ。早く代表に呼べ！"
+      },
+      {
+        "turn": 7,
+        "persona_id": "lens-photographer",
+        "speaker_name": "一眼レフ最前列サポ",
+        "short_name": "カメラ勢",
+        "avatar_emoji": "📸",
+        "color": "#0284c7",
+        "badge_bg": "bg-sky-100 dark:bg-sky-950 text-sky-800 dark:text-sky-300",
+        "content": "ゴール直後の咆哮シーン、西日の逆光と芝の舞い上がりが完璧に重なって最高の1枚が撮れました！"
+      }
+    ],
+    "punchy_quote": "激しい試合もいいけど、ハーフタイムのマスコットのキレキレなダンスが一番の癒やしだったよ！"
+  },
+  {
+    "id": "20261127-0cf6ab60",
+    "slug": "20261127-0cf6ab60",
+    "title": "【出場ゼロからのブレイクスルー】頭角を現したユース出身ストライカー｜鮎川峻（サンフレッチェ広島）プレー集",
+    "link": "https://www.youtube.com/watch?v=PAyT3PRGi3Y",
+    "summary": "鮎川 峻 / AYUKAWA Shun 生年月日：2001年9月15日 出生地：愛知県 2020-2023｜サンフレッチェ広島 2023-2025｜大分トリニータ 2026-｜サンフレッチェ広島 【はじめてのＪリーグガイド】 チケットの買い方や当日の楽しみ方などをご紹介！ https://www.jleague.jp/special/beginner/?utm_source=JL&utm_medium=Social&utm_campaign=BIGINNER&utm_content=YouTube 今後の試合日程はこちらから https://www...",
+    "source": "Jリーグ公式YouTube",
+    "feed_id": "jleague-yt",
+    "feed_type": "youtube",
+    "feed_category_hint": "j1",
+    "video_id": "PAyT3PRGi3Y",
+    "thumbnail": "https://i1.ytimg.com/vi/PAyT3PRGi3Y/hqdefault.jpg",
+    "fan_comments": [
+      "「【出場ゼロからのブレイクスルー】頭角を現したユー…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T10:00:17+00:00",
+    "date_prefix": "20261127",
+    "category": "j1",
+    "categories": [
+      "j1"
+    ],
+    "team_tags": [
+      {
+        "slug": "sanfrecce-hiroshima",
+        "name": "サンフレッチェ広島",
+        "short_name": "広島",
+        "category": "j1",
+        "color": "#51237c"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "economist-wannabe",
+        "speaker_name": "自称・経済評論家",
+        "short_name": "経済評論家",
+        "avatar_emoji": "📊",
+        "color": "#2563eb",
+        "badge_bg": "bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300",
+        "content": "「【出場ゼロからのブレイクスルー】頭角…」の件、移籍金の減価償却とDAZN配分金の回収モデルで見れば極めて合理的な投資判断ですね。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "note-tactics-writer",
+        "speaker_name": "長文note戦術家",
+        "short_name": "note戦術垢",
+        "avatar_emoji": "📝",
+        "color": "#334155",
+        "badge_bg": "bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "「【出場ゼロからのブレイクスルー】頭角…」におけるネガティブトランジションの構造的要因、詳しくは今夜3万字のnoteにまとめます。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "j2-connoisseur",
+        "speaker_name": "J2沼の住人",
+        "short_name": "J2の主",
+        "avatar_emoji": "🐊",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "これぞJ2・J3の沼の醍醐味！昇格プレーオフの魔物は最後まで何が起こるか分からないからね。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "nostalgic-boomer",
+        "speaker_name": "93年開幕オヤジ",
+        "short_name": "93年古参",
+        "avatar_emoji": "📻",
+        "color": "#57534e",
+        "badge_bg": "bg-stone-100 dark:bg-stone-900 text-stone-800 dark:text-stone-300",
+        "content": "1993年開幕戦のヴェルディ対マリノスを思い出すなぁ… 今の若い選手も昔の野生味を思い出してほしいね。"
+      },
+      {
+        "turn": 5,
+        "persona_id": "stats-data-geek",
+        "speaker_name": "スタッツ厨アナリスト",
+        "short_name": "スタッツ厨",
+        "avatar_emoji": "💻",
+        "color": "#0891b2",
+        "badge_bg": "bg-cyan-100 dark:bg-cyan-950 text-cyan-800 dark:text-cyan-300",
+        "content": "得点シーンばかり注目されてますが、前半のxG（ゴール期待値）とPPDAの指数を見れば課題は明白ですよ。"
+      },
+      {
+        "turn": 6,
+        "persona_id": "derby-warrior",
+        "speaker_name": "ダービー絶対主義者",
+        "short_name": "ダービー戦士",
+        "avatar_emoji": "⚔️",
+        "color": "#b91c1c",
+        "badge_bg": "bg-red-100 dark:bg-red-950 text-red-800 dark:text-red-300",
+        "content": "他の試合はどうでもいい、とにかく宿敵ライバルにだけは絶対に負けるな！ダービーの借りはダービーで返す！"
+      },
+      {
+        "turn": 7,
+        "persona_id": "fantasy-manager",
+        "speaker_name": "サカつく脳サポ",
+        "short_name": "サカつく脳",
+        "avatar_emoji": "🎮",
+        "color": "#65a30d",
+        "badge_bg": "bg-lime-100 dark:bg-lime-950 text-lime-800 dark:text-lime-300",
+        "content": "「【出場ゼロからのブレイクスルー】頭角…」の布陣、サカつくで言えばケミストリーMAXの黄金連携だよ。今すぐこの形で固定すべき！"
+      },
+      {
+        "turn": 8,
+        "persona_id": "peace-enjoyer",
+        "speaker_name": "平和主義ライト層",
+        "short_name": "平和サポ",
+        "avatar_emoji": "🕊️",
+        "color": "#14b8a6",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "両チームの選手もサポーターもお疲れ様でした！お互いにリスペクトがあって清々しい好ゲームでしたね。"
+      }
+    ],
+    "punchy_quote": "他の試合はどうでもいい、とにかく宿敵ライバルにだけは絶対に負けるな！ダービーの借りはダービーで返す！"
+  },
+  {
+    "id": "20261127-9b5741cf",
+    "slug": "20261127-9b5741cf",
+    "title": "マンUがニコ・パスをリストアップか…B・フェルナンデス退団の場合は獲得へ動き？(サッカーキング)",
+    "link": "https://news.yahoo.co.jp/articles/ab19dcc7a4bfe62d307e33286cfa5592cbffdc56?source=rss",
+    "summary": "マンチェスター・ユナイテッドがコモに所属するアルゼンチン代表MFニコラス・パスに関心を寄せているようだ。27日、スポーツ専門メディア『アスレティック』が伝えている。【ハイライト動画】ニコ・パスがマンU",
+    "source": "Yahoo!サッカー (サッカーキング)",
+    "feed_id": "yahoo-soccerk",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "ラストパスの視野とタイミングが完璧すぎて鳥肌立った",
+      "この補強はチーム戦術にドンピシャでハマる予感しかしない"
+    ],
+    "published_at": "2026-11-27T09:49:57+00:00",
+    "date_prefix": "20261127",
+    "category": "epl",
+    "categories": [
+      "epl"
+    ],
+    "team_tags": [
+      {
+        "slug": "manchester-united",
+        "name": "マンチェスター・ユナイテッド",
+        "short_name": "マンU",
+        "category": "epl",
+        "color": "#b91c1c"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "young-talent-hunter",
+        "speaker_name": "青田買いスカウト",
+        "short_name": "青田買い",
+        "avatar_emoji": "🔍",
+        "color": "#d97706",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "あの選手、高円宮杯プレミアリーグの時から股関節の可動域が別格だったんだよ。早く代表に呼べ！"
+      },
+      {
+        "turn": 2,
+        "persona_id": "boots-gear-nerd",
+        "speaker_name": "スパイクギア狂",
+        "short_name": "ギアオタク",
+        "avatar_emoji": "👟",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "あのピッチ状態でミックススタッドを選んだ足元の判断が絶妙。新作スパイクのカラーも映えてたな。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "ultras-supporter",
+        "speaker_name": "熱血ゴール裏サポ",
+        "short_name": "熱血サポ",
+        "avatar_emoji": "🔥",
+        "color": "#dc2626",
+        "badge_bg": "bg-rose-100 dark:bg-rose-950 text-rose-800 dark:text-rose-300",
+        "content": "細かい戦術やルールなんか後回し！「マンUがニコ・パスをリストアップか……」で鳥肌立ったわ！勝った後のビールが美味ぇ〜〜！！"
+      },
+      {
+        "turn": 4,
+        "persona_id": "lens-photographer",
+        "speaker_name": "一眼レフ最前列サポ",
+        "short_name": "カメラ勢",
+        "avatar_emoji": "📸",
+        "color": "#0284c7",
+        "badge_bg": "bg-sky-100 dark:bg-sky-950 text-sky-800 dark:text-sky-300",
+        "content": "ゴール直後の咆哮シーン、西日の逆光と芝の舞い上がりが完璧に重なって最高の1枚が撮れました！"
+      },
+      {
+        "turn": 5,
+        "persona_id": "fantasy-manager",
+        "speaker_name": "サカつく脳サポ",
+        "short_name": "サカつく脳",
+        "avatar_emoji": "🎮",
+        "color": "#65a30d",
+        "badge_bg": "bg-lime-100 dark:bg-lime-950 text-lime-800 dark:text-lime-300",
+        "content": "「マンUがニコ・パスをリストアップか……」の布陣、サカつくで言えばケミストリーMAXの黄金連携だよ。今すぐこの形で固定すべき！"
+      }
+    ],
+    "punchy_quote": "ゴール直後の咆哮シーン、西日の逆光と芝の舞い上がりが完璧に重なって最高の1枚が撮れました！"
+  },
+  {
+    "id": "20261127-0a84f5e9",
+    "slug": "20261127-0a84f5e9",
+    "title": "NO.017『マリンボブ パラグアイ代表をこよなく愛する男』｜DAZN 100 Moments-2026年、心が震えた100の瞬間-",
+    "link": "https://www.youtube.com/shorts/4wJaTe3r0u4",
+    "summary": "DAZN 100 Moments -2026年、心が震えた100の瞬間- NO.017『マリンボブ パラグアイ代表をこよなく愛する男』 📝ラウンド16敗退に涙ぐむ熱い想い🇵🇾💧 ↓このMomentに熱狂した方は一票を🗳️ https://awards.dazn.com/moments ➡視聴はコチラ https://x.gd/vNm5M ----------------- 【⬛DAZNとは？】 DAZN（ダゾーン）は好きなスポーツをいつでも、どこでもライブ＆見逃し視聴できる動画配信アプリです。 プロ野球やサッカー (Jリーグ＆欧州サッカー)、バスケ...",
+    "source": "DAZN Japan公式YouTube",
+    "feed_id": "dazn-japan-yt",
+    "feed_type": "youtube",
+    "feed_category_hint": "auto",
+    "video_id": "4wJaTe3r0u4",
+    "thumbnail": "https://i1.ytimg.com/vi/4wJaTe3r0u4/hqdefault.jpg",
+    "fan_comments": [
+      "「NO.017『マリンボブ パラグアイ代表をこよな…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T09:30:13+00:00",
+    "date_prefix": "20261127",
+    "category": "europe",
+    "categories": [
+      "europe",
+      "j1"
+    ],
+    "team_tags": [],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "nostalgic-boomer",
+        "speaker_name": "93年開幕オヤジ",
+        "short_name": "93年古参",
+        "avatar_emoji": "📻",
+        "color": "#57534e",
+        "badge_bg": "bg-stone-100 dark:bg-stone-900 text-stone-800 dark:text-stone-300",
+        "content": "1993年開幕戦のヴェルディ対マリノスを思い出すなぁ… 今の若い選手も昔の野生味を思い出してほしいね。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "mascot-otaku",
+        "speaker_name": "マスコット愛好家",
+        "short_name": "マスコット勢",
+        "avatar_emoji": "🦁",
+        "color": "#f59e0b",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "激しい試合もいいけど、ハーフタイムのマスコットのキレキレなダンスが一番の癒やしだったよ！"
+      },
+      {
+        "turn": 3,
+        "persona_id": "var-referee-nerd",
+        "speaker_name": "自称・審判委員会",
+        "short_name": "審判オタク",
+        "avatar_emoji": "🚩",
+        "color": "#7c3aed",
+        "badge_bg": "bg-purple-100 dark:bg-purple-950 text-purple-800 dark:text-purple-300",
+        "content": "さっきの話ですが、競技規則第12条の文脈を読めばノーファウルが妥当です。VARのクリア＆オブビアス基準にも抵触しません。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "away-bus-veteran",
+        "speaker_name": "遠征夜行バス戦士",
+        "short_name": "遠征民",
+        "avatar_emoji": "🚌",
+        "color": "#4338ca",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "この展開が見られるなら深夜バス弾丸遠征も報われるよ！月曜の出社も気合で乗り切れる！"
+      },
+      {
+        "turn": 5,
+        "persona_id": "young-talent-hunter",
+        "speaker_name": "青田買いスカウト",
+        "short_name": "青田買い",
+        "avatar_emoji": "🔍",
+        "color": "#d97706",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "あの選手、高円宮杯プレミアリーグの時から股関節の可動域が別格だったんだよ。早く代表に呼べ！"
+      }
+    ],
+    "punchy_quote": "さっきの話ですが、競技規則第12条の文脈を読めばノーファウルが妥当です。VARのクリア＆オブビアス基準にも抵触しません。"
+  },
+  {
+    "id": "20261127-7d04f607",
+    "slug": "20261127-7d04f607",
+    "title": "リーズFWカルバート・ルーウィンが契約延長…MF田中碧も29年までの新契約締結間近と現地報道(ゲキサカ)",
+    "link": "https://news.yahoo.co.jp/articles/9cecb1e4418b9c1e7f2aef4ae5425828088e8c96?source=rss",
+    "summary": "リーズは27日、イングランド代表FWドミニク・カルバート・ルーウィンと新契約を締結したことを発表した。2年半の契約となり、29年夏までクラブに留まることとなった。【写真】元W杯日本代表FWの息子が9月",
+    "source": "Yahoo!サッカー (ゲキサカ)",
+    "feed_id": "yahoo-gekisaka",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "この補強はチーム戦術にドンピシャでハマる予感しかしない"
+    ],
+    "published_at": "2026-11-27T09:11:01+00:00",
+    "date_prefix": "20261127",
+    "category": "national",
+    "categories": [
+      "national",
+      "epl"
+    ],
+    "team_tags": [
+      {
+        "slug": "samurai-blue",
+        "name": "SAMURAI BLUE (男子代表)",
+        "short_name": "森保J",
+        "category": "national",
+        "color": "#003b8e"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "transfer-guru",
+        "speaker_name": "移籍リーク速報屋",
+        "short_name": "移籍特報",
+        "avatar_emoji": "🚨",
+        "color": "#db2777",
+        "badge_bg": "bg-pink-100 dark:bg-pink-950 text-pink-800 dark:text-pink-300",
+        "content": "独占速報：すでに欧州メガクラブのスカウトが先週の視察を終えています！Here We Go!"
+      },
+      {
+        "turn": 2,
+        "persona_id": "coach-wannabe",
+        "speaker_name": "居酒屋の名将",
+        "short_name": "居酒屋の名将",
+        "avatar_emoji": "🍺",
+        "color": "#059669",
+        "badge_bg": "bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300",
+        "content": "コメントでも話題の「この補強はチーム戦術にドンピシャ」だけど、そもそも3-2-5可変時のアンカーの戻りが15分遅ぇんだよ！"
+      },
+      {
+        "turn": 3,
+        "persona_id": "injury-pessimist",
+        "speaker_name": "不安症サポーター",
+        "short_name": "不安症サポ",
+        "avatar_emoji": "😰",
+        "color": "#64748b",
+        "badge_bg": "bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "嬉しいニュースだけど、この過密日程でハムストリングに違和感が出ないか気が気じゃないよ…"
+      },
+      {
+        "turn": 4,
+        "persona_id": "note-tactics-writer",
+        "speaker_name": "長文note戦術家",
+        "short_name": "note戦術垢",
+        "avatar_emoji": "📝",
+        "color": "#334155",
+        "badge_bg": "bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "「リーズFWカルバート・ルーウィンが契…」におけるネガティブトランジションの構造的要因、詳しくは今夜3万字のnoteにまとめます。"
+      },
+      {
+        "turn": 5,
+        "persona_id": "overseas-elitist",
+        "speaker_name": "欧州サッカー至上主義者",
+        "short_name": "欧州厨",
+        "avatar_emoji": "☕",
+        "color": "#4f46e5",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "プレミアリーグのインテンシティに比べると、判断のテンポがワンテンポ遅いですね。早く欧州で揉まれるべきです。"
+      },
+      {
+        "turn": 6,
+        "persona_id": "fantasy-manager",
+        "speaker_name": "サカつく脳サポ",
+        "short_name": "サカつく脳",
+        "avatar_emoji": "🎮",
+        "color": "#65a30d",
+        "badge_bg": "bg-lime-100 dark:bg-lime-950 text-lime-800 dark:text-lime-300",
+        "content": "「リーズFWカルバート・ルーウィンが契…」の布陣、サカつくで言えばケミストリーMAXの黄金連携だよ。今すぐこの形で固定すべき！"
+      },
+      {
+        "turn": 7,
+        "persona_id": "young-talent-hunter",
+        "speaker_name": "青田買いスカウト",
+        "short_name": "青田買い",
+        "avatar_emoji": "🔍",
+        "color": "#d97706",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "あの選手、高円宮杯プレミアリーグの時から股関節の可動域が別格だったんだよ。早く代表に呼べ！"
+      }
+    ],
+    "punchy_quote": "あの選手、高円宮杯プレミアリーグの時から股関節の可動域が別格だったんだよ。早く代表に呼べ！"
+  },
+  {
+    "id": "20261127-a154294a",
+    "slug": "20261127-a154294a",
+    "title": "NO.016『人気は兄以上⁉ かわいすぎるヤマルの弟』｜DAZN 100 Moments-2026年、心が震えた100の瞬間-",
+    "link": "https://www.youtube.com/shorts/yparPpuwQSM",
+    "summary": "DAZN 100 Moments -2026年、心が震えた100の瞬間- NO.016『人気は兄以上⁉ かわいすぎるヤマルの弟』 📝世界が癒やされたキュートなワンシーン👶📷️ ↓このMomentに熱狂した方は一票を🗳️ https://awards.dazn.com/moments ➡視聴はコチラ https://x.gd/vNm5M ----------------- 【⬛DAZNとは？】 DAZN（ダゾーン）は好きなスポーツをいつでも、どこでもライブ＆見逃し視聴できる動画配信アプリです。 プロ野球やサッカー (Jリーグ＆欧州サッカー)、バスケッ...",
+    "source": "DAZN Japan公式YouTube",
+    "feed_id": "dazn-japan-yt",
+    "feed_type": "youtube",
+    "feed_category_hint": "auto",
+    "video_id": "yparPpuwQSM",
+    "thumbnail": "https://i2.ytimg.com/vi/yparPpuwQSM/hqdefault.jpg",
+    "fan_comments": [
+      "「NO.016『人気は兄以上⁉ かわいすぎるヤマル…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T09:00:25+00:00",
+    "date_prefix": "20261127",
+    "category": "europe",
+    "categories": [
+      "europe",
+      "j1"
+    ],
+    "team_tags": [
+      {
+        "slug": "barcelona",
+        "name": "バルセロナ",
+        "short_name": "バルサ",
+        "category": "europe",
+        "color": "#a50044"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "away-bus-veteran",
+        "speaker_name": "遠征夜行バス戦士",
+        "short_name": "遠征民",
+        "avatar_emoji": "🚌",
+        "color": "#4338ca",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "この展開が見られるなら深夜バス弾丸遠征も報われるよ！月曜の出社も気合で乗り切れる！"
+      },
+      {
+        "turn": 2,
+        "persona_id": "young-talent-hunter",
+        "speaker_name": "青田買いスカウト",
+        "short_name": "青田買い",
+        "avatar_emoji": "🔍",
+        "color": "#d97706",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "あの選手、高円宮杯プレミアリーグの時から股関節の可動域が別格だったんだよ。早く代表に呼べ！"
+      },
+      {
+        "turn": 3,
+        "persona_id": "note-tactics-writer",
+        "speaker_name": "長文note戦術家",
+        "short_name": "note戦術垢",
+        "avatar_emoji": "📝",
+        "color": "#334155",
+        "badge_bg": "bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "「NO.016『人気は兄以上⁉ かわい…」におけるネガティブトランジションの構造的要因、詳しくは今夜3万字のnoteにまとめます。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "ultras-supporter",
+        "speaker_name": "熱血ゴール裏サポ",
+        "short_name": "熱血サポ",
+        "avatar_emoji": "🔥",
+        "color": "#dc2626",
+        "badge_bg": "bg-rose-100 dark:bg-rose-950 text-rose-800 dark:text-rose-300",
+        "content": "細かい戦術やルールなんか後回し！「NO.016『人気は兄以上⁉ かわい…」で鳥肌立ったわ！勝った後のビールが美味ぇ〜〜！！"
+      },
+      {
+        "turn": 5,
+        "persona_id": "uniform-fashionista",
+        "speaker_name": "ユニフォーム批評家",
+        "short_name": "ユニ批評",
+        "avatar_emoji": "👕",
+        "color": "#9333ea",
+        "badge_bg": "bg-purple-100 dark:bg-purple-950 text-purple-800 dark:text-purple-300",
+        "content": "試合も熱いけど、今節のユニフォームの襟デザインとスポンサー配色のバランスが最高に洒落てるよね。"
+      },
+      {
+        "turn": 6,
+        "persona_id": "coach-wannabe",
+        "speaker_name": "居酒屋の名将",
+        "short_name": "居酒屋の名将",
+        "avatar_emoji": "🍺",
+        "color": "#059669",
+        "badge_bg": "bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300",
+        "content": "コメントでも話題の「「NO.016『人気は兄以上⁉ 」だけど、そもそも3-2-5可変時のアンカーの戻りが15分遅ぇんだよ！"
+      },
+      {
+        "turn": 7,
+        "persona_id": "economist-wannabe",
+        "speaker_name": "自称・経済評論家",
+        "short_name": "経済評論家",
+        "avatar_emoji": "📊",
+        "color": "#2563eb",
+        "badge_bg": "bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300",
+        "content": "「NO.016『人気は兄以上⁉ かわい…」の件、移籍金の減価償却とDAZN配分金の回収モデルで見れば極めて合理的な投資判断ですね。"
+      }
+    ],
+    "punchy_quote": "コメントでも話題の「「NO.016『人気は兄以上⁉ 」だけど、そもそも3-2-5可変時のアンカーの戻りが15分遅ぇんだよ！"
+  },
+  {
+    "id": "20261127-d60356f0",
+    "slug": "20261127-d60356f0",
+    "title": "【伊藤達哉が止まらない！】独特のリズムと卓越したシュートセンスが光るリーグ戦2試合連続スーパーゴール！",
+    "link": "https://www.youtube.com/shorts/_jPiVob9pQM",
+    "summary": "#川崎フロンターレ #伊藤達哉 #明治安田Ｊリーグ #DAZN独占 #shorts 【はじめてのＪリーグガイド】 チケットの買い方や当日の楽しみ方などをご紹介！ https://www.jleague.jp/special/beginner/?utm_source=JL&utm_medium=Social&utm_campaign=BIGINNER&utm_content=YouTube 今後の試合日程はこちらから https://www.jleague.jp/match/ Ｊリーグのチケット購入はこちらから https://www.jleague...",
+    "source": "Jリーグ公式YouTube",
+    "feed_id": "jleague-yt",
+    "feed_type": "youtube",
+    "feed_category_hint": "j1",
+    "video_id": "_jPiVob9pQM",
+    "thumbnail": "https://i4.ytimg.com/vi/_jPiVob9pQM/hqdefault.jpg",
+    "fan_comments": [
+      "あのシュートコースは相手キーパーもお手上げだろ"
+    ],
+    "published_at": "2026-11-27T09:00:24+00:00",
+    "date_prefix": "20261127",
+    "category": "j1",
+    "categories": [
+      "j1"
+    ],
+    "team_tags": [
+      {
+        "slug": "kawasaki-frontale",
+        "name": "川崎フロンターレ",
+        "short_name": "川崎F",
+        "category": "j1",
+        "color": "#009ad6"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "j2-connoisseur",
+        "speaker_name": "J2沼の住人",
+        "short_name": "J2の主",
+        "avatar_emoji": "🐊",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "これぞJ2・J3の沼の醍醐味！昇格プレーオフの魔物は最後まで何が起こるか分からないからね。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "young-talent-hunter",
+        "speaker_name": "青田買いスカウト",
+        "short_name": "青田買い",
+        "avatar_emoji": "🔍",
+        "color": "#d97706",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "あの選手、高円宮杯プレミアリーグの時から股関節の可動域が別格だったんだよ。早く代表に呼べ！"
+      },
+      {
+        "turn": 3,
+        "persona_id": "stadium-gourmet",
+        "speaker_name": "スタグル探訪家",
+        "short_name": "スタグル勢",
+        "avatar_emoji": "🌭",
+        "color": "#ea580c",
+        "badge_bg": "bg-orange-100 dark:bg-orange-950 text-orange-800 dark:text-orange-300",
+        "content": "勝敗も大事だけど、スタジアム名物のもつ煮と地ビールは全国一だから！遠征民は全員食って帰るべき。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "peace-enjoyer",
+        "speaker_name": "平和主義ライト層",
+        "short_name": "平和サポ",
+        "avatar_emoji": "🕊️",
+        "color": "#14b8a6",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "両チームの選手もサポーターもお疲れ様でした！お互いにリスペクトがあって清々しい好ゲームでしたね。"
+      },
+      {
+        "turn": 5,
+        "persona_id": "note-tactics-writer",
+        "speaker_name": "長文note戦術家",
+        "short_name": "note戦術垢",
+        "avatar_emoji": "📝",
+        "color": "#334155",
+        "badge_bg": "bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "「【伊藤達哉が止まらない！】独特のリズ…」におけるネガティブトランジションの構造的要因、詳しくは今夜3万字のnoteにまとめます。"
+      },
+      {
+        "turn": 6,
+        "persona_id": "transfer-guru",
+        "speaker_name": "移籍リーク速報屋",
+        "short_name": "移籍特報",
+        "avatar_emoji": "🚨",
+        "color": "#db2777",
+        "badge_bg": "bg-pink-100 dark:bg-pink-950 text-pink-800 dark:text-pink-300",
+        "content": "独占速報：すでに欧州メガクラブのスカウトが先週の視察を終えています！Here We Go!"
+      },
+      {
+        "turn": 7,
+        "persona_id": "boots-gear-nerd",
+        "speaker_name": "スパイクギア狂",
+        "short_name": "ギアオタク",
+        "avatar_emoji": "👟",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "あのピッチ状態でミックススタッドを選んだ足元の判断が絶妙。新作スパイクのカラーも映えてたな。"
+      }
+    ],
+    "punchy_quote": "「【伊藤達哉が止まらない！】独特のリズ…」におけるネガティブトランジションの構造的要因、詳しくは今夜3万字のnoteにまとめます。"
+  },
+  {
+    "id": "20261127-25ff1bd1",
+    "slug": "20261127-25ff1bd1",
+    "title": "【不屈のゴリ】三度の大怪我を乗り越えてＪ１の舞台へ｜加藤拓己（京都サンガF.C.）プレー集",
+    "link": "https://www.youtube.com/watch?v=nEuAmGQa2b8",
+    "summary": "加藤 拓己 / KATO Takumi 生年月日：1999年7月16日 出生地：茨城県 2022｜清水エスパルス 2022｜SC相模原 2023-2024｜清水エスパルス 2025｜SC相模原 2026｜松本山雅FC 2026-｜京都サンガF.C. 【はじめてのＪリーグガイド】 チケットの買い方や当日の楽しみ方などをご紹介！ https://www.jleague.jp/special/beginner/?utm_source=JL&utm_medium=Social&utm_campaign=BIGINNER&utm_content=YouTub...",
+    "source": "Jリーグ公式YouTube",
+    "feed_id": "jleague-yt",
+    "feed_type": "youtube",
+    "feed_category_hint": "j1",
+    "video_id": "nEuAmGQa2b8",
+    "thumbnail": "https://i3.ytimg.com/vi/nEuAmGQa2b8/hqdefault.jpg",
+    "fan_comments": [
+      "無理せずコンディション整えて次節暴れてほしい！"
+    ],
+    "published_at": "2026-11-27T09:00:04+00:00",
+    "date_prefix": "20261127",
+    "category": "j2j3",
+    "categories": [
+      "j2j3",
+      "j1"
+    ],
+    "team_tags": [
+      {
+        "slug": "kyoto-sanga",
+        "name": "京都サンガF.C.",
+        "short_name": "京都",
+        "category": "j1",
+        "color": "#6a1b9a"
+      },
+      {
+        "slug": "shimizu-spulse",
+        "name": "清水エスパルス",
+        "short_name": "清水",
+        "category": "j2j3",
+        "color": "#ea580c"
+      },
+      {
+        "slug": "matsumoto-yamaga",
+        "name": "松本山雅FC",
+        "short_name": "松本",
+        "category": "j2j3",
+        "color": "#15803d"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "away-bus-veteran",
+        "speaker_name": "遠征夜行バス戦士",
+        "short_name": "遠征民",
+        "avatar_emoji": "🚌",
+        "color": "#4338ca",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "この展開が見られるなら深夜バス弾丸遠征も報われるよ！月曜の出社も気合で乗り切れる！"
+      },
+      {
+        "turn": 2,
+        "persona_id": "stadium-gourmet",
+        "speaker_name": "スタグル探訪家",
+        "short_name": "スタグル勢",
+        "avatar_emoji": "🌭",
+        "color": "#ea580c",
+        "badge_bg": "bg-orange-100 dark:bg-orange-950 text-orange-800 dark:text-orange-300",
+        "content": "勝敗も大事だけど、スタジアム名物のもつ煮と地ビールは全国一だから！遠征民は全員食って帰るべき。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "nostalgic-boomer",
+        "speaker_name": "93年開幕オヤジ",
+        "short_name": "93年古参",
+        "avatar_emoji": "📻",
+        "color": "#57534e",
+        "badge_bg": "bg-stone-100 dark:bg-stone-900 text-stone-800 dark:text-stone-300",
+        "content": "1993年開幕戦のヴェルディ対マリノスを思い出すなぁ… 今の若い選手も昔の野生味を思い出してほしいね。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "dazn-director",
+        "speaker_name": "中継カメラ演出家",
+        "short_name": "中継オタク",
+        "avatar_emoji": "🎙️",
+        "color": "#475569",
+        "badge_bg": "bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "決定機の直後にゴール裏の歓声アングルを瞬時に挟んだスイッチング、今日の中継カメラは満点でしたね！"
+      },
+      {
+        "turn": 5,
+        "persona_id": "coach-wannabe",
+        "speaker_name": "居酒屋の名将",
+        "short_name": "居酒屋の名将",
+        "avatar_emoji": "🍺",
+        "color": "#059669",
+        "badge_bg": "bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300",
+        "content": "コメントでも話題の「無理せずコンディション整えて次節」だけど、そもそも3-2-5可変時のアンカーの戻りが15分遅ぇんだよ！"
+      },
+      {
+        "turn": 6,
+        "persona_id": "derby-warrior",
+        "speaker_name": "ダービー絶対主義者",
+        "short_name": "ダービー戦士",
+        "avatar_emoji": "⚔️",
+        "color": "#b91c1c",
+        "badge_bg": "bg-red-100 dark:bg-red-950 text-red-800 dark:text-red-300",
+        "content": "他の試合はどうでもいい、とにかく宿敵ライバルにだけは絶対に負けるな！ダービーの借りはダービーで返す！"
+      },
+      {
+        "turn": 7,
+        "persona_id": "transfer-guru",
+        "speaker_name": "移籍リーク速報屋",
+        "short_name": "移籍特報",
+        "avatar_emoji": "🚨",
+        "color": "#db2777",
+        "badge_bg": "bg-pink-100 dark:bg-pink-950 text-pink-800 dark:text-pink-300",
+        "content": "独占速報：すでに欧州メガクラブのスカウトが先週の視察を終えています！Here We Go!"
+      }
+    ],
+    "punchy_quote": "他の試合はどうでもいい、とにかく宿敵ライバルにだけは絶対に負けるな！ダービーの借りはダービーで返す！"
+  },
+  {
+    "id": "20261127-a91177d0",
+    "slug": "20261127-a91177d0",
+    "title": "イサクがついに覚醒？ 加入2年目の今季は16戦10発…ファン・ダイクも賛辞「傑出したストライカー」(サッカーキング)",
+    "link": "https://news.yahoo.co.jp/articles/f36c1101bda4436ed1cc9c128658f7a9f2c807cd?source=rss",
+    "summary": "苦しんだ加入初年度を経て、アレクサンデル・イサクがついに覚醒しつつある。 リヴァプールは昨年夏、当時のプレミアリーグ史上最高額となる1億2500万ポンド（約261億円）を投じてイサクを獲得した。しかし",
+    "source": "Yahoo!サッカー (サッカーキング)",
+    "feed_id": "yahoo-soccerk",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "この補強はチーム戦術にドンピシャでハマる予感しかしない"
+    ],
+    "published_at": "2026-11-27T08:58:13+00:00",
+    "date_prefix": "20261127",
+    "category": "epl",
+    "categories": [
+      "epl"
+    ],
+    "team_tags": [
+      {
+        "slug": "liverpool",
+        "name": "リバプール",
+        "short_name": "リバプール",
+        "category": "epl",
+        "color": "#c8102e"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "economist-wannabe",
+        "speaker_name": "自称・経済評論家",
+        "short_name": "経済評論家",
+        "avatar_emoji": "📊",
+        "color": "#2563eb",
+        "badge_bg": "bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300",
+        "content": "「イサクがついに覚醒？ 加入2年目の今…」の件、移籍金の減価償却とDAZN配分金の回収モデルで見れば極めて合理的な投資判断ですね。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "young-talent-hunter",
+        "speaker_name": "青田買いスカウト",
+        "short_name": "青田買い",
+        "avatar_emoji": "🔍",
+        "color": "#d97706",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "あの選手、高円宮杯プレミアリーグの時から股関節の可動域が別格だったんだよ。早く代表に呼べ！"
+      },
+      {
+        "turn": 3,
+        "persona_id": "transfer-guru",
+        "speaker_name": "移籍リーク速報屋",
+        "short_name": "移籍特報",
+        "avatar_emoji": "🚨",
+        "color": "#db2777",
+        "badge_bg": "bg-pink-100 dark:bg-pink-950 text-pink-800 dark:text-pink-300",
+        "content": "独占速報：すでに欧州メガクラブのスカウトが先週の視察を終えています！Here We Go!"
+      },
+      {
+        "turn": 4,
+        "persona_id": "coach-wannabe",
+        "speaker_name": "居酒屋の名将",
+        "short_name": "居酒屋の名将",
+        "avatar_emoji": "🍺",
+        "color": "#059669",
+        "badge_bg": "bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300",
+        "content": "コメントでも話題の「この補強はチーム戦術にドンピシャ」だけど、そもそも3-2-5可変時のアンカーの戻りが15分遅ぇんだよ！"
+      },
+      {
+        "turn": 5,
+        "persona_id": "nostalgic-boomer",
+        "speaker_name": "93年開幕オヤジ",
+        "short_name": "93年古参",
+        "avatar_emoji": "📻",
+        "color": "#57534e",
+        "badge_bg": "bg-stone-100 dark:bg-stone-900 text-stone-800 dark:text-stone-300",
+        "content": "1993年開幕戦のヴェルディ対マリノスを思い出すなぁ… 今の若い選手も昔の野生味を思い出してほしいね。"
+      }
+    ],
+    "punchy_quote": "独占速報：すでに欧州メガクラブのスカウトが先週の視察を終えています！Here We Go!"
+  },
+  {
+    "id": "20261127-1b7c6b93",
+    "slug": "20261127-1b7c6b93",
+    "title": "【💥今週末も“バチバチ”の予感👊｜ハーランド vs ガブリエウ・マガリャンイス】アーセナル v マンチェスター・C｜11/30(月) 1:30 キックオフ",
+    "link": "https://www.youtube.com/shorts/Zo-WJB5N9OI",
+    "summary": "世界レベルの戦いが毎週末！ 今最も熱いプレミアリーグやラ・リーガを『U-NEXTサッカーパック』で観よう！ 世界最高峰のサッカーが毎週末楽しめる！ 詳細はこちら👉 https://www.video.unext.jp/lp/football_pack ----------- U-NEXT 📣『サッカーパック』販売中🎉 最高峰の戦いを見逃すな⚽️ 🟪プレミアリーグ【独占配信】 🟥ラ・リーガ 1部 🟧エールディヴィジ 💛ウィメンズ・スーパー・リーグ（英・女子１部） 🏆各国カップ戦を独占配信🏆 🟥FAカップ 🟦コパ・デル・レイ 🟥FAコミュニティ・シール...",
+    "source": "U-NEXT フットボール公式",
+    "feed_id": "unext-football-yt",
+    "feed_type": "youtube",
+    "feed_category_hint": "epl",
+    "video_id": "Zo-WJB5N9OI",
+    "thumbnail": "https://i3.ytimg.com/vi/Zo-WJB5N9OI/hqdefault.jpg",
+    "fan_comments": [
+      "「【💥今週末も“バチバチ”の予感👊｜ハーランド v…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T08:00:15+00:00",
+    "date_prefix": "20261127",
+    "category": "epl",
+    "categories": [
+      "epl",
+      "europe"
+    ],
+    "team_tags": [
+      {
+        "slug": "arsenal",
+        "name": "アーセナル",
+        "short_name": "アーセナル",
+        "category": "epl",
+        "color": "#ef0107"
+      },
+      {
+        "slug": "manchester-city",
+        "name": "マンチェスター・シティ",
+        "short_name": "マンC",
+        "category": "epl",
+        "color": "#38bdf8"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "stadium-gourmet",
+        "speaker_name": "スタグル探訪家",
+        "short_name": "スタグル勢",
+        "avatar_emoji": "🌭",
+        "color": "#ea580c",
+        "badge_bg": "bg-orange-100 dark:bg-orange-950 text-orange-800 dark:text-orange-300",
+        "content": "勝敗も大事だけど、スタジアム名物のもつ煮と地ビールは全国一だから！遠征民は全員食って帰るべき。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "overseas-elitist",
+        "speaker_name": "欧州サッカー至上主義者",
+        "short_name": "欧州厨",
+        "avatar_emoji": "☕",
+        "color": "#4f46e5",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "プレミアリーグのインテンシティに比べると、判断のテンポがワンテンポ遅いですね。早く欧州で揉まれるべきです。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "peace-enjoyer",
+        "speaker_name": "平和主義ライト層",
+        "short_name": "平和サポ",
+        "avatar_emoji": "🕊️",
+        "color": "#14b8a6",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "両チームの選手もサポーターもお疲れ様でした！お互いにリスペクトがあって清々しい好ゲームでしたね。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "boots-gear-nerd",
+        "speaker_name": "スパイクギア狂",
+        "short_name": "ギアオタク",
+        "avatar_emoji": "👟",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "あのピッチ状態でミックススタッドを選んだ足元の判断が絶妙。新作スパイクのカラーも映えてたな。"
+      },
+      {
+        "turn": 5,
+        "persona_id": "nostalgic-boomer",
+        "speaker_name": "93年開幕オヤジ",
+        "short_name": "93年古参",
+        "avatar_emoji": "📻",
+        "color": "#57534e",
+        "badge_bg": "bg-stone-100 dark:bg-stone-900 text-stone-800 dark:text-stone-300",
+        "content": "1993年開幕戦のヴェルディ対マリノスを思い出すなぁ… 今の若い選手も昔の野生味を思い出してほしいね。"
+      },
+      {
+        "turn": 6,
+        "persona_id": "local-pride-patriot",
+        "speaker_name": "おらが街のサポ",
+        "short_name": "地元サポ",
+        "avatar_emoji": "🏡",
+        "color": "#16a34a",
+        "badge_bg": "bg-green-100 dark:bg-green-950 text-green-800 dark:text-green-300",
+        "content": "地元クラブがこれだけ話題になるのが誇らしいよ！次のホーム戦も街ぐるみで満員にしようぜ。"
+      },
+      {
+        "turn": 7,
+        "persona_id": "uniform-fashionista",
+        "speaker_name": "ユニフォーム批評家",
+        "short_name": "ユニ批評",
+        "avatar_emoji": "👕",
+        "color": "#9333ea",
+        "badge_bg": "bg-purple-100 dark:bg-purple-950 text-purple-800 dark:text-purple-300",
+        "content": "試合も熱いけど、今節のユニフォームの襟デザインとスポンサー配色のバランスが最高に洒落てるよね。"
+      },
+      {
+        "turn": 8,
+        "persona_id": "young-talent-hunter",
+        "speaker_name": "青田買いスカウト",
+        "short_name": "青田買い",
+        "avatar_emoji": "🔍",
+        "color": "#d97706",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "あの選手、高円宮杯プレミアリーグの時から股関節の可動域が別格だったんだよ。早く代表に呼べ！"
+      }
+    ],
+    "punchy_quote": "試合も熱いけど、今節のユニフォームの襟デザインとスポンサー配色のバランスが最高に洒落てるよね。"
+  },
+  {
+    "id": "20261127-6debb878",
+    "slug": "20261127-6debb878",
+    "title": "メガクラブ注目のヌサ、ライプツィヒが設定した値札は1億ユーロ超か…今冬の売却は考えず？(サッカーキング)",
+    "link": "https://news.yahoo.co.jp/articles/2c1052b780e36ec8f381c7c8e471f92aafbc0ec0?source=rss",
+    "summary": "ライプツィヒに所属するノルウェー代表FWアントニオ・ヌサの去就に注目が集まっている。 現在21歳のヌサは母国のスターベクIFからクラブ・ブルッヘを経て、2024年夏からライプツィヒでプレー。左ウイング",
+    "source": "Yahoo!サッカー (サッカーキング)",
+    "feed_id": "yahoo-soccerk",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "「メガクラブ注目のヌサ、ライプツィヒが設定した値札…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T07:56:21+00:00",
+    "date_prefix": "20261127",
+    "category": "j1",
+    "categories": [
+      "j1"
+    ],
+    "team_tags": [],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "stadium-gourmet",
+        "speaker_name": "スタグル探訪家",
+        "short_name": "スタグル勢",
+        "avatar_emoji": "🌭",
+        "color": "#ea580c",
+        "badge_bg": "bg-orange-100 dark:bg-orange-950 text-orange-800 dark:text-orange-300",
+        "content": "勝敗も大事だけど、スタジアム名物のもつ煮と地ビールは全国一だから！遠征民は全員食って帰るべき。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "overseas-elitist",
+        "speaker_name": "欧州サッカー至上主義者",
+        "short_name": "欧州厨",
+        "avatar_emoji": "☕",
+        "color": "#4f46e5",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "プレミアリーグのインテンシティに比べると、判断のテンポがワンテンポ遅いですね。早く欧州で揉まれるべきです。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "peace-enjoyer",
+        "speaker_name": "平和主義ライト層",
+        "short_name": "平和サポ",
+        "avatar_emoji": "🕊️",
+        "color": "#14b8a6",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "両チームの選手もサポーターもお疲れ様でした！お互いにリスペクトがあって清々しい好ゲームでしたね。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "fantasy-manager",
+        "speaker_name": "サカつく脳サポ",
+        "short_name": "サカつく脳",
+        "avatar_emoji": "🎮",
+        "color": "#65a30d",
+        "badge_bg": "bg-lime-100 dark:bg-lime-950 text-lime-800 dark:text-lime-300",
+        "content": "「メガクラブ注目のヌサ、ライプツィヒが…」の布陣、サカつくで言えばケミストリーMAXの黄金連携だよ。今すぐこの形で固定すべき！"
+      },
+      {
+        "turn": 5,
+        "persona_id": "j2-connoisseur",
+        "speaker_name": "J2沼の住人",
+        "short_name": "J2の主",
+        "avatar_emoji": "🐊",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "これぞJ2・J3の沼の醍醐味！昇格プレーオフの魔物は最後まで何が起こるか分からないからね。"
+      },
+      {
+        "turn": 6,
+        "persona_id": "coach-wannabe",
+        "speaker_name": "居酒屋の名将",
+        "short_name": "居酒屋の名将",
+        "avatar_emoji": "🍺",
+        "color": "#059669",
+        "badge_bg": "bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300",
+        "content": "コメントでも話題の「「メガクラブ注目のヌサ、ライプツ」だけど、そもそも3-2-5可変時のアンカーの戻りが15分遅ぇんだよ！"
+      }
+    ],
+    "punchy_quote": "これぞJ2・J3の沼の醍醐味！昇格プレーオフの魔物は最後まで何が起こるか分からないからね。"
+  },
+  {
+    "id": "20261127-7f6d2c6f",
+    "slug": "20261127-7f6d2c6f",
+    "title": "【林陵平がJ1注目クラブを徹底分析】相馬監督就任で変化した東京ヴェルディの縦に速いサッカーに迫る！さらに安田理大がまさかの告白…｜内田篤人のFOOTBALL TIME",
+    "link": "https://www.youtube.com/shorts/XEGvgcX_BhE",
+    "summary": "📢今週から2週連続でJリーグSP 林陵平さんがJ1注目クラブを徹底分析！ 相馬監督就任で変化した東京ヴェルディの縦に速いサッカーに迫る🔥 さらに安田理大さんがまさかの告白🫢 「相馬監督が1番好きだった」 その真相とは…👀 📺内田篤人のFOOTBALL TIME #288 📱DAZNで配信中 #フットボールタイム #だったらDAZN ➡視聴はコチラ https://x.gd/vNm5M ----------------- 【⬛DAZNとは？】 DAZN（ダゾーン）は好きなスポーツをいつでも、どこでもライブ＆見逃し視聴できる動画配信アプリです。 プロ野...",
+    "source": "DAZN Japan公式YouTube",
+    "feed_id": "dazn-japan-yt",
+    "feed_type": "youtube",
+    "feed_category_hint": "auto",
+    "video_id": "XEGvgcX_BhE",
+    "thumbnail": "https://i1.ytimg.com/vi/XEGvgcX_BhE/hqdefault.jpg",
+    "fan_comments": [
+      "「【林陵平がJ1注目クラブを徹底分析】相馬監督就任…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T07:45:09+00:00",
+    "date_prefix": "20261127",
+    "category": "j1",
+    "categories": [
+      "j1"
+    ],
+    "team_tags": [
+      {
+        "slug": "tokyo-verdy",
+        "name": "東京ヴェルディ",
+        "short_name": "東京V",
+        "category": "j1",
+        "color": "#006432"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "stats-data-geek",
+        "speaker_name": "スタッツ厨アナリスト",
+        "short_name": "スタッツ厨",
+        "avatar_emoji": "💻",
+        "color": "#0891b2",
+        "badge_bg": "bg-cyan-100 dark:bg-cyan-950 text-cyan-800 dark:text-cyan-300",
+        "content": "得点シーンばかり注目されてますが、前半のxG（ゴール期待値）とPPDAの指数を見れば課題は明白ですよ。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "derby-warrior",
+        "speaker_name": "ダービー絶対主義者",
+        "short_name": "ダービー戦士",
+        "avatar_emoji": "⚔️",
+        "color": "#b91c1c",
+        "badge_bg": "bg-red-100 dark:bg-red-950 text-red-800 dark:text-red-300",
+        "content": "他の試合はどうでもいい、とにかく宿敵ライバルにだけは絶対に負けるな！ダービーの借りはダービーで返す！"
+      },
+      {
+        "turn": 3,
+        "persona_id": "local-pride-patriot",
+        "speaker_name": "おらが街のサポ",
+        "short_name": "地元サポ",
+        "avatar_emoji": "🏡",
+        "color": "#16a34a",
+        "badge_bg": "bg-green-100 dark:bg-green-950 text-green-800 dark:text-green-300",
+        "content": "地元クラブがこれだけ話題になるのが誇らしいよ！次のホーム戦も街ぐるみで満員にしようぜ。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "fantasy-manager",
+        "speaker_name": "サカつく脳サポ",
+        "short_name": "サカつく脳",
+        "avatar_emoji": "🎮",
+        "color": "#65a30d",
+        "badge_bg": "bg-lime-100 dark:bg-lime-950 text-lime-800 dark:text-lime-300",
+        "content": "「【林陵平がJ1注目クラブを徹底分析】…」の布陣、サカつくで言えばケミストリーMAXの黄金連携だよ。今すぐこの形で固定すべき！"
+      },
+      {
+        "turn": 5,
+        "persona_id": "away-bus-veteran",
+        "speaker_name": "遠征夜行バス戦士",
+        "short_name": "遠征民",
+        "avatar_emoji": "🚌",
+        "color": "#4338ca",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "この展開が見られるなら深夜バス弾丸遠征も報われるよ！月曜の出社も気合で乗り切れる！"
+      },
+      {
+        "turn": 6,
+        "persona_id": "coach-wannabe",
+        "speaker_name": "居酒屋の名将",
+        "short_name": "居酒屋の名将",
+        "avatar_emoji": "🍺",
+        "color": "#059669",
+        "badge_bg": "bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300",
+        "content": "コメントでも話題の「「【林陵平がJ1注目クラブを徹底」だけど、そもそも3-2-5可変時のアンカーの戻りが15分遅ぇんだよ！"
+      }
+    ],
+    "punchy_quote": "この展開が見られるなら深夜バス弾丸遠征も報われるよ！月曜の出社も気合で乗り切れる！"
+  },
+  {
+    "id": "20261127-35166979",
+    "slug": "20261127-35166979",
+    "title": "富山、ボイン高MFヤン・ジサンの新加入内定を発表「大きな責任を感じています」(ゲキサカ)",
+    "link": "https://news.yahoo.co.jp/articles/14df4fba5f05f0702b3adc09f1c3a89fb61d472f?source=rss",
+    "summary": "カターレ富山は27日、ボイン高(韓国)MFヤン・ジサンの26-27シーズン新加入内定を発表した。【写真】元W杯日本代表FWの息子が9月から国見に入学! ツーショットも公開 ヤン・ジサンはクラブを通じ、",
+    "source": "Yahoo!サッカー (ゲキサカ)",
+    "feed_id": "yahoo-gekisaka",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "この補強はチーム戦術にドンピシャでハマる予感しかしない"
+    ],
+    "published_at": "2026-11-27T07:43:01+00:00",
+    "date_prefix": "20261127",
+    "category": "national",
+    "categories": [
+      "national"
+    ],
+    "team_tags": [
+      {
+        "slug": "samurai-blue",
+        "name": "SAMURAI BLUE (男子代表)",
+        "short_name": "森保J",
+        "category": "national",
+        "color": "#003b8e"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "ultras-supporter",
+        "speaker_name": "熱血ゴール裏サポ",
+        "short_name": "熱血サポ",
+        "avatar_emoji": "🔥",
+        "color": "#dc2626",
+        "badge_bg": "bg-rose-100 dark:bg-rose-950 text-rose-800 dark:text-rose-300",
+        "content": "細かい戦術やルールなんか後回し！「富山、ボイン高MFヤン・ジサンの新加…」で鳥肌立ったわ！勝った後のビールが美味ぇ〜〜！！"
+      },
+      {
+        "turn": 2,
+        "persona_id": "fantasy-manager",
+        "speaker_name": "サカつく脳サポ",
+        "short_name": "サカつく脳",
+        "avatar_emoji": "🎮",
+        "color": "#65a30d",
+        "badge_bg": "bg-lime-100 dark:bg-lime-950 text-lime-800 dark:text-lime-300",
+        "content": "「富山、ボイン高MFヤン・ジサンの新加…」の布陣、サカつくで言えばケミストリーMAXの黄金連携だよ。今すぐこの形で固定すべき！"
+      },
+      {
+        "turn": 3,
+        "persona_id": "uniform-fashionista",
+        "speaker_name": "ユニフォーム批評家",
+        "short_name": "ユニ批評",
+        "avatar_emoji": "👕",
+        "color": "#9333ea",
+        "badge_bg": "bg-purple-100 dark:bg-purple-950 text-purple-800 dark:text-purple-300",
+        "content": "試合も熱いけど、今節のユニフォームの襟デザインとスポンサー配色のバランスが最高に洒落てるよね。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "young-talent-hunter",
+        "speaker_name": "青田買いスカウト",
+        "short_name": "青田買い",
+        "avatar_emoji": "🔍",
+        "color": "#d97706",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "あの選手、高円宮杯プレミアリーグの時から股関節の可動域が別格だったんだよ。早く代表に呼べ！"
+      },
+      {
+        "turn": 5,
+        "persona_id": "injury-pessimist",
+        "speaker_name": "不安症サポーター",
+        "short_name": "不安症サポ",
+        "avatar_emoji": "😰",
+        "color": "#64748b",
+        "badge_bg": "bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "嬉しいニュースだけど、この過密日程でハムストリングに違和感が出ないか気が気じゃないよ…"
+      },
+      {
+        "turn": 6,
+        "persona_id": "peace-enjoyer",
+        "speaker_name": "平和主義ライト層",
+        "short_name": "平和サポ",
+        "avatar_emoji": "🕊️",
+        "color": "#14b8a6",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "両チームの選手もサポーターもお疲れ様でした！お互いにリスペクトがあって清々しい好ゲームでしたね。"
+      }
+    ],
+    "punchy_quote": "両チームの選手もサポーターもお疲れ様でした！お互いにリスペクトがあって清々しい好ゲームでしたね。"
+  },
+  {
+    "id": "20261127-7983e096",
+    "slug": "20261127-7983e096",
+    "title": "Jリーグが登録選手の追加を発表…清水が5選手、岡山が3選手、東京Vが1選手を2種登録(ゲキサカ)",
+    "link": "https://news.yahoo.co.jp/articles/bbf5531feaa0ebfcfda6dfce12be0aba43ba969f?source=rss",
+    "summary": "Jリーグは27日、登録選手の追加を発表した。J1リーグでは清水エスパルスが5選手、ファジアーノ岡山が3選手、東京ヴェルディが1選手を2種登録している。【写真】元W杯日本代表FWの息子が9月から国見に入",
+    "source": "Yahoo!サッカー (ゲキサカ)",
+    "feed_id": "yahoo-gekisaka",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "「Jリーグが登録選手の追加を発表…清水が5選手、岡…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T06:55:02+00:00",
+    "date_prefix": "20261127",
+    "category": "national",
+    "categories": [
+      "national",
+      "j1",
+      "j2j3"
+    ],
+    "team_tags": [
+      {
+        "slug": "tokyo-verdy",
+        "name": "東京ヴェルディ",
+        "short_name": "東京V",
+        "category": "j1",
+        "color": "#006432"
+      },
+      {
+        "slug": "shimizu-spulse",
+        "name": "清水エスパルス",
+        "short_name": "清水",
+        "category": "j2j3",
+        "color": "#ea580c"
+      },
+      {
+        "slug": "fagiano-okayama",
+        "name": "ファジアーノ岡山",
+        "short_name": "岡山",
+        "category": "j2j3",
+        "color": "#be123c"
+      },
+      {
+        "slug": "samurai-blue",
+        "name": "SAMURAI BLUE (男子代表)",
+        "short_name": "森保J",
+        "category": "national",
+        "color": "#003b8e"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "overseas-elitist",
+        "speaker_name": "欧州サッカー至上主義者",
+        "short_name": "欧州厨",
+        "avatar_emoji": "☕",
+        "color": "#4f46e5",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "プレミアリーグのインテンシティに比べると、判断のテンポがワンテンポ遅いですね。早く欧州で揉まれるべきです。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "boots-gear-nerd",
+        "speaker_name": "スパイクギア狂",
+        "short_name": "ギアオタク",
+        "avatar_emoji": "👟",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "あのピッチ状態でミックススタッドを選んだ足元の判断が絶妙。新作スパイクのカラーも映えてたな。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "nostalgic-boomer",
+        "speaker_name": "93年開幕オヤジ",
+        "short_name": "93年古参",
+        "avatar_emoji": "📻",
+        "color": "#57534e",
+        "badge_bg": "bg-stone-100 dark:bg-stone-900 text-stone-800 dark:text-stone-300",
+        "content": "1993年開幕戦のヴェルディ対マリノスを思い出すなぁ… 今の若い選手も昔の野生味を思い出してほしいね。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "uniform-fashionista",
+        "speaker_name": "ユニフォーム批評家",
+        "short_name": "ユニ批評",
+        "avatar_emoji": "👕",
+        "color": "#9333ea",
+        "badge_bg": "bg-purple-100 dark:bg-purple-950 text-purple-800 dark:text-purple-300",
+        "content": "試合も熱いけど、今節のユニフォームの襟デザインとスポンサー配色のバランスが最高に洒落てるよね。"
+      },
+      {
+        "turn": 5,
+        "persona_id": "coach-wannabe",
+        "speaker_name": "居酒屋の名将",
+        "short_name": "居酒屋の名将",
+        "avatar_emoji": "🍺",
+        "color": "#059669",
+        "badge_bg": "bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300",
+        "content": "コメントでも話題の「「Jリーグが登録選手の追加を発表」だけど、そもそも3-2-5可変時のアンカーの戻りが15分遅ぇんだよ！"
+      },
+      {
+        "turn": 6,
+        "persona_id": "ultras-supporter",
+        "speaker_name": "熱血ゴール裏サポ",
+        "short_name": "熱血サポ",
+        "avatar_emoji": "🔥",
+        "color": "#dc2626",
+        "badge_bg": "bg-rose-100 dark:bg-rose-950 text-rose-800 dark:text-rose-300",
+        "content": "細かい戦術やルールなんか後回し！「Jリーグが登録選手の追加を発表…清水…」で鳥肌立ったわ！勝った後のビールが美味ぇ〜〜！！"
+      }
+    ],
+    "punchy_quote": "細かい戦術やルールなんか後回し！「Jリーグが登録選手の追加を発表…清水…」で鳥肌立ったわ！勝った後のビールが美味ぇ〜〜！！"
+  },
+  {
+    "id": "20261127-2a7f5239",
+    "slug": "20261127-2a7f5239",
+    "title": "リーグ・アン 2026-27｜放送・配信情報｜試合日程｜実況・解説【随時更新】",
+    "link": "https://www.soccer-king.jp/news/world/fra/fixed/2205671.html",
+    "summary": "8月21日（金）に開幕を迎えた2026ー27シーズンのリーグ・アン。チャンピオンズリーグ（CL）を連覇しているパリ・サンジェルマン（PSG）が6連覇を目指す戦···",
+    "source": "サッカーキング",
+    "feed_id": "soccer-king",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "「リーグ・アン 2026-27｜放送・配信情報｜試…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T06:45:47+00:00",
+    "date_prefix": "20261127",
+    "category": "europe",
+    "categories": [
+      "europe"
+    ],
+    "team_tags": [],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "dazn-director",
+        "speaker_name": "中継カメラ演出家",
+        "short_name": "中継オタク",
+        "avatar_emoji": "🎙️",
+        "color": "#475569",
+        "badge_bg": "bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "決定機の直後にゴール裏の歓声アングルを瞬時に挟んだスイッチング、今日の中継カメラは満点でしたね！"
+      },
+      {
+        "turn": 2,
+        "persona_id": "overseas-elitist",
+        "speaker_name": "欧州サッカー至上主義者",
+        "short_name": "欧州厨",
+        "avatar_emoji": "☕",
+        "color": "#4f46e5",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "プレミアリーグのインテンシティに比べると、判断のテンポがワンテンポ遅いですね。早く欧州で揉まれるべきです。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "stats-data-geek",
+        "speaker_name": "スタッツ厨アナリスト",
+        "short_name": "スタッツ厨",
+        "avatar_emoji": "💻",
+        "color": "#0891b2",
+        "badge_bg": "bg-cyan-100 dark:bg-cyan-950 text-cyan-800 dark:text-cyan-300",
+        "content": "得点シーンばかり注目されてますが、前半のxG（ゴール期待値）とPPDAの指数を見れば課題は明白ですよ。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "note-tactics-writer",
+        "speaker_name": "長文note戦術家",
+        "short_name": "note戦術垢",
+        "avatar_emoji": "📝",
+        "color": "#334155",
+        "badge_bg": "bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "「リーグ・アン 2026-27｜放送・…」におけるネガティブトランジションの構造的要因、詳しくは今夜3万字のnoteにまとめます。"
+      },
+      {
+        "turn": 5,
+        "persona_id": "lens-photographer",
+        "speaker_name": "一眼レフ最前列サポ",
+        "short_name": "カメラ勢",
+        "avatar_emoji": "📸",
+        "color": "#0284c7",
+        "badge_bg": "bg-sky-100 dark:bg-sky-950 text-sky-800 dark:text-sky-300",
+        "content": "ゴール直後の咆哮シーン、西日の逆光と芝の舞い上がりが完璧に重なって最高の1枚が撮れました！"
+      },
+      {
+        "turn": 6,
+        "persona_id": "local-pride-patriot",
+        "speaker_name": "おらが街のサポ",
+        "short_name": "地元サポ",
+        "avatar_emoji": "🏡",
+        "color": "#16a34a",
+        "badge_bg": "bg-green-100 dark:bg-green-950 text-green-800 dark:text-green-300",
+        "content": "地元クラブがこれだけ話題になるのが誇らしいよ！次のホーム戦も街ぐるみで満員にしようぜ。"
+      },
+      {
+        "turn": 7,
+        "persona_id": "peace-enjoyer",
+        "speaker_name": "平和主義ライト層",
+        "short_name": "平和サポ",
+        "avatar_emoji": "🕊️",
+        "color": "#14b8a6",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "両チームの選手もサポーターもお疲れ様でした！お互いにリスペクトがあって清々しい好ゲームでしたね。"
+      },
+      {
+        "turn": 8,
+        "persona_id": "boots-gear-nerd",
+        "speaker_name": "スパイクギア狂",
+        "short_name": "ギアオタク",
+        "avatar_emoji": "👟",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "あのピッチ状態でミックススタッドを選んだ足元の判断が絶妙。新作スパイクのカラーも映えてたな。"
+      }
+    ],
+    "punchy_quote": "両チームの選手もサポーターもお疲れ様でした！お互いにリスペクトがあって清々しい好ゲームでしたね。"
+  },
+  {
+    "id": "20261127-2e4b4ad7",
+    "slug": "20261127-2e4b4ad7",
+    "title": "復帰戦でハムストリング負傷し再離脱へ…トッテナム、FWサヴィオは年内残り試合を欠場か(サッカーキング)",
+    "link": "https://news.yahoo.co.jp/articles/ba5f234f64b698e6e465bf909deecb2b170f5ee7?source=rss",
+    "summary": "トッテナム・ホットスパーに所属するブラジル代表FWサヴィオが、再び離脱を余儀なくされるようだ。27日、スポーツ専門メディア『アスレティック』が伝えている。【ハイライト動画】18歳の新星が先制弾！ トッ",
+    "source": "Yahoo!サッカー (サッカーキング)",
+    "feed_id": "yahoo-soccerk",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "無理せずコンディション整えて次節暴れてほしい！"
+    ],
+    "published_at": "2026-11-27T06:45:45+00:00",
+    "date_prefix": "20261127",
+    "category": "epl",
+    "categories": [
+      "epl"
+    ],
+    "team_tags": [
+      {
+        "slug": "tottenham",
+        "name": "トッテナム",
+        "short_name": "スパーズ",
+        "category": "epl",
+        "color": "#132257"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "protective-mom",
+        "speaker_name": "オカン目線サポ",
+        "short_name": "オカンサポ",
+        "avatar_emoji": "🍙",
+        "color": "#ec4899",
+        "badge_bg": "bg-pink-100 dark:bg-pink-950 text-pink-800 dark:text-pink-300",
+        "content": "みんな本当によく走ってたねぇ！しっかりご飯食べて水分補給して、怪我だけはせんといてや。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "away-bus-veteran",
+        "speaker_name": "遠征夜行バス戦士",
+        "short_name": "遠征民",
+        "avatar_emoji": "🚌",
+        "color": "#4338ca",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "この展開が見られるなら深夜バス弾丸遠征も報われるよ！月曜の出社も気合で乗り切れる！"
+      },
+      {
+        "turn": 3,
+        "persona_id": "uniform-fashionista",
+        "speaker_name": "ユニフォーム批評家",
+        "short_name": "ユニ批評",
+        "avatar_emoji": "👕",
+        "color": "#9333ea",
+        "badge_bg": "bg-purple-100 dark:bg-purple-950 text-purple-800 dark:text-purple-300",
+        "content": "試合も熱いけど、今節のユニフォームの襟デザインとスポンサー配色のバランスが最高に洒落てるよね。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "lens-photographer",
+        "speaker_name": "一眼レフ最前列サポ",
+        "short_name": "カメラ勢",
+        "avatar_emoji": "📸",
+        "color": "#0284c7",
+        "badge_bg": "bg-sky-100 dark:bg-sky-950 text-sky-800 dark:text-sky-300",
+        "content": "ゴール直後の咆哮シーン、西日の逆光と芝の舞い上がりが完璧に重なって最高の1枚が撮れました！"
+      },
+      {
+        "turn": 5,
+        "persona_id": "boots-gear-nerd",
+        "speaker_name": "スパイクギア狂",
+        "short_name": "ギアオタク",
+        "avatar_emoji": "👟",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "あのピッチ状態でミックススタッドを選んだ足元の判断が絶妙。新作スパイクのカラーも映えてたな。"
+      },
+      {
+        "turn": 6,
+        "persona_id": "coach-wannabe",
+        "speaker_name": "居酒屋の名将",
+        "short_name": "居酒屋の名将",
+        "avatar_emoji": "🍺",
+        "color": "#059669",
+        "badge_bg": "bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300",
+        "content": "コメントでも話題の「無理せずコンディション整えて次節」だけど、そもそも3-2-5可変時のアンカーの戻りが15分遅ぇんだよ！"
+      },
+      {
+        "turn": 7,
+        "persona_id": "stockholder-fan",
+        "speaker_name": "市民株主サポ",
+        "short_name": "市民株主",
+        "avatar_emoji": "📈",
+        "color": "#1e3a8a",
+        "badge_bg": "bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300",
+        "content": "競技面の躍進がクラブ決算の入場料収入とスポンサー更新にどう跳ね返るか、次の株主総会が楽しみだ。"
+      }
+    ],
+    "punchy_quote": "あのピッチ状態でミックススタッドを選んだ足元の判断が絶妙。新作スパイクのカラーも映えてたな。"
+  },
+  {
+    "id": "20261127-c25416ce",
+    "slug": "20261127-c25416ce",
+    "title": "【世界で輝く日本人指揮官🇯🇵】浮嶋敏監督の手腕が光り21年ぶり出場の中国がグループステージ突破を達成✨日本人監督が世界の舞台で存在感！その手腕に注目が集まる｜FIFA U-17ワールドカップ",
+    "link": "https://www.youtube.com/shorts/VW598bW9eqM",
+    "summary": "世界で輝く日本人指揮官🇯🇵 浮嶋敏監督の手腕が光り21年ぶり出場の中国がグループステージ突破を達成🔥 日本人監督が世界の舞台で存在感！ その手腕に注目が集まる👏 🏆FIFA U-17ワールドカップ 🆓 全試合無料ライブ配信(要無料会員登録) #U17WC #世界にバレる前の17歳 ➡視聴はコチラ https://x.gd/vNm5M ----------------- 【⬛DAZNとは？】 DAZN（ダゾーン）は好きなスポーツをいつでも、どこでもライブ＆見逃し視聴できる動画配信アプリです。 プロ野球やサッカー (Jリーグ＆欧州サッカー)、バスケット...",
+    "source": "DAZN Japan公式YouTube",
+    "feed_id": "dazn-japan-yt",
+    "feed_type": "youtube",
+    "feed_category_hint": "auto",
+    "video_id": "VW598bW9eqM",
+    "thumbnail": "https://i3.ytimg.com/vi/VW598bW9eqM/hqdefault.jpg",
+    "fan_comments": [
+      "「【世界で輝く日本人指揮官🇯🇵】浮嶋敏監督の手腕が…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T06:36:26+00:00",
+    "date_prefix": "20261127",
+    "category": "national",
+    "categories": [
+      "national",
+      "j1",
+      "europe"
+    ],
+    "team_tags": [
+      {
+        "slug": "japan-youth",
+        "name": "年代別代表 (U-23/U-20/U-17)",
+        "short_name": "世代別代表",
+        "category": "national",
+        "color": "#2563eb"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "note-tactics-writer",
+        "speaker_name": "長文note戦術家",
+        "short_name": "note戦術垢",
+        "avatar_emoji": "📝",
+        "color": "#334155",
+        "badge_bg": "bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "「【世界で輝く日本人指揮官🇯🇵】浮嶋敏…」におけるネガティブトランジションの構造的要因、詳しくは今夜3万字のnoteにまとめます。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "stockholder-fan",
+        "speaker_name": "市民株主サポ",
+        "short_name": "市民株主",
+        "avatar_emoji": "📈",
+        "color": "#1e3a8a",
+        "badge_bg": "bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300",
+        "content": "競技面の躍進がクラブ決算の入場料収入とスポンサー更新にどう跳ね返るか、次の株主総会が楽しみだ。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "coach-wannabe",
+        "speaker_name": "居酒屋の名将",
+        "short_name": "居酒屋の名将",
+        "avatar_emoji": "🍺",
+        "color": "#059669",
+        "badge_bg": "bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300",
+        "content": "コメントでも話題の「「【世界で輝く日本人指揮官🇯🇵】」だけど、そもそも3-2-5可変時のアンカーの戻りが15分遅ぇんだよ！"
+      },
+      {
+        "turn": 4,
+        "persona_id": "dazn-director",
+        "speaker_name": "中継カメラ演出家",
+        "short_name": "中継オタク",
+        "avatar_emoji": "🎙️",
+        "color": "#475569",
+        "badge_bg": "bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "決定機の直後にゴール裏の歓声アングルを瞬時に挟んだスイッチング、今日の中継カメラは満点でしたね！"
+      },
+      {
+        "turn": 5,
+        "persona_id": "young-talent-hunter",
+        "speaker_name": "青田買いスカウト",
+        "short_name": "青田買い",
+        "avatar_emoji": "🔍",
+        "color": "#d97706",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "あの選手、高円宮杯プレミアリーグの時から股関節の可動域が別格だったんだよ。早く代表に呼べ！"
+      }
+    ],
+    "punchy_quote": "コメントでも話題の「「【世界で輝く日本人指揮官🇯🇵】」だけど、そもそも3-2-5可変時のアンカーの戻りが15分遅ぇんだよ！"
+  },
+  {
+    "id": "20261127-640d1510",
+    "slug": "20261127-640d1510",
+    "title": "【11月29日】なでしこジャパン vs ブラジル女子代表 試合情報｜地上波テレビ放送・ネット配信・中継｜スコア｜実況・解説｜MIZUHO BLUE CHALLENGE NADESHIKO 2026 青さで、挑め。",
+    "link": "https://www.soccer-king.jp/news/japan/nadeshiko/fixed/2230872.html",
+    "summary": "なでしこジャパンが「MIZUHO BLUE CHALLENGE NADESHIKO 2026 青さで、挑め。」でブラジル女子代表と対戦する。会場は広島のエディ···",
+    "source": "サッカーキング",
+    "feed_id": "soccer-king",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "「【11月29日】なでしこジャパン vs ブラジル…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T06:30:30+00:00",
+    "date_prefix": "20261127",
+    "category": "national",
+    "categories": [
+      "national"
+    ],
+    "team_tags": [
+      {
+        "slug": "nadeshiko-japan",
+        "name": "なでしこジャパン",
+        "short_name": "なでしこ",
+        "category": "national",
+        "color": "#db2777"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "fantasy-manager",
+        "speaker_name": "サカつく脳サポ",
+        "short_name": "サカつく脳",
+        "avatar_emoji": "🎮",
+        "color": "#65a30d",
+        "badge_bg": "bg-lime-100 dark:bg-lime-950 text-lime-800 dark:text-lime-300",
+        "content": "「【11月29日】なでしこジャパン v…」の布陣、サカつくで言えばケミストリーMAXの黄金連携だよ。今すぐこの形で固定すべき！"
+      },
+      {
+        "turn": 2,
+        "persona_id": "boots-gear-nerd",
+        "speaker_name": "スパイクギア狂",
+        "short_name": "ギアオタク",
+        "avatar_emoji": "👟",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "あのピッチ状態でミックススタッドを選んだ足元の判断が絶妙。新作スパイクのカラーも映えてたな。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "stats-data-geek",
+        "speaker_name": "スタッツ厨アナリスト",
+        "short_name": "スタッツ厨",
+        "avatar_emoji": "💻",
+        "color": "#0891b2",
+        "badge_bg": "bg-cyan-100 dark:bg-cyan-950 text-cyan-800 dark:text-cyan-300",
+        "content": "得点シーンばかり注目されてますが、前半のxG（ゴール期待値）とPPDAの指数を見れば課題は明白ですよ。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "derby-warrior",
+        "speaker_name": "ダービー絶対主義者",
+        "short_name": "ダービー戦士",
+        "avatar_emoji": "⚔️",
+        "color": "#b91c1c",
+        "badge_bg": "bg-red-100 dark:bg-red-950 text-red-800 dark:text-red-300",
+        "content": "他の試合はどうでもいい、とにかく宿敵ライバルにだけは絶対に負けるな！ダービーの借りはダービーで返す！"
+      },
+      {
+        "turn": 5,
+        "persona_id": "note-tactics-writer",
+        "speaker_name": "長文note戦術家",
+        "short_name": "note戦術垢",
+        "avatar_emoji": "📝",
+        "color": "#334155",
+        "badge_bg": "bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "「【11月29日】なでしこジャパン v…」におけるネガティブトランジションの構造的要因、詳しくは今夜3万字のnoteにまとめます。"
+      }
+    ],
+    "punchy_quote": "「【11月29日】なでしこジャパン v…」におけるネガティブトランジションの構造的要因、詳しくは今夜3万字のnoteにまとめます。"
+  },
+  {
+    "id": "20261127-fdfba871",
+    "slug": "20261127-fdfba871",
+    "title": "ブンデスリーガ 2026-27｜放送・配信情報｜試合日程｜実況・解説【随時更新】",
+    "link": "https://www.soccer-king.jp/news/world/ger/fixed/2053663.html",
+    "summary": "8月28日（金）に開幕を迎えた2026ー27シーズンのブンデスリーガ。連覇を果たしたバイエルンは3連覇へ向かい、レヴァークーゼンやドルトムント、ライプツィヒな···",
+    "source": "サッカーキング",
+    "feed_id": "soccer-king",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "「ブンデスリーガ 2026-27｜放送・配信情報｜…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T06:20:28+00:00",
+    "date_prefix": "20261127",
+    "category": "europe",
+    "categories": [
+      "europe"
+    ],
+    "team_tags": [
+      {
+        "slug": "bayern",
+        "name": "バイエルン",
+        "short_name": "バイエルン",
+        "category": "europe",
+        "color": "#dc052d"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "mascot-otaku",
+        "speaker_name": "マスコット愛好家",
+        "short_name": "マスコット勢",
+        "avatar_emoji": "🦁",
+        "color": "#f59e0b",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "激しい試合もいいけど、ハーフタイムのマスコットのキレキレなダンスが一番の癒やしだったよ！"
+      },
+      {
+        "turn": 2,
+        "persona_id": "injury-pessimist",
+        "speaker_name": "不安症サポーター",
+        "short_name": "不安症サポ",
+        "avatar_emoji": "😰",
+        "color": "#64748b",
+        "badge_bg": "bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "嬉しいニュースだけど、この過密日程でハムストリングに違和感が出ないか気が気じゃないよ…"
+      },
+      {
+        "turn": 3,
+        "persona_id": "stockholder-fan",
+        "speaker_name": "市民株主サポ",
+        "short_name": "市民株主",
+        "avatar_emoji": "📈",
+        "color": "#1e3a8a",
+        "badge_bg": "bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300",
+        "content": "競技面の躍進がクラブ決算の入場料収入とスポンサー更新にどう跳ね返るか、次の株主総会が楽しみだ。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "note-tactics-writer",
+        "speaker_name": "長文note戦術家",
+        "short_name": "note戦術垢",
+        "avatar_emoji": "📝",
+        "color": "#334155",
+        "badge_bg": "bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "「ブンデスリーガ 2026-27｜放送…」におけるネガティブトランジションの構造的要因、詳しくは今夜3万字のnoteにまとめます。"
+      },
+      {
+        "turn": 5,
+        "persona_id": "ultras-supporter",
+        "speaker_name": "熱血ゴール裏サポ",
+        "short_name": "熱血サポ",
+        "avatar_emoji": "🔥",
+        "color": "#dc2626",
+        "badge_bg": "bg-rose-100 dark:bg-rose-950 text-rose-800 dark:text-rose-300",
+        "content": "細かい戦術やルールなんか後回し！「ブンデスリーガ 2026-27｜放送…」で鳥肌立ったわ！勝った後のビールが美味ぇ〜〜！！"
+      },
+      {
+        "turn": 6,
+        "persona_id": "away-bus-veteran",
+        "speaker_name": "遠征夜行バス戦士",
+        "short_name": "遠征民",
+        "avatar_emoji": "🚌",
+        "color": "#4338ca",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "この展開が見られるなら深夜バス弾丸遠征も報われるよ！月曜の出社も気合で乗り切れる！"
+      }
+    ],
+    "punchy_quote": "細かい戦術やルールなんか後回し！「ブンデスリーガ 2026-27｜放送…」で鳥肌立ったわ！勝った後のビールが美味ぇ〜〜！！"
+  },
+  {
+    "id": "20261127-999a642b",
+    "slug": "20261127-999a642b",
+    "title": "ラ・リーガ 2026-27｜放送・配信情報｜試合日程｜実況・解説【随時更新】",
+    "link": "https://www.soccer-king.jp/news/world/esp/fixed/2053628.html",
+    "summary": "8月15日（土）に開幕を迎えた2026ー27シーズンのラ・リーガ。連覇を目指すバルセロナ、覇権奪還を目指す新体制のレアル・マドリード、虎視眈々と頂点を目指すア···",
+    "source": "サッカーキング",
+    "feed_id": "soccer-king",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "「ラ・リーガ 2026-27｜放送・配信情報｜試合…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T06:00:14+00:00",
+    "date_prefix": "20261127",
+    "category": "europe",
+    "categories": [
+      "europe"
+    ],
+    "team_tags": [
+      {
+        "slug": "real-madrid",
+        "name": "レアル・マドリード",
+        "short_name": "レアル",
+        "category": "europe",
+        "color": "#475569"
+      },
+      {
+        "slug": "barcelona",
+        "name": "バルセロナ",
+        "short_name": "バルサ",
+        "category": "europe",
+        "color": "#a50044"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "lens-photographer",
+        "speaker_name": "一眼レフ最前列サポ",
+        "short_name": "カメラ勢",
+        "avatar_emoji": "📸",
+        "color": "#0284c7",
+        "badge_bg": "bg-sky-100 dark:bg-sky-950 text-sky-800 dark:text-sky-300",
+        "content": "ゴール直後の咆哮シーン、西日の逆光と芝の舞い上がりが完璧に重なって最高の1枚が撮れました！"
+      },
+      {
+        "turn": 2,
+        "persona_id": "away-bus-veteran",
+        "speaker_name": "遠征夜行バス戦士",
+        "short_name": "遠征民",
+        "avatar_emoji": "🚌",
+        "color": "#4338ca",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "この展開が見られるなら深夜バス弾丸遠征も報われるよ！月曜の出社も気合で乗り切れる！"
+      },
+      {
+        "turn": 3,
+        "persona_id": "note-tactics-writer",
+        "speaker_name": "長文note戦術家",
+        "short_name": "note戦術垢",
+        "avatar_emoji": "📝",
+        "color": "#334155",
+        "badge_bg": "bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "「ラ・リーガ 2026-27｜放送・配…」におけるネガティブトランジションの構造的要因、詳しくは今夜3万字のnoteにまとめます。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "young-talent-hunter",
+        "speaker_name": "青田買いスカウト",
+        "short_name": "青田買い",
+        "avatar_emoji": "🔍",
+        "color": "#d97706",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "あの選手、高円宮杯プレミアリーグの時から股関節の可動域が別格だったんだよ。早く代表に呼べ！"
+      },
+      {
+        "turn": 5,
+        "persona_id": "overseas-elitist",
+        "speaker_name": "欧州サッカー至上主義者",
+        "short_name": "欧州厨",
+        "avatar_emoji": "☕",
+        "color": "#4f46e5",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "プレミアリーグのインテンシティに比べると、判断のテンポがワンテンポ遅いですね。早く欧州で揉まれるべきです。"
+      },
+      {
+        "turn": 6,
+        "persona_id": "var-referee-nerd",
+        "speaker_name": "自称・審判委員会",
+        "short_name": "審判オタク",
+        "avatar_emoji": "🚩",
+        "color": "#7c3aed",
+        "badge_bg": "bg-purple-100 dark:bg-purple-950 text-purple-800 dark:text-purple-300",
+        "content": "さっきの話ですが、競技規則第12条の文脈を読めばノーファウルが妥当です。VARのクリア＆オブビアス基準にも抵触しません。"
+      },
+      {
+        "turn": 7,
+        "persona_id": "economist-wannabe",
+        "speaker_name": "自称・経済評論家",
+        "short_name": "経済評論家",
+        "avatar_emoji": "📊",
+        "color": "#2563eb",
+        "badge_bg": "bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300",
+        "content": "「ラ・リーガ 2026-27｜放送・配…」の件、移籍金の減価償却とDAZN配分金の回収モデルで見れば極めて合理的な投資判断ですね。"
+      }
+    ],
+    "punchy_quote": "「ラ・リーガ 2026-27｜放送・配…」の件、移籍金の減価償却とDAZN配分金の回収モデルで見れば極めて合理的な投資判断ですね。"
+  },
+  {
+    "id": "20261127-69d8a1f0",
+    "slug": "20261127-69d8a1f0",
+    "title": "ACL2主審の“飲酒疑惑”がSNSで拡散…協会声明「全く根拠がない」、血糖値低下が原因か(サッカーキング)",
+    "link": "https://news.yahoo.co.jp/articles/67d9008be6c3356110d686943b0e0ffd29eb9a8e?source=rss",
+    "summary": "AFCチャンピオンズリーグ2（ACL2）の試合で飲酒疑惑が浮上したシリア人審判のハンナ・ハッタブ氏が、自身が名誉毀損を受けたとして法的措置を取る可能性を示唆した。現地時間26日、イギリスメディア『BB",
+    "source": "Yahoo!サッカー (サッカーキング)",
+    "feed_id": "yahoo-soccerk",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "「ACL2主審の“飲酒疑惑”がSNSで拡散…協会声…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T05:57:00+00:00",
+    "date_prefix": "20261127",
+    "category": "europe",
+    "categories": [
+      "europe"
+    ],
+    "team_tags": [],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "coach-wannabe",
+        "speaker_name": "居酒屋の名将",
+        "short_name": "居酒屋の名将",
+        "avatar_emoji": "🍺",
+        "color": "#059669",
+        "badge_bg": "bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300",
+        "content": "コメントでも話題の「「ACL2主審の“飲酒疑惑”がS」だけど、そもそも3-2-5可変時のアンカーの戻りが15分遅ぇんだよ！"
+      },
+      {
+        "turn": 2,
+        "persona_id": "stockholder-fan",
+        "speaker_name": "市民株主サポ",
+        "short_name": "市民株主",
+        "avatar_emoji": "📈",
+        "color": "#1e3a8a",
+        "badge_bg": "bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300",
+        "content": "競技面の躍進がクラブ決算の入場料収入とスポンサー更新にどう跳ね返るか、次の株主総会が楽しみだ。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "protective-mom",
+        "speaker_name": "オカン目線サポ",
+        "short_name": "オカンサポ",
+        "avatar_emoji": "🍙",
+        "color": "#ec4899",
+        "badge_bg": "bg-pink-100 dark:bg-pink-950 text-pink-800 dark:text-pink-300",
+        "content": "みんな本当によく走ってたねぇ！しっかりご飯食べて水分補給して、怪我だけはせんといてや。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "boots-gear-nerd",
+        "speaker_name": "スパイクギア狂",
+        "short_name": "ギアオタク",
+        "avatar_emoji": "👟",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "あのピッチ状態でミックススタッドを選んだ足元の判断が絶妙。新作スパイクのカラーも映えてたな。"
+      },
+      {
+        "turn": 5,
+        "persona_id": "note-tactics-writer",
+        "speaker_name": "長文note戦術家",
+        "short_name": "note戦術垢",
+        "avatar_emoji": "📝",
+        "color": "#334155",
+        "badge_bg": "bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "「ACL2主審の“飲酒疑惑”がSNSで…」におけるネガティブトランジションの構造的要因、詳しくは今夜3万字のnoteにまとめます。"
+      },
+      {
+        "turn": 6,
+        "persona_id": "stats-data-geek",
+        "speaker_name": "スタッツ厨アナリスト",
+        "short_name": "スタッツ厨",
+        "avatar_emoji": "💻",
+        "color": "#0891b2",
+        "badge_bg": "bg-cyan-100 dark:bg-cyan-950 text-cyan-800 dark:text-cyan-300",
+        "content": "得点シーンばかり注目されてますが、前半のxG（ゴール期待値）とPPDAの指数を見れば課題は明白ですよ。"
+      }
+    ],
+    "punchy_quote": "あのピッチ状態でミックススタッドを選んだ足元の判断が絶妙。新作スパイクのカラーも映えてたな。"
+  },
+  {
+    "id": "20261127-a4d651c6",
+    "slug": "20261127-a4d651c6",
+    "title": "CLサバフ戦で負傷交代…バルセロナがDFバルデの診断結果を報告(ゲキサカ)",
+    "link": "https://news.yahoo.co.jp/articles/cfc85c5c258d5879a34e6b1c22829245b43316f6?source=rss",
+    "summary": "バルセロナは26日、スペイン代表DFアレックス・バルデが検査の結果、右足首に軽度の捻挫が認められたと発表した。【写真】「ポスト今田美桜」「可愛すぎ」「異次元」選手権応援マネージャー18歳のキービジュア",
+    "source": "Yahoo!サッカー (ゲキサカ)",
+    "feed_id": "yahoo-gekisaka",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "無理せずコンディション整えて次節暴れてほしい！"
+    ],
+    "published_at": "2026-11-27T05:56:02+00:00",
+    "date_prefix": "20261127",
+    "category": "europe",
+    "categories": [
+      "europe"
+    ],
+    "team_tags": [
+      {
+        "slug": "barcelona",
+        "name": "バルセロナ",
+        "short_name": "バルサ",
+        "category": "europe",
+        "color": "#a50044"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "peace-enjoyer",
+        "speaker_name": "平和主義ライト層",
+        "short_name": "平和サポ",
+        "avatar_emoji": "🕊️",
+        "color": "#14b8a6",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "両チームの選手もサポーターもお疲れ様でした！お互いにリスペクトがあって清々しい好ゲームでしたね。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "boots-gear-nerd",
+        "speaker_name": "スパイクギア狂",
+        "short_name": "ギアオタク",
+        "avatar_emoji": "👟",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "あのピッチ状態でミックススタッドを選んだ足元の判断が絶妙。新作スパイクのカラーも映えてたな。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "transfer-guru",
+        "speaker_name": "移籍リーク速報屋",
+        "short_name": "移籍特報",
+        "avatar_emoji": "🚨",
+        "color": "#db2777",
+        "badge_bg": "bg-pink-100 dark:bg-pink-950 text-pink-800 dark:text-pink-300",
+        "content": "独占速報：すでに欧州メガクラブのスカウトが先週の視察を終えています！Here We Go!"
+      },
+      {
+        "turn": 4,
+        "persona_id": "overseas-elitist",
+        "speaker_name": "欧州サッカー至上主義者",
+        "short_name": "欧州厨",
+        "avatar_emoji": "☕",
+        "color": "#4f46e5",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "プレミアリーグのインテンシティに比べると、判断のテンポがワンテンポ遅いですね。早く欧州で揉まれるべきです。"
+      },
+      {
+        "turn": 5,
+        "persona_id": "dazn-director",
+        "speaker_name": "中継カメラ演出家",
+        "short_name": "中継オタク",
+        "avatar_emoji": "🎙️",
+        "color": "#475569",
+        "badge_bg": "bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "決定機の直後にゴール裏の歓声アングルを瞬時に挟んだスイッチング、今日の中継カメラは満点でしたね！"
+      },
+      {
+        "turn": 6,
+        "persona_id": "derby-warrior",
+        "speaker_name": "ダービー絶対主義者",
+        "short_name": "ダービー戦士",
+        "avatar_emoji": "⚔️",
+        "color": "#b91c1c",
+        "badge_bg": "bg-red-100 dark:bg-red-950 text-red-800 dark:text-red-300",
+        "content": "他の試合はどうでもいい、とにかく宿敵ライバルにだけは絶対に負けるな！ダービーの借りはダービーで返す！"
+      }
+    ],
+    "punchy_quote": "決定機の直後にゴール裏の歓声アングルを瞬時に挟んだスイッチング、今日の中継カメラは満点でしたね！"
+  },
+  {
+    "id": "20261127-2846d0a1",
+    "slug": "20261127-2846d0a1",
+    "title": "怒涛の公式戦10連勝！…勢い止まらぬボーンマス、欧州大会史上3クラブ目の快挙も達成(サッカーキング)",
+    "link": "https://news.yahoo.co.jp/articles/7e629934281cf7e4a78a078ab058ef6f949bd4f3?source=rss",
+    "summary": "ボーンマスの勢いが止まらない。 ヨーロッパリーグ（EL）リーグフェーズ第5節が現地時間26日に行われ、ボーンマスは敵地でセルタと対戦した。19分に先制を許し、その5分後にはバフォデ・ディアキテの退場に",
+    "source": "Yahoo!サッカー (サッカーキング)",
+    "feed_id": "yahoo-soccerk",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "「怒涛の公式戦10連勝！…勢い止まらぬボーンマス、…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T05:53:59+00:00",
+    "date_prefix": "20261127",
+    "category": "europe",
+    "categories": [
+      "europe"
+    ],
+    "team_tags": [],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "boots-gear-nerd",
+        "speaker_name": "スパイクギア狂",
+        "short_name": "ギアオタク",
+        "avatar_emoji": "👟",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "あのピッチ状態でミックススタッドを選んだ足元の判断が絶妙。新作スパイクのカラーも映えてたな。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "ultras-supporter",
+        "speaker_name": "熱血ゴール裏サポ",
+        "short_name": "熱血サポ",
+        "avatar_emoji": "🔥",
+        "color": "#dc2626",
+        "badge_bg": "bg-rose-100 dark:bg-rose-950 text-rose-800 dark:text-rose-300",
+        "content": "細かい戦術やルールなんか後回し！「怒涛の公式戦10連勝！…勢い止まらぬ…」で鳥肌立ったわ！勝った後のビールが美味ぇ〜〜！！"
+      },
+      {
+        "turn": 3,
+        "persona_id": "nostalgic-boomer",
+        "speaker_name": "93年開幕オヤジ",
+        "short_name": "93年古参",
+        "avatar_emoji": "📻",
+        "color": "#57534e",
+        "badge_bg": "bg-stone-100 dark:bg-stone-900 text-stone-800 dark:text-stone-300",
+        "content": "1993年開幕戦のヴェルディ対マリノスを思い出すなぁ… 今の若い選手も昔の野生味を思い出してほしいね。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "derby-warrior",
+        "speaker_name": "ダービー絶対主義者",
+        "short_name": "ダービー戦士",
+        "avatar_emoji": "⚔️",
+        "color": "#b91c1c",
+        "badge_bg": "bg-red-100 dark:bg-red-950 text-red-800 dark:text-red-300",
+        "content": "他の試合はどうでもいい、とにかく宿敵ライバルにだけは絶対に負けるな！ダービーの借りはダービーで返す！"
+      },
+      {
+        "turn": 5,
+        "persona_id": "peace-enjoyer",
+        "speaker_name": "平和主義ライト層",
+        "short_name": "平和サポ",
+        "avatar_emoji": "🕊️",
+        "color": "#14b8a6",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "両チームの選手もサポーターもお疲れ様でした！お互いにリスペクトがあって清々しい好ゲームでしたね。"
+      },
+      {
+        "turn": 6,
+        "persona_id": "stadium-gourmet",
+        "speaker_name": "スタグル探訪家",
+        "short_name": "スタグル勢",
+        "avatar_emoji": "🌭",
+        "color": "#ea580c",
+        "badge_bg": "bg-orange-100 dark:bg-orange-950 text-orange-800 dark:text-orange-300",
+        "content": "勝敗も大事だけど、スタジアム名物のもつ煮と地ビールは全国一だから！遠征民は全員食って帰るべき。"
+      },
+      {
+        "turn": 7,
+        "persona_id": "young-talent-hunter",
+        "speaker_name": "青田買いスカウト",
+        "short_name": "青田買い",
+        "avatar_emoji": "🔍",
+        "color": "#d97706",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "あの選手、高円宮杯プレミアリーグの時から股関節の可動域が別格だったんだよ。早く代表に呼べ！"
+      },
+      {
+        "turn": 8,
+        "persona_id": "j2-connoisseur",
+        "speaker_name": "J2沼の住人",
+        "short_name": "J2の主",
+        "avatar_emoji": "🐊",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "これぞJ2・J3の沼の醍醐味！昇格プレーオフの魔物は最後まで何が起こるか分からないからね。"
+      }
+    ],
+    "punchy_quote": "勝敗も大事だけど、スタジアム名物のもつ煮と地ビールは全国一だから！遠征民は全員食って帰るべき。"
+  },
+  {
+    "id": "20261127-98b719f4",
+    "slug": "20261127-98b719f4",
+    "title": "インテルがC・アウグストと契約延長「ピッチで恩返ししたい」…新たな期間は2031年夏まで(サッカーキング)",
+    "link": "https://news.yahoo.co.jp/articles/a70de114e18164f44ddff001b1d16bebd10ddfa0?source=rss",
+    "summary": "インテルは26日、ブラジル代表DFカルロス・アウグストとの契約延長を発表した。新たな契約期間は2031年6月末までとなっている。【公式発表】インテルがカルロス・アウグストと2031年夏まで契約延長！",
+    "source": "Yahoo!サッカー (サッカーキング)",
+    "feed_id": "yahoo-soccerk",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "この補強はチーム戦術にドンピシャでハマる予感しかしない"
+    ],
+    "published_at": "2026-11-27T05:07:17+00:00",
+    "date_prefix": "20261127",
+    "category": "europe",
+    "categories": [
+      "europe"
+    ],
+    "team_tags": [],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "var-referee-nerd",
+        "speaker_name": "自称・審判委員会",
+        "short_name": "審判オタク",
+        "avatar_emoji": "🚩",
+        "color": "#7c3aed",
+        "badge_bg": "bg-purple-100 dark:bg-purple-950 text-purple-800 dark:text-purple-300",
+        "content": "さっきの話ですが、競技規則第12条の文脈を読めばノーファウルが妥当です。VARのクリア＆オブビアス基準にも抵触しません。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "young-talent-hunter",
+        "speaker_name": "青田買いスカウト",
+        "short_name": "青田買い",
+        "avatar_emoji": "🔍",
+        "color": "#d97706",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "あの選手、高円宮杯プレミアリーグの時から股関節の可動域が別格だったんだよ。早く代表に呼べ！"
+      },
+      {
+        "turn": 3,
+        "persona_id": "transfer-guru",
+        "speaker_name": "移籍リーク速報屋",
+        "short_name": "移籍特報",
+        "avatar_emoji": "🚨",
+        "color": "#db2777",
+        "badge_bg": "bg-pink-100 dark:bg-pink-950 text-pink-800 dark:text-pink-300",
+        "content": "独占速報：すでに欧州メガクラブのスカウトが先週の視察を終えています！Here We Go!"
+      },
+      {
+        "turn": 4,
+        "persona_id": "economist-wannabe",
+        "speaker_name": "自称・経済評論家",
+        "short_name": "経済評論家",
+        "avatar_emoji": "📊",
+        "color": "#2563eb",
+        "badge_bg": "bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300",
+        "content": "「インテルがC・アウグストと契約延長「…」の件、移籍金の減価償却とDAZN配分金の回収モデルで見れば極めて合理的な投資判断ですね。"
+      },
+      {
+        "turn": 5,
+        "persona_id": "nostalgic-boomer",
+        "speaker_name": "93年開幕オヤジ",
+        "short_name": "93年古参",
+        "avatar_emoji": "📻",
+        "color": "#57534e",
+        "badge_bg": "bg-stone-100 dark:bg-stone-900 text-stone-800 dark:text-stone-300",
+        "content": "1993年開幕戦のヴェルディ対マリノスを思い出すなぁ… 今の若い選手も昔の野生味を思い出してほしいね。"
+      },
+      {
+        "turn": 6,
+        "persona_id": "coach-wannabe",
+        "speaker_name": "居酒屋の名将",
+        "short_name": "居酒屋の名将",
+        "avatar_emoji": "🍺",
+        "color": "#059669",
+        "badge_bg": "bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300",
+        "content": "コメントでも話題の「この補強はチーム戦術にドンピシャ」だけど、そもそも3-2-5可変時のアンカーの戻りが15分遅ぇんだよ！"
+      }
+    ],
+    "punchy_quote": "コメントでも話題の「この補強はチーム戦術にドンピシャ」だけど、そもそも3-2-5可変時のアンカーの戻りが15分遅ぇんだよ！"
+  },
+  {
+    "id": "20261127-8269f810",
+    "slug": "20261127-8269f810",
+    "title": "チェルシーFW松窪真心、体調不良でなでしこジャパン離脱(ゲキサカ)",
+    "link": "https://news.yahoo.co.jp/articles/30319470080883ee9f876a4899c8fd4fc2fe3b64?source=rss",
+    "summary": "日本サッカー協会(JFA)は27日、「MIZUHO BLUE CHALLENGE NADESHIKO 2026 青さで、挑め。」に臨む日本女子代表(なでしこジャパン)において、チェルシーウィメンのFW",
+    "source": "Yahoo!サッカー (ゲキサカ)",
+    "feed_id": "yahoo-gekisaka",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "無理せずコンディション整えて次節暴れてほしい！"
+    ],
+    "published_at": "2026-11-27T05:05:02+00:00",
+    "date_prefix": "20261127",
+    "category": "national",
+    "categories": [
+      "national",
+      "epl"
+    ],
+    "team_tags": [
+      {
+        "slug": "nadeshiko-japan",
+        "name": "なでしこジャパン",
+        "short_name": "なでしこ",
+        "category": "national",
+        "color": "#db2777"
+      },
+      {
+        "slug": "chelsea",
+        "name": "チェルシー",
+        "short_name": "チェルシー",
+        "category": "epl",
+        "color": "#034694"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "stats-data-geek",
+        "speaker_name": "スタッツ厨アナリスト",
+        "short_name": "スタッツ厨",
+        "avatar_emoji": "💻",
+        "color": "#0891b2",
+        "badge_bg": "bg-cyan-100 dark:bg-cyan-950 text-cyan-800 dark:text-cyan-300",
+        "content": "得点シーンばかり注目されてますが、前半のxG（ゴール期待値）とPPDAの指数を見れば課題は明白ですよ。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "boots-gear-nerd",
+        "speaker_name": "スパイクギア狂",
+        "short_name": "ギアオタク",
+        "avatar_emoji": "👟",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "あのピッチ状態でミックススタッドを選んだ足元の判断が絶妙。新作スパイクのカラーも映えてたな。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "nostalgic-boomer",
+        "speaker_name": "93年開幕オヤジ",
+        "short_name": "93年古参",
+        "avatar_emoji": "📻",
+        "color": "#57534e",
+        "badge_bg": "bg-stone-100 dark:bg-stone-900 text-stone-800 dark:text-stone-300",
+        "content": "1993年開幕戦のヴェルディ対マリノスを思い出すなぁ… 今の若い選手も昔の野生味を思い出してほしいね。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "derby-warrior",
+        "speaker_name": "ダービー絶対主義者",
+        "short_name": "ダービー戦士",
+        "avatar_emoji": "⚔️",
+        "color": "#b91c1c",
+        "badge_bg": "bg-red-100 dark:bg-red-950 text-red-800 dark:text-red-300",
+        "content": "他の試合はどうでもいい、とにかく宿敵ライバルにだけは絶対に負けるな！ダービーの借りはダービーで返す！"
+      },
+      {
+        "turn": 5,
+        "persona_id": "dazn-director",
+        "speaker_name": "中継カメラ演出家",
+        "short_name": "中継オタク",
+        "avatar_emoji": "🎙️",
+        "color": "#475569",
+        "badge_bg": "bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "決定機の直後にゴール裏の歓声アングルを瞬時に挟んだスイッチング、今日の中継カメラは満点でしたね！"
+      },
+      {
+        "turn": 6,
+        "persona_id": "fantasy-manager",
+        "speaker_name": "サカつく脳サポ",
+        "short_name": "サカつく脳",
+        "avatar_emoji": "🎮",
+        "color": "#65a30d",
+        "badge_bg": "bg-lime-100 dark:bg-lime-950 text-lime-800 dark:text-lime-300",
+        "content": "「チェルシーFW松窪真心、体調不良でな…」の布陣、サカつくで言えばケミストリーMAXの黄金連携だよ。今すぐこの形で固定すべき！"
+      },
+      {
+        "turn": 7,
+        "persona_id": "ultras-supporter",
+        "speaker_name": "熱血ゴール裏サポ",
+        "short_name": "熱血サポ",
+        "avatar_emoji": "🔥",
+        "color": "#dc2626",
+        "badge_bg": "bg-rose-100 dark:bg-rose-950 text-rose-800 dark:text-rose-300",
+        "content": "細かい戦術やルールなんか後回し！「チェルシーFW松窪真心、体調不良でな…」で鳥肌立ったわ！勝った後のビールが美味ぇ〜〜！！"
+      }
+    ],
+    "punchy_quote": "決定機の直後にゴール裏の歓声アングルを瞬時に挟んだスイッチング、今日の中継カメラは満点でしたね！"
+  },
+  {
+    "id": "20261127-9275b3f3",
+    "slug": "20261127-9275b3f3",
+    "title": "J3岐阜、乃木坂46“1期生”高山一実さん来場を発表！ 「金色のガッシュ！！大好き芸能人」として登場(サッカーキング)",
+    "link": "https://news.yahoo.co.jp/articles/e3791eee827434f541ca78fa340d83e8342a8f7f?source=rss",
+    "summary": "FC岐阜は27日、2027年2月27日または28日に行われる予定の2026/27明治安田J3リーグ第24節のAC長野パルセイロ戦（会場：『岐阜メモリアルセンターヒマラヤスタジアム岐阜』）に、乃木坂46",
+    "source": "Yahoo!サッカー (サッカーキング)",
+    "feed_id": "yahoo-soccerk",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "「J3岐阜、乃木坂46“1期生”高山一実さん来場を…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T04:49:30+00:00",
+    "date_prefix": "20261127",
+    "category": "j2j3",
+    "categories": [
+      "j2j3"
+    ],
+    "team_tags": [],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "derby-warrior",
+        "speaker_name": "ダービー絶対主義者",
+        "short_name": "ダービー戦士",
+        "avatar_emoji": "⚔️",
+        "color": "#b91c1c",
+        "badge_bg": "bg-red-100 dark:bg-red-950 text-red-800 dark:text-red-300",
+        "content": "他の試合はどうでもいい、とにかく宿敵ライバルにだけは絶対に負けるな！ダービーの借りはダービーで返す！"
+      },
+      {
+        "turn": 2,
+        "persona_id": "stadium-gourmet",
+        "speaker_name": "スタグル探訪家",
+        "short_name": "スタグル勢",
+        "avatar_emoji": "🌭",
+        "color": "#ea580c",
+        "badge_bg": "bg-orange-100 dark:bg-orange-950 text-orange-800 dark:text-orange-300",
+        "content": "勝敗も大事だけど、スタジアム名物のもつ煮と地ビールは全国一だから！遠征民は全員食って帰るべき。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "j2-connoisseur",
+        "speaker_name": "J2沼の住人",
+        "short_name": "J2の主",
+        "avatar_emoji": "🐊",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "これぞJ2・J3の沼の醍醐味！昇格プレーオフの魔物は最後まで何が起こるか分からないからね。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "transfer-guru",
+        "speaker_name": "移籍リーク速報屋",
+        "short_name": "移籍特報",
+        "avatar_emoji": "🚨",
+        "color": "#db2777",
+        "badge_bg": "bg-pink-100 dark:bg-pink-950 text-pink-800 dark:text-pink-300",
+        "content": "独占速報：すでに欧州メガクラブのスカウトが先週の視察を終えています！Here We Go!"
+      },
+      {
+        "turn": 5,
+        "persona_id": "uniform-fashionista",
+        "speaker_name": "ユニフォーム批評家",
+        "short_name": "ユニ批評",
+        "avatar_emoji": "👕",
+        "color": "#9333ea",
+        "badge_bg": "bg-purple-100 dark:bg-purple-950 text-purple-800 dark:text-purple-300",
+        "content": "試合も熱いけど、今節のユニフォームの襟デザインとスポンサー配色のバランスが最高に洒落てるよね。"
+      }
+    ],
+    "punchy_quote": "試合も熱いけど、今節のユニフォームの襟デザインとスポンサー配色のバランスが最高に洒落てるよね。"
+  },
+  {
+    "id": "20261127-9b2f908b",
+    "slug": "20261127-9b2f908b",
+    "title": "リーズ、“主砲”カルヴァート・ルーウィンとの契約延長を発表！…田中碧との交渉も最終段階か(サッカーキング)",
+    "link": "https://news.yahoo.co.jp/articles/caac7bb3cdaabecb4d11b9fa719e7f9cb18875ba?source=rss",
+    "summary": "リーズは26日、イングランド代表FWドミニク・カルヴァート・ルーウィンとの契約延長を発表した。【公式発表】カルヴァート・ルーウィンが2029年夏まで契約延長！ 新たな契約期間は2029年6月30日まで",
+    "source": "Yahoo!サッカー (サッカーキング)",
+    "feed_id": "yahoo-soccerk",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "この補強はチーム戦術にドンピシャでハマる予感しかしない"
+    ],
+    "published_at": "2026-11-27T04:35:02+00:00",
+    "date_prefix": "20261127",
+    "category": "epl",
+    "categories": [
+      "epl"
+    ],
+    "team_tags": [],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "transfer-guru",
+        "speaker_name": "移籍リーク速報屋",
+        "short_name": "移籍特報",
+        "avatar_emoji": "🚨",
+        "color": "#db2777",
+        "badge_bg": "bg-pink-100 dark:bg-pink-950 text-pink-800 dark:text-pink-300",
+        "content": "独占速報：すでに欧州メガクラブのスカウトが先週の視察を終えています！Here We Go!"
+      },
+      {
+        "turn": 2,
+        "persona_id": "young-talent-hunter",
+        "speaker_name": "青田買いスカウト",
+        "short_name": "青田買い",
+        "avatar_emoji": "🔍",
+        "color": "#d97706",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "あの選手、高円宮杯プレミアリーグの時から股関節の可動域が別格だったんだよ。早く代表に呼べ！"
+      },
+      {
+        "turn": 3,
+        "persona_id": "nostalgic-boomer",
+        "speaker_name": "93年開幕オヤジ",
+        "short_name": "93年古参",
+        "avatar_emoji": "📻",
+        "color": "#57534e",
+        "badge_bg": "bg-stone-100 dark:bg-stone-900 text-stone-800 dark:text-stone-300",
+        "content": "1993年開幕戦のヴェルディ対マリノスを思い出すなぁ… 今の若い選手も昔の野生味を思い出してほしいね。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "var-referee-nerd",
+        "speaker_name": "自称・審判委員会",
+        "short_name": "審判オタク",
+        "avatar_emoji": "🚩",
+        "color": "#7c3aed",
+        "badge_bg": "bg-purple-100 dark:bg-purple-950 text-purple-800 dark:text-purple-300",
+        "content": "さっきの話ですが、競技規則第12条の文脈を読めばノーファウルが妥当です。VARのクリア＆オブビアス基準にも抵触しません。"
+      },
+      {
+        "turn": 5,
+        "persona_id": "stats-data-geek",
+        "speaker_name": "スタッツ厨アナリスト",
+        "short_name": "スタッツ厨",
+        "avatar_emoji": "💻",
+        "color": "#0891b2",
+        "badge_bg": "bg-cyan-100 dark:bg-cyan-950 text-cyan-800 dark:text-cyan-300",
+        "content": "得点シーンばかり注目されてますが、前半のxG（ゴール期待値）とPPDAの指数を見れば課題は明白ですよ。"
+      },
+      {
+        "turn": 6,
+        "persona_id": "dazn-director",
+        "speaker_name": "中継カメラ演出家",
+        "short_name": "中継オタク",
+        "avatar_emoji": "🎙️",
+        "color": "#475569",
+        "badge_bg": "bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "決定機の直後にゴール裏の歓声アングルを瞬時に挟んだスイッチング、今日の中継カメラは満点でしたね！"
+      },
+      {
+        "turn": 7,
+        "persona_id": "note-tactics-writer",
+        "speaker_name": "長文note戦術家",
+        "short_name": "note戦術垢",
+        "avatar_emoji": "📝",
+        "color": "#334155",
+        "badge_bg": "bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "「リーズ、“主砲”カルヴァート・ルーウ…」におけるネガティブトランジションの構造的要因、詳しくは今夜3万字のnoteにまとめます。"
+      }
+    ],
+    "punchy_quote": "決定機の直後にゴール裏の歓声アングルを瞬時に挟んだスイッチング、今日の中継カメラは満点でしたね！"
+  },
+  {
+    "id": "20261127-46ad9300",
+    "slug": "20261127-46ad9300",
+    "title": "元日本代表指揮官への信頼とバレンシアでの充実感…サディク「アギーレは僕をうまく扱ってくれる」「ここはソシエダよりもビッグクラブ」(サッカーキング)",
+    "link": "https://news.yahoo.co.jp/articles/eb4348c420861f15fcfc9b4beb5bbc4cf7c0063f?source=rss",
+    "summary": "バレンシアに所属するFWウマル・サディクが、ハビエル・アギーレ監督への信頼を口にした。26日、スペイン紙『マルカ』が伝えている。 アルメリアで大ブレイクしたナイジェリア人ストライカーは、大きな期待で迎",
+    "source": "Yahoo!サッカー (サッカーキング)",
+    "feed_id": "yahoo-soccerk",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "「元日本代表指揮官への信頼とバレンシアでの充実感……」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T04:29:15+00:00",
+    "date_prefix": "20261127",
+    "category": "national",
+    "categories": [
+      "national",
+      "europe"
+    ],
+    "team_tags": [
+      {
+        "slug": "samurai-blue",
+        "name": "SAMURAI BLUE (男子代表)",
+        "short_name": "森保J",
+        "category": "national",
+        "color": "#003b8e"
+      },
+      {
+        "slug": "real-sociedad",
+        "name": "レアル・ソシエダ",
+        "short_name": "ソシエダ",
+        "category": "europe",
+        "color": "#0067b1"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "boots-gear-nerd",
+        "speaker_name": "スパイクギア狂",
+        "short_name": "ギアオタク",
+        "avatar_emoji": "👟",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "あのピッチ状態でミックススタッドを選んだ足元の判断が絶妙。新作スパイクのカラーも映えてたな。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "peace-enjoyer",
+        "speaker_name": "平和主義ライト層",
+        "short_name": "平和サポ",
+        "avatar_emoji": "🕊️",
+        "color": "#14b8a6",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "両チームの選手もサポーターもお疲れ様でした！お互いにリスペクトがあって清々しい好ゲームでしたね。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "derby-warrior",
+        "speaker_name": "ダービー絶対主義者",
+        "short_name": "ダービー戦士",
+        "avatar_emoji": "⚔️",
+        "color": "#b91c1c",
+        "badge_bg": "bg-red-100 dark:bg-red-950 text-red-800 dark:text-red-300",
+        "content": "他の試合はどうでもいい、とにかく宿敵ライバルにだけは絶対に負けるな！ダービーの借りはダービーで返す！"
+      },
+      {
+        "turn": 4,
+        "persona_id": "note-tactics-writer",
+        "speaker_name": "長文note戦術家",
+        "short_name": "note戦術垢",
+        "avatar_emoji": "📝",
+        "color": "#334155",
+        "badge_bg": "bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "「元日本代表指揮官への信頼とバレンシア…」におけるネガティブトランジションの構造的要因、詳しくは今夜3万字のnoteにまとめます。"
+      },
+      {
+        "turn": 5,
+        "persona_id": "coach-wannabe",
+        "speaker_name": "居酒屋の名将",
+        "short_name": "居酒屋の名将",
+        "avatar_emoji": "🍺",
+        "color": "#059669",
+        "badge_bg": "bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300",
+        "content": "コメントでも話題の「「元日本代表指揮官への信頼とバレ」だけど、そもそも3-2-5可変時のアンカーの戻りが15分遅ぇんだよ！"
+      }
+    ],
+    "punchy_quote": "コメントでも話題の「「元日本代表指揮官への信頼とバレ」だけど、そもそも3-2-5可変時のアンカーの戻りが15分遅ぇんだよ！"
+  },
+  {
+    "id": "20261127-f80f9aba",
+    "slug": "20261127-f80f9aba",
+    "title": "「びっくり」「大物ゲスト」「エグすぎる」岐阜が乃木坂1期生の来場を発表(ゲキサカ)",
+    "link": "https://news.yahoo.co.jp/articles/beb8ea60f773c28ea293f837e640c4116f5c944d?source=rss",
+    "summary": "FC岐阜は27日、乃木坂46の1期生メンバーで現在はタレント・作家として活躍する高山一実さんが来場することを発表した。【写真】「びっくり」「大物ゲスト」「エグすぎる」来場が発表された乃木坂1期生 岐阜",
+    "source": "Yahoo!サッカー (ゲキサカ)",
+    "feed_id": "yahoo-gekisaka",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "「「びっくり」「大物ゲスト」「エグすぎる」岐阜が乃…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T04:23:01+00:00",
+    "date_prefix": "20261127",
+    "category": "j1",
+    "categories": [
+      "j1"
+    ],
+    "team_tags": [],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "stadium-gourmet",
+        "speaker_name": "スタグル探訪家",
+        "short_name": "スタグル勢",
+        "avatar_emoji": "🌭",
+        "color": "#ea580c",
+        "badge_bg": "bg-orange-100 dark:bg-orange-950 text-orange-800 dark:text-orange-300",
+        "content": "勝敗も大事だけど、スタジアム名物のもつ煮と地ビールは全国一だから！遠征民は全員食って帰るべき。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "lens-photographer",
+        "speaker_name": "一眼レフ最前列サポ",
+        "short_name": "カメラ勢",
+        "avatar_emoji": "📸",
+        "color": "#0284c7",
+        "badge_bg": "bg-sky-100 dark:bg-sky-950 text-sky-800 dark:text-sky-300",
+        "content": "ゴール直後の咆哮シーン、西日の逆光と芝の舞い上がりが完璧に重なって最高の1枚が撮れました！"
+      },
+      {
+        "turn": 3,
+        "persona_id": "ultras-supporter",
+        "speaker_name": "熱血ゴール裏サポ",
+        "short_name": "熱血サポ",
+        "avatar_emoji": "🔥",
+        "color": "#dc2626",
+        "badge_bg": "bg-rose-100 dark:bg-rose-950 text-rose-800 dark:text-rose-300",
+        "content": "細かい戦術やルールなんか後回し！「「びっくり」「大物ゲスト」「エグすぎ…」で鳥肌立ったわ！勝った後のビールが美味ぇ〜〜！！"
+      },
+      {
+        "turn": 4,
+        "persona_id": "stats-data-geek",
+        "speaker_name": "スタッツ厨アナリスト",
+        "short_name": "スタッツ厨",
+        "avatar_emoji": "💻",
+        "color": "#0891b2",
+        "badge_bg": "bg-cyan-100 dark:bg-cyan-950 text-cyan-800 dark:text-cyan-300",
+        "content": "得点シーンばかり注目されてますが、前半のxG（ゴール期待値）とPPDAの指数を見れば課題は明白ですよ。"
+      },
+      {
+        "turn": 5,
+        "persona_id": "uniform-fashionista",
+        "speaker_name": "ユニフォーム批評家",
+        "short_name": "ユニ批評",
+        "avatar_emoji": "👕",
+        "color": "#9333ea",
+        "badge_bg": "bg-purple-100 dark:bg-purple-950 text-purple-800 dark:text-purple-300",
+        "content": "試合も熱いけど、今節のユニフォームの襟デザインとスポンサー配色のバランスが最高に洒落てるよね。"
+      },
+      {
+        "turn": 6,
+        "persona_id": "young-talent-hunter",
+        "speaker_name": "青田買いスカウト",
+        "short_name": "青田買い",
+        "avatar_emoji": "🔍",
+        "color": "#d97706",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "あの選手、高円宮杯プレミアリーグの時から股関節の可動域が別格だったんだよ。早く代表に呼べ！"
+      }
+    ],
+    "punchy_quote": "得点シーンばかり注目されてますが、前半のxG（ゴール期待値）とPPDAの指数を見れば課題は明白ですよ。"
+  },
+  {
+    "id": "20261127-1275e7f9",
+    "slug": "20261127-1275e7f9",
+    "title": "【FIFA U-17ワールドカップ2026】グループステージ第8日のデイリーハイライト！ベトナム×マリ、モロッコ×スペイン、中国×フィジー、クロアチア×キューバ他、全8試合のハイライト",
+    "link": "https://www.youtube.com/watch?v=ig71qwFSbR4",
+    "summary": "🏆FIFA U-17ワールドカップ グループステージ第8日 0:06 🆚ベトナムU-17 0-2 マリU-17 2:07 🆚ニュージーランドU-17 0-6 ベルギーU-17 4:08 🆚ウズベキスタンU-17 1-3 イタリアU-17 6:09 🆚ジャマイカU-17 1-3 コートジボワールU-17 8:10 🆚モロッコU-17 0-2 スペインU-17 10:11 🆚中国U-17 8-0 フィジーU-17 12:11 🆚タジキスタンU-17 1-1 セネガルU-17 14:13 🆚クロアチアU-17 7-0 キューバU-17 ➡視聴はコチラ h...",
+    "source": "DAZN Japan公式YouTube",
+    "feed_id": "dazn-japan-yt",
+    "feed_type": "youtube",
+    "feed_category_hint": "auto",
+    "video_id": "ig71qwFSbR4",
+    "thumbnail": "https://i2.ytimg.com/vi/ig71qwFSbR4/hqdefault.jpg",
+    "fan_comments": [
+      "「【FIFA U-17ワールドカップ2026】グル…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T03:58:05+00:00",
+    "date_prefix": "20261127",
+    "category": "national",
+    "categories": [
+      "national"
+    ],
+    "team_tags": [
+      {
+        "slug": "japan-youth",
+        "name": "年代別代表 (U-23/U-20/U-17)",
+        "short_name": "世代別代表",
+        "category": "national",
+        "color": "#2563eb"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "protective-mom",
+        "speaker_name": "オカン目線サポ",
+        "short_name": "オカンサポ",
+        "avatar_emoji": "🍙",
+        "color": "#ec4899",
+        "badge_bg": "bg-pink-100 dark:bg-pink-950 text-pink-800 dark:text-pink-300",
+        "content": "みんな本当によく走ってたねぇ！しっかりご飯食べて水分補給して、怪我だけはせんといてや。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "fantasy-manager",
+        "speaker_name": "サカつく脳サポ",
+        "short_name": "サカつく脳",
+        "avatar_emoji": "🎮",
+        "color": "#65a30d",
+        "badge_bg": "bg-lime-100 dark:bg-lime-950 text-lime-800 dark:text-lime-300",
+        "content": "「【FIFA U-17ワールドカップ2…」の布陣、サカつくで言えばケミストリーMAXの黄金連携だよ。今すぐこの形で固定すべき！"
+      },
+      {
+        "turn": 3,
+        "persona_id": "ultras-supporter",
+        "speaker_name": "熱血ゴール裏サポ",
+        "short_name": "熱血サポ",
+        "avatar_emoji": "🔥",
+        "color": "#dc2626",
+        "badge_bg": "bg-rose-100 dark:bg-rose-950 text-rose-800 dark:text-rose-300",
+        "content": "細かい戦術やルールなんか後回し！「【FIFA U-17ワールドカップ2…」で鳥肌立ったわ！勝った後のビールが美味ぇ〜〜！！"
+      },
+      {
+        "turn": 4,
+        "persona_id": "stats-data-geek",
+        "speaker_name": "スタッツ厨アナリスト",
+        "short_name": "スタッツ厨",
+        "avatar_emoji": "💻",
+        "color": "#0891b2",
+        "badge_bg": "bg-cyan-100 dark:bg-cyan-950 text-cyan-800 dark:text-cyan-300",
+        "content": "得点シーンばかり注目されてますが、前半のxG（ゴール期待値）とPPDAの指数を見れば課題は明白ですよ。"
+      },
+      {
+        "turn": 5,
+        "persona_id": "coach-wannabe",
+        "speaker_name": "居酒屋の名将",
+        "short_name": "居酒屋の名将",
+        "avatar_emoji": "🍺",
+        "color": "#059669",
+        "badge_bg": "bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300",
+        "content": "コメントでも話題の「「【FIFA U-17ワールドカ」だけど、そもそも3-2-5可変時のアンカーの戻りが15分遅ぇんだよ！"
+      }
+    ],
+    "punchy_quote": "得点シーンばかり注目されてますが、前半のxG（ゴール期待値）とPPDAの指数を見れば課題は明白ですよ。"
+  },
+  {
+    "id": "20261127-41b74d57",
+    "slug": "20261127-41b74d57",
+    "title": "NO.015『異次元のエンバペ。2大会連続得点王＆史上最多得点』｜DAZN 100 Moments-2026年、心が震えた100の瞬間-｜",
+    "link": "https://www.youtube.com/shorts/cjOpx6qF7m0",
+    "summary": "DAZN 100 Moments -2026年、心が震えた100の瞬間- NO.015『異次元のエンバペ。2大会連続得点王＆史上最多得点』 📝レ・ブルーの象徴が歴史を刻む⚽️ ↓このMomentに熱狂した方は一票を🗳️ https://awards.dazn.com/moments ----------------- 【⬛DAZNとは？】 DAZN（ダゾーン）は好きなスポーツをいつでも、どこでもライブ＆見逃し視聴できる動画配信アプリです。 プロ野球やサッカー (Jリーグ＆欧州サッカー)、バスケットボール、ラグビーなどライブスポーツが一番観られるのは...",
+    "source": "DAZN Japan公式YouTube",
+    "feed_id": "dazn-japan-yt",
+    "feed_type": "youtube",
+    "feed_category_hint": "auto",
+    "video_id": "cjOpx6qF7m0",
+    "thumbnail": "https://i4.ytimg.com/vi/cjOpx6qF7m0/hqdefault.jpg",
+    "fan_comments": [
+      "あのシュートコースは相手キーパーもお手上げだろ"
+    ],
+    "published_at": "2026-11-27T03:45:24+00:00",
+    "date_prefix": "20261127",
+    "category": "europe",
+    "categories": [
+      "europe",
+      "j1"
+    ],
+    "team_tags": [
+      {
+        "slug": "real-madrid",
+        "name": "レアル・マドリード",
+        "short_name": "レアル",
+        "category": "europe",
+        "color": "#475569"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "lens-photographer",
+        "speaker_name": "一眼レフ最前列サポ",
+        "short_name": "カメラ勢",
+        "avatar_emoji": "📸",
+        "color": "#0284c7",
+        "badge_bg": "bg-sky-100 dark:bg-sky-950 text-sky-800 dark:text-sky-300",
+        "content": "ゴール直後の咆哮シーン、西日の逆光と芝の舞い上がりが完璧に重なって最高の1枚が撮れました！"
+      },
+      {
+        "turn": 2,
+        "persona_id": "uniform-fashionista",
+        "speaker_name": "ユニフォーム批評家",
+        "short_name": "ユニ批評",
+        "avatar_emoji": "👕",
+        "color": "#9333ea",
+        "badge_bg": "bg-purple-100 dark:bg-purple-950 text-purple-800 dark:text-purple-300",
+        "content": "試合も熱いけど、今節のユニフォームの襟デザインとスポンサー配色のバランスが最高に洒落てるよね。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "stadium-gourmet",
+        "speaker_name": "スタグル探訪家",
+        "short_name": "スタグル勢",
+        "avatar_emoji": "🌭",
+        "color": "#ea580c",
+        "badge_bg": "bg-orange-100 dark:bg-orange-950 text-orange-800 dark:text-orange-300",
+        "content": "勝敗も大事だけど、スタジアム名物のもつ煮と地ビールは全国一だから！遠征民は全員食って帰るべき。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "peace-enjoyer",
+        "speaker_name": "平和主義ライト層",
+        "short_name": "平和サポ",
+        "avatar_emoji": "🕊️",
+        "color": "#14b8a6",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "両チームの選手もサポーターもお疲れ様でした！お互いにリスペクトがあって清々しい好ゲームでしたね。"
+      },
+      {
+        "turn": 5,
+        "persona_id": "economist-wannabe",
+        "speaker_name": "自称・経済評論家",
+        "short_name": "経済評論家",
+        "avatar_emoji": "📊",
+        "color": "#2563eb",
+        "badge_bg": "bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300",
+        "content": "「NO.015『異次元のエンバペ。2大…」の件、移籍金の減価償却とDAZN配分金の回収モデルで見れば極めて合理的な投資判断ですね。"
+      },
+      {
+        "turn": 6,
+        "persona_id": "stockholder-fan",
+        "speaker_name": "市民株主サポ",
+        "short_name": "市民株主",
+        "avatar_emoji": "📈",
+        "color": "#1e3a8a",
+        "badge_bg": "bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300",
+        "content": "競技面の躍進がクラブ決算の入場料収入とスポンサー更新にどう跳ね返るか、次の株主総会が楽しみだ。"
+      },
+      {
+        "turn": 7,
+        "persona_id": "var-referee-nerd",
+        "speaker_name": "自称・審判委員会",
+        "short_name": "審判オタク",
+        "avatar_emoji": "🚩",
+        "color": "#7c3aed",
+        "badge_bg": "bg-purple-100 dark:bg-purple-950 text-purple-800 dark:text-purple-300",
+        "content": "さっきの話ですが、競技規則第12条の文脈を読めばノーファウルが妥当です。VARのクリア＆オブビアス基準にも抵触しません。"
+      },
+      {
+        "turn": 8,
+        "persona_id": "young-talent-hunter",
+        "speaker_name": "青田買いスカウト",
+        "short_name": "青田買い",
+        "avatar_emoji": "🔍",
+        "color": "#d97706",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "あの選手、高円宮杯プレミアリーグの時から股関節の可動域が別格だったんだよ。早く代表に呼べ！"
+      }
+    ],
+    "punchy_quote": "あの選手、高円宮杯プレミアリーグの時から股関節の可動域が別格だったんだよ。早く代表に呼べ！"
+  },
+  {
+    "id": "20261127-d607354d",
+    "slug": "20261127-d607354d",
+    "title": "NO.014『影山優佳 日本勝利で歓喜のダンス』｜DAZN 100 Moments-2026年、心が震えた100の瞬間-｜",
+    "link": "https://www.youtube.com/shorts/wrKMHb9aKM0",
+    "summary": "DAZN 100 Moments -2026年、心が震えた100の瞬間- NO.014『影山優佳 日本勝利で歓喜のダンス』 📝VAMOS!! 喜びがあふれて、勝利の舞い💃 ↓このMomentに熱狂した方は一票を🗳️ https://awards.dazn.com/moments ----------------- 【⬛DAZNとは？】 DAZN（ダゾーン）は好きなスポーツをいつでも、どこでもライブ＆見逃し視聴できる動画配信アプリです。 プロ野球やサッカー (Jリーグ＆欧州サッカー)、バスケットボール、ラグビーなどライブスポーツが一番観られるのはDA...",
+    "source": "DAZN Japan公式YouTube",
+    "feed_id": "dazn-japan-yt",
+    "feed_type": "youtube",
+    "feed_category_hint": "auto",
+    "video_id": "wrKMHb9aKM0",
+    "thumbnail": "https://i4.ytimg.com/vi/wrKMHb9aKM0/hqdefault.jpg",
+    "fan_comments": [
+      "「NO.014『影山優佳 日本勝利で歓喜のダンス』…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T03:15:06+00:00",
+    "date_prefix": "20261127",
+    "category": "europe",
+    "categories": [
+      "europe",
+      "j1"
+    ],
+    "team_tags": [],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "stats-data-geek",
+        "speaker_name": "スタッツ厨アナリスト",
+        "short_name": "スタッツ厨",
+        "avatar_emoji": "💻",
+        "color": "#0891b2",
+        "badge_bg": "bg-cyan-100 dark:bg-cyan-950 text-cyan-800 dark:text-cyan-300",
+        "content": "得点シーンばかり注目されてますが、前半のxG（ゴール期待値）とPPDAの指数を見れば課題は明白ですよ。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "peace-enjoyer",
+        "speaker_name": "平和主義ライト層",
+        "short_name": "平和サポ",
+        "avatar_emoji": "🕊️",
+        "color": "#14b8a6",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "両チームの選手もサポーターもお疲れ様でした！お互いにリスペクトがあって清々しい好ゲームでしたね。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "overseas-elitist",
+        "speaker_name": "欧州サッカー至上主義者",
+        "short_name": "欧州厨",
+        "avatar_emoji": "☕",
+        "color": "#4f46e5",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "プレミアリーグのインテンシティに比べると、判断のテンポがワンテンポ遅いですね。早く欧州で揉まれるべきです。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "lens-photographer",
+        "speaker_name": "一眼レフ最前列サポ",
+        "short_name": "カメラ勢",
+        "avatar_emoji": "📸",
+        "color": "#0284c7",
+        "badge_bg": "bg-sky-100 dark:bg-sky-950 text-sky-800 dark:text-sky-300",
+        "content": "ゴール直後の咆哮シーン、西日の逆光と芝の舞い上がりが完璧に重なって最高の1枚が撮れました！"
+      },
+      {
+        "turn": 5,
+        "persona_id": "fantasy-manager",
+        "speaker_name": "サカつく脳サポ",
+        "short_name": "サカつく脳",
+        "avatar_emoji": "🎮",
+        "color": "#65a30d",
+        "badge_bg": "bg-lime-100 dark:bg-lime-950 text-lime-800 dark:text-lime-300",
+        "content": "「NO.014『影山優佳 日本勝利で歓…」の布陣、サカつくで言えばケミストリーMAXの黄金連携だよ。今すぐこの形で固定すべき！"
+      }
+    ],
+    "punchy_quote": "プレミアリーグのインテンシティに比べると、判断のテンポがワンテンポ遅いですね。早く欧州で揉まれるべきです。"
+  },
+  {
+    "id": "20261127-fe8e58fc",
+    "slug": "20261127-fe8e58fc",
+    "title": "「ポスト今田美桜」「可愛すぎ」「異次元」選手権応援マネージャー18歳のキービジュアル解禁(ゲキサカ)",
+    "link": "https://news.yahoo.co.jp/articles/56aed9f376c02760814bd9708545a2b23cd2afe9?source=rss",
+    "summary": "第105回全国高校サッカー選手権で第22代目応援マネージャーを務める女優・モデルの堀口真帆さんが26日、自身のX(@mahochunn)でキービジュアル解禁を報告した。【写真】「ポスト今田美桜」「可愛",
+    "source": "Yahoo!サッカー (ゲキサカ)",
+    "feed_id": "yahoo-gekisaka",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "「「ポスト今田美桜」「可愛すぎ」「異次元」選手権応…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T03:02:01+00:00",
+    "date_prefix": "20261127",
+    "category": "j2j3",
+    "categories": [
+      "j2j3"
+    ],
+    "team_tags": [],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "stockholder-fan",
+        "speaker_name": "市民株主サポ",
+        "short_name": "市民株主",
+        "avatar_emoji": "📈",
+        "color": "#1e3a8a",
+        "badge_bg": "bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300",
+        "content": "競技面の躍進がクラブ決算の入場料収入とスポンサー更新にどう跳ね返るか、次の株主総会が楽しみだ。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "mascot-otaku",
+        "speaker_name": "マスコット愛好家",
+        "short_name": "マスコット勢",
+        "avatar_emoji": "🦁",
+        "color": "#f59e0b",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "激しい試合もいいけど、ハーフタイムのマスコットのキレキレなダンスが一番の癒やしだったよ！"
+      },
+      {
+        "turn": 3,
+        "persona_id": "note-tactics-writer",
+        "speaker_name": "長文note戦術家",
+        "short_name": "note戦術垢",
+        "avatar_emoji": "📝",
+        "color": "#334155",
+        "badge_bg": "bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-300",
+        "content": "「「ポスト今田美桜」「可愛すぎ」「異次…」におけるネガティブトランジションの構造的要因、詳しくは今夜3万字のnoteにまとめます。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "var-referee-nerd",
+        "speaker_name": "自称・審判委員会",
+        "short_name": "審判オタク",
+        "avatar_emoji": "🚩",
+        "color": "#7c3aed",
+        "badge_bg": "bg-purple-100 dark:bg-purple-950 text-purple-800 dark:text-purple-300",
+        "content": "さっきの話ですが、競技規則第12条の文脈を読めばノーファウルが妥当です。VARのクリア＆オブビアス基準にも抵触しません。"
+      },
+      {
+        "turn": 5,
+        "persona_id": "j2-connoisseur",
+        "speaker_name": "J2沼の住人",
+        "short_name": "J2の主",
+        "avatar_emoji": "🐊",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "これぞJ2・J3の沼の醍醐味！昇格プレーオフの魔物は最後まで何が起こるか分からないからね。"
+      },
+      {
+        "turn": 6,
+        "persona_id": "economist-wannabe",
+        "speaker_name": "自称・経済評論家",
+        "short_name": "経済評論家",
+        "avatar_emoji": "📊",
+        "color": "#2563eb",
+        "badge_bg": "bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300",
+        "content": "「「ポスト今田美桜」「可愛すぎ」「異次…」の件、移籍金の減価償却とDAZN配分金の回収モデルで見れば極めて合理的な投資判断ですね。"
+      }
+    ],
+    "punchy_quote": "「「ポスト今田美桜」「可愛すぎ」「異次…」の件、移籍金の減価償却とDAZN配分金の回収モデルで見れば極めて合理的な投資判断ですね。"
+  },
+  {
+    "id": "20261127-4dc251fd",
+    "slug": "20261127-4dc251fd",
+    "title": "2位と勝ち点3差で首位を走る好調バルセロナ💨ハイレベルな上位争いを制すため気の抜けない戦いが続く🔥⚔️ デポルティーボ v バルセロナ🕰️ 11/30(月) 0:15 キックオフ",
+    "link": "https://www.youtube.com/shorts/Nqrgyx89HRU",
+    "summary": "世界レベルの戦いが毎週末！ 今最も熱いプレミアリーグやラ・リーガを『U-NEXTサッカーパック』で観よう！ 世界最高峰のサッカーが毎週末楽しめる！ 詳細はこちら👉 https://www.video.unext.jp/lp/football_pack ----------- U-NEXT 📣『サッカーパック』販売中🎉 最高峰の戦いを見逃すな⚽️ 🟪プレミアリーグ【独占配信】 🟥ラ・リーガ 1部 🟧エールディヴィジ 💛ウィメンズ・スーパー・リーグ（英・女子１部） 🏆各国カップ戦を独占配信🏆 🟥FAカップ 🟦コパ・デル・レイ 🟥FAコミュニティ・シール...",
+    "source": "U-NEXT フットボール公式",
+    "feed_id": "unext-football-yt",
+    "feed_type": "youtube",
+    "feed_category_hint": "epl",
+    "video_id": "Nqrgyx89HRU",
+    "thumbnail": "https://i3.ytimg.com/vi/Nqrgyx89HRU/hqdefault.jpg",
+    "fan_comments": [
+      "スタジアムの熱気と球際のプレッシャーが画面越しにも伝わってきた"
+    ],
+    "published_at": "2026-11-27T03:00:37+00:00",
+    "date_prefix": "20261127",
+    "category": "epl",
+    "categories": [
+      "epl",
+      "europe"
+    ],
+    "team_tags": [
+      {
+        "slug": "barcelona",
+        "name": "バルセロナ",
+        "short_name": "バルサ",
+        "category": "europe",
+        "color": "#a50044"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "ultras-supporter",
+        "speaker_name": "熱血ゴール裏サポ",
+        "short_name": "熱血サポ",
+        "avatar_emoji": "🔥",
+        "color": "#dc2626",
+        "badge_bg": "bg-rose-100 dark:bg-rose-950 text-rose-800 dark:text-rose-300",
+        "content": "細かい戦術やルールなんか後回し！「2位と勝ち点3差で首位を走る好調バル…」で鳥肌立ったわ！勝った後のビールが美味ぇ〜〜！！"
+      },
+      {
+        "turn": 2,
+        "persona_id": "stadium-gourmet",
+        "speaker_name": "スタグル探訪家",
+        "short_name": "スタグル勢",
+        "avatar_emoji": "🌭",
+        "color": "#ea580c",
+        "badge_bg": "bg-orange-100 dark:bg-orange-950 text-orange-800 dark:text-orange-300",
+        "content": "勝敗も大事だけど、スタジアム名物のもつ煮と地ビールは全国一だから！遠征民は全員食って帰るべき。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "fantasy-manager",
+        "speaker_name": "サカつく脳サポ",
+        "short_name": "サカつく脳",
+        "avatar_emoji": "🎮",
+        "color": "#65a30d",
+        "badge_bg": "bg-lime-100 dark:bg-lime-950 text-lime-800 dark:text-lime-300",
+        "content": "「2位と勝ち点3差で首位を走る好調バル…」の布陣、サカつくで言えばケミストリーMAXの黄金連携だよ。今すぐこの形で固定すべき！"
+      },
+      {
+        "turn": 4,
+        "persona_id": "stats-data-geek",
+        "speaker_name": "スタッツ厨アナリスト",
+        "short_name": "スタッツ厨",
+        "avatar_emoji": "💻",
+        "color": "#0891b2",
+        "badge_bg": "bg-cyan-100 dark:bg-cyan-950 text-cyan-800 dark:text-cyan-300",
+        "content": "得点シーンばかり注目されてますが、前半のxG（ゴール期待値）とPPDAの指数を見れば課題は明白ですよ。"
+      },
+      {
+        "turn": 5,
+        "persona_id": "coach-wannabe",
+        "speaker_name": "居酒屋の名将",
+        "short_name": "居酒屋の名将",
+        "avatar_emoji": "🍺",
+        "color": "#059669",
+        "badge_bg": "bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300",
+        "content": "コメントでも話題の「スタジアムの熱気と球際のプレッシ」だけど、そもそも3-2-5可変時のアンカーの戻りが15分遅ぇんだよ！"
+      },
+      {
+        "turn": 6,
+        "persona_id": "mascot-otaku",
+        "speaker_name": "マスコット愛好家",
+        "short_name": "マスコット勢",
+        "avatar_emoji": "🦁",
+        "color": "#f59e0b",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "激しい試合もいいけど、ハーフタイムのマスコットのキレキレなダンスが一番の癒やしだったよ！"
+      },
+      {
+        "turn": 7,
+        "persona_id": "young-talent-hunter",
+        "speaker_name": "青田買いスカウト",
+        "short_name": "青田買い",
+        "avatar_emoji": "🔍",
+        "color": "#d97706",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "あの選手、高円宮杯プレミアリーグの時から股関節の可動域が別格だったんだよ。早く代表に呼べ！"
+      }
+    ],
+    "punchy_quote": "コメントでも話題の「スタジアムの熱気と球際のプレッシ」だけど、そもそも3-2-5可変時のアンカーの戻りが15分遅ぇんだよ！"
+  },
+  {
+    "id": "20261127-0c4be138",
+    "slug": "20261127-0c4be138",
+    "title": "インカレ初戦屈指の好カード!!前回王者・筑波大に挑む福岡大、J2で劇的決勝弾2発のFW合戸晴矢が示したい成長「相手どうこうじゃない」(ゲキサカ)",
+    "link": "https://news.yahoo.co.jp/articles/cd9b1231cf0128c755284807c555d74a9531eb31?source=rss",
+    "summary": "初戦の相手はいきなり前回王者だ。明日28日に開幕する全日本大学サッカー選手権(インカレ)の予選ラウンドで、福岡大は筑波大と激突する。九州大学リーグ5連覇を逃した福岡大にとって、日本一への挑戦は厳しい戦",
+    "source": "Yahoo!サッカー (ゲキサカ)",
+    "feed_id": "yahoo-gekisaka",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "あのシュートコースは相手キーパーもお手上げだろ",
+      "スタジアムの熱気と球際のプレッシャーが画面越しにも伝わってきた"
+    ],
+    "published_at": "2026-11-27T02:00:02+00:00",
+    "date_prefix": "20261127",
+    "category": "j2j3",
+    "categories": [
+      "j2j3"
+    ],
+    "team_tags": [],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "ultras-supporter",
+        "speaker_name": "熱血ゴール裏サポ",
+        "short_name": "熱血サポ",
+        "avatar_emoji": "🔥",
+        "color": "#dc2626",
+        "badge_bg": "bg-rose-100 dark:bg-rose-950 text-rose-800 dark:text-rose-300",
+        "content": "細かい戦術やルールなんか後回し！「インカレ初戦屈指の好カード!!前回王…」で鳥肌立ったわ！勝った後のビールが美味ぇ〜〜！！"
+      },
+      {
+        "turn": 2,
+        "persona_id": "protective-mom",
+        "speaker_name": "オカン目線サポ",
+        "short_name": "オカンサポ",
+        "avatar_emoji": "🍙",
+        "color": "#ec4899",
+        "badge_bg": "bg-pink-100 dark:bg-pink-950 text-pink-800 dark:text-pink-300",
+        "content": "みんな本当によく走ってたねぇ！しっかりご飯食べて水分補給して、怪我だけはせんといてや。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "derby-warrior",
+        "speaker_name": "ダービー絶対主義者",
+        "short_name": "ダービー戦士",
+        "avatar_emoji": "⚔️",
+        "color": "#b91c1c",
+        "badge_bg": "bg-red-100 dark:bg-red-950 text-red-800 dark:text-red-300",
+        "content": "他の試合はどうでもいい、とにかく宿敵ライバルにだけは絶対に負けるな！ダービーの借りはダービーで返す！"
+      },
+      {
+        "turn": 4,
+        "persona_id": "fantasy-manager",
+        "speaker_name": "サカつく脳サポ",
+        "short_name": "サカつく脳",
+        "avatar_emoji": "🎮",
+        "color": "#65a30d",
+        "badge_bg": "bg-lime-100 dark:bg-lime-950 text-lime-800 dark:text-lime-300",
+        "content": "「インカレ初戦屈指の好カード!!前回王…」の布陣、サカつくで言えばケミストリーMAXの黄金連携だよ。今すぐこの形で固定すべき！"
+      },
+      {
+        "turn": 5,
+        "persona_id": "transfer-guru",
+        "speaker_name": "移籍リーク速報屋",
+        "short_name": "移籍特報",
+        "avatar_emoji": "🚨",
+        "color": "#db2777",
+        "badge_bg": "bg-pink-100 dark:bg-pink-950 text-pink-800 dark:text-pink-300",
+        "content": "独占速報：すでに欧州メガクラブのスカウトが先週の視察を終えています！Here We Go!"
+      },
+      {
+        "turn": 6,
+        "persona_id": "stadium-gourmet",
+        "speaker_name": "スタグル探訪家",
+        "short_name": "スタグル勢",
+        "avatar_emoji": "🌭",
+        "color": "#ea580c",
+        "badge_bg": "bg-orange-100 dark:bg-orange-950 text-orange-800 dark:text-orange-300",
+        "content": "勝敗も大事だけど、スタジアム名物のもつ煮と地ビールは全国一だから！遠征民は全員食って帰るべき。"
+      }
+    ],
+    "punchy_quote": "「インカレ初戦屈指の好カード!!前回王…」の布陣、サカつくで言えばケミストリーMAXの黄金連携だよ。今すぐこの形で固定すべき！"
+  },
+  {
+    "id": "20261127-e12c3d17",
+    "slug": "20261127-e12c3d17",
+    "title": "「カズが着たらめっちゃヴェルディ」「ロマンを感じる」福島が特別ユニフォームを発表(ゲキサカ)",
+    "link": "https://news.yahoo.co.jp/articles/6da96e06050dffc722b0baa7c60754ae4b1b3e8d?source=rss",
+    "summary": "福島ユナイテッドFCは26日、2026-27シーズンのふくしまSDGsユニフォームが完成したことを発表した。【写真】「カズが着たらめっちゃヴェルディ」「ロマンを感じる」福島が特別ユニフォームを発表 フ",
+    "source": "Yahoo!サッカー (ゲキサカ)",
+    "feed_id": "yahoo-gekisaka",
+    "feed_type": "rss",
+    "feed_category_hint": "auto",
+    "video_id": null,
+    "thumbnail": null,
+    "fan_comments": [
+      "「「カズが着たらめっちゃヴェルディ」「ロマンを感じ…」の展開、ファンの間でも意見が分かれてて熱い！",
+      "この局面での采配・判断が大きな分かれ目だったな"
+    ],
+    "published_at": "2026-11-27T01:47:02+00:00",
+    "date_prefix": "20261127",
+    "category": "j1",
+    "categories": [
+      "j1"
+    ],
+    "team_tags": [
+      {
+        "slug": "tokyo-verdy",
+        "name": "東京ヴェルディ",
+        "short_name": "東京V",
+        "category": "j1",
+        "color": "#006432"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "overseas-elitist",
+        "speaker_name": "欧州サッカー至上主義者",
+        "short_name": "欧州厨",
+        "avatar_emoji": "☕",
+        "color": "#4f46e5",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "プレミアリーグのインテンシティに比べると、判断のテンポがワンテンポ遅いですね。早く欧州で揉まれるべきです。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "stats-data-geek",
+        "speaker_name": "スタッツ厨アナリスト",
+        "short_name": "スタッツ厨",
+        "avatar_emoji": "💻",
+        "color": "#0891b2",
+        "badge_bg": "bg-cyan-100 dark:bg-cyan-950 text-cyan-800 dark:text-cyan-300",
+        "content": "得点シーンばかり注目されてますが、前半のxG（ゴール期待値）とPPDAの指数を見れば課題は明白ですよ。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "economist-wannabe",
+        "speaker_name": "自称・経済評論家",
+        "short_name": "経済評論家",
+        "avatar_emoji": "📊",
+        "color": "#2563eb",
+        "badge_bg": "bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300",
+        "content": "「「カズが着たらめっちゃヴェルディ」「…」の件、移籍金の減価償却とDAZN配分金の回収モデルで見れば極めて合理的な投資判断ですね。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "lens-photographer",
+        "speaker_name": "一眼レフ最前列サポ",
+        "short_name": "カメラ勢",
+        "avatar_emoji": "📸",
+        "color": "#0284c7",
+        "badge_bg": "bg-sky-100 dark:bg-sky-950 text-sky-800 dark:text-sky-300",
+        "content": "ゴール直後の咆哮シーン、西日の逆光と芝の舞い上がりが完璧に重なって最高の1枚が撮れました！"
+      },
+      {
+        "turn": 5,
+        "persona_id": "var-referee-nerd",
+        "speaker_name": "自称・審判委員会",
+        "short_name": "審判オタク",
+        "avatar_emoji": "🚩",
+        "color": "#7c3aed",
+        "badge_bg": "bg-purple-100 dark:bg-purple-950 text-purple-800 dark:text-purple-300",
+        "content": "さっきの話ですが、競技規則第12条の文脈を読めばノーファウルが妥当です。VARのクリア＆オブビアス基準にも抵触しません。"
+      },
+      {
+        "turn": 6,
+        "persona_id": "transfer-guru",
+        "speaker_name": "移籍リーク速報屋",
+        "short_name": "移籍特報",
+        "avatar_emoji": "🚨",
+        "color": "#db2777",
+        "badge_bg": "bg-pink-100 dark:bg-pink-950 text-pink-800 dark:text-pink-300",
+        "content": "独占速報：すでに欧州メガクラブのスカウトが先週の視察を終えています！Here We Go!"
+      }
+    ],
+    "punchy_quote": "ゴール直後の咆哮シーン、西日の逆光と芝の舞い上がりが完璧に重なって最高の1枚が撮れました！"
+  },
+  {
+    "id": "20261127-e84551ee",
+    "slug": "20261127-e84551ee",
+    "title": "【ECLトピック】フライブルク 鈴木唯人、圧巻のドリブルからアシスト！／UEFAカンファレンスリーグ 2026-27 リーグフェーズ MD4【WOWOW】",
+    "link": "https://www.youtube.com/watch?v=bh3SiQxoVME",
+    "summary": "▶UEFAカンファレンスリーグ 2026-27 リーグフェーズ MD4 フライブルク vs トゥエンテ戦のトピック動画です フルマッチ配信・長尺ハイライトはコチラ ⇒ https://wod.wowow.co.jp/genre/106?utm_source=youtube&utm_medium=referral&utm_campaign=movie_spo_clel2627_clelecl_TP_LP_wod-106_s ＼2026-27シーズンもWOWOWで放送・配信／ ★「UEFAチャンピオンズリーグ」2026-27シーズン リーグフェーズ～決...",
+    "source": "WOWOWサッカー公式",
+    "feed_id": "wowow-soccer-yt",
+    "feed_type": "youtube",
+    "feed_category_hint": "europe",
+    "video_id": "bh3SiQxoVME",
+    "thumbnail": "https://i3.ytimg.com/vi/bh3SiQxoVME/hqdefault.jpg",
+    "fan_comments": [
+      "ラストパスの視野とタイミングが完璧すぎて鳥肌立った"
+    ],
+    "published_at": "2026-11-27T01:45:09+00:00",
+    "date_prefix": "20261127",
+    "category": "europe",
+    "categories": [
+      "europe"
+    ],
+    "team_tags": [
+      {
+        "slug": "freiburg",
+        "name": "フライブルク",
+        "short_name": "フライブルク",
+        "category": "europe",
+        "color": "#1f2937"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "local-pride-patriot",
+        "speaker_name": "おらが街のサポ",
+        "short_name": "地元サポ",
+        "avatar_emoji": "🏡",
+        "color": "#16a34a",
+        "badge_bg": "bg-green-100 dark:bg-green-950 text-green-800 dark:text-green-300",
+        "content": "地元クラブがこれだけ話題になるのが誇らしいよ！次のホーム戦も街ぐるみで満員にしようぜ。"
+      },
+      {
+        "turn": 2,
+        "persona_id": "overseas-elitist",
+        "speaker_name": "欧州サッカー至上主義者",
+        "short_name": "欧州厨",
+        "avatar_emoji": "☕",
+        "color": "#4f46e5",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "プレミアリーグのインテンシティに比べると、判断のテンポがワンテンポ遅いですね。早く欧州で揉まれるべきです。"
+      },
+      {
+        "turn": 3,
+        "persona_id": "nostalgic-boomer",
+        "speaker_name": "93年開幕オヤジ",
+        "short_name": "93年古参",
+        "avatar_emoji": "📻",
+        "color": "#57534e",
+        "badge_bg": "bg-stone-100 dark:bg-stone-900 text-stone-800 dark:text-stone-300",
+        "content": "1993年開幕戦のヴェルディ対マリノスを思い出すなぁ… 今の若い選手も昔の野生味を思い出してほしいね。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "transfer-guru",
+        "speaker_name": "移籍リーク速報屋",
+        "short_name": "移籍特報",
+        "avatar_emoji": "🚨",
+        "color": "#db2777",
+        "badge_bg": "bg-pink-100 dark:bg-pink-950 text-pink-800 dark:text-pink-300",
+        "content": "独占速報：すでに欧州メガクラブのスカウトが先週の視察を終えています！Here We Go!"
+      },
+      {
+        "turn": 5,
+        "persona_id": "boots-gear-nerd",
+        "speaker_name": "スパイクギア狂",
+        "short_name": "ギアオタク",
+        "avatar_emoji": "👟",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "あのピッチ状態でミックススタッドを選んだ足元の判断が絶妙。新作スパイクのカラーも映えてたな。"
+      },
+      {
+        "turn": 6,
+        "persona_id": "peace-enjoyer",
+        "speaker_name": "平和主義ライト層",
+        "short_name": "平和サポ",
+        "avatar_emoji": "🕊️",
+        "color": "#14b8a6",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "両チームの選手もサポーターもお疲れ様でした！お互いにリスペクトがあって清々しい好ゲームでしたね。"
+      },
+      {
+        "turn": 7,
+        "persona_id": "j2-connoisseur",
+        "speaker_name": "J2沼の住人",
+        "short_name": "J2の主",
+        "avatar_emoji": "🐊",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "これぞJ2・J3の沼の醍醐味！昇格プレーオフの魔物は最後まで何が起こるか分からないからね。"
+      },
+      {
+        "turn": 8,
+        "persona_id": "lens-photographer",
+        "speaker_name": "一眼レフ最前列サポ",
+        "short_name": "カメラ勢",
+        "avatar_emoji": "📸",
+        "color": "#0284c7",
+        "badge_bg": "bg-sky-100 dark:bg-sky-950 text-sky-800 dark:text-sky-300",
+        "content": "ゴール直後の咆哮シーン、西日の逆光と芝の舞い上がりが完璧に重なって最高の1枚が撮れました！"
+      }
+    ],
+    "punchy_quote": "ゴール直後の咆哮シーン、西日の逆光と芝の舞い上がりが完璧に重なって最高の1枚が撮れました！"
+  },
+  {
+    "id": "20261127-7c769114",
+    "slug": "20261127-7c769114",
+    "title": "【ECLトピック】新川志音ゴールに石渡ネルソンアシストを記録！シント=トロイデン 日本人選手大活躍でECL3勝目！／UEFAカンファレンスリーグ 2026-27 リーグフェーズ MD4【WOWOW】",
+    "link": "https://www.youtube.com/watch?v=edQa-apZWsI",
+    "summary": "▶UEFAカンファレンスリーグ 2026-27 リーグフェーズ MD4 ハイドゥク・スプリト vs シント＝トロイデン戦のトピック動画です フルマッチ配信・長尺ハイライトはコチラ ⇒ https://wod.wowow.co.jp/genre/106?utm_source=youtube&utm_medium=referral&utm_campaign=movie_spo_clel2627_clelecl_TP_LP_wod-106_s ＼2026-27シーズンもWOWOWで放送・配信／ ★「UEFAチャンピオンズリーグ」2026-27シーズン リ...",
+    "source": "WOWOWサッカー公式",
+    "feed_id": "wowow-soccer-yt",
+    "feed_type": "youtube",
+    "feed_category_hint": "europe",
+    "video_id": "edQa-apZWsI",
+    "thumbnail": "https://i2.ytimg.com/vi/edQa-apZWsI/hqdefault.jpg",
+    "fan_comments": [
+      "ラストパスの視野とタイミングが完璧すぎて鳥肌立った",
+      "あのシュートコースは相手キーパーもお手上げだろ"
+    ],
+    "published_at": "2026-11-27T01:45:07+00:00",
+    "date_prefix": "20261127",
+    "category": "europe",
+    "categories": [
+      "europe"
+    ],
+    "team_tags": [],
+    "dialogue": [
+      {
+        "turn": 1,
+        "persona_id": "transfer-guru",
+        "speaker_name": "移籍リーク速報屋",
+        "short_name": "移籍特報",
+        "avatar_emoji": "🚨",
+        "color": "#db2777",
+        "badge_bg": "bg-pink-100 dark:bg-pink-950 text-pink-800 dark:text-pink-300",
+        "content": "独占速報：すでに欧州メガクラブのスカウトが先週の視察を終えています！Here We Go!"
+      },
+      {
+        "turn": 2,
+        "persona_id": "young-talent-hunter",
+        "speaker_name": "青田買いスカウト",
+        "short_name": "青田買い",
+        "avatar_emoji": "🔍",
+        "color": "#d97706",
+        "badge_bg": "bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300",
+        "content": "あの選手、高円宮杯プレミアリーグの時から股関節の可動域が別格だったんだよ。早く代表に呼べ！"
+      },
+      {
+        "turn": 3,
+        "persona_id": "stats-data-geek",
+        "speaker_name": "スタッツ厨アナリスト",
+        "short_name": "スタッツ厨",
+        "avatar_emoji": "💻",
+        "color": "#0891b2",
+        "badge_bg": "bg-cyan-100 dark:bg-cyan-950 text-cyan-800 dark:text-cyan-300",
+        "content": "得点シーンばかり注目されてますが、前半のxG（ゴール期待値）とPPDAの指数を見れば課題は明白ですよ。"
+      },
+      {
+        "turn": 4,
+        "persona_id": "boots-gear-nerd",
+        "speaker_name": "スパイクギア狂",
+        "short_name": "ギアオタク",
+        "avatar_emoji": "👟",
+        "color": "#0d9488",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "あのピッチ状態でミックススタッドを選んだ足元の判断が絶妙。新作スパイクのカラーも映えてたな。"
+      },
+      {
+        "turn": 5,
+        "persona_id": "peace-enjoyer",
+        "speaker_name": "平和主義ライト層",
+        "short_name": "平和サポ",
+        "avatar_emoji": "🕊️",
+        "color": "#14b8a6",
+        "badge_bg": "bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300",
+        "content": "両チームの選手もサポーターもお疲れ様でした！お互いにリスペクトがあって清々しい好ゲームでしたね。"
+      },
+      {
+        "turn": 6,
+        "persona_id": "fantasy-manager",
+        "speaker_name": "サカつく脳サポ",
+        "short_name": "サカつく脳",
+        "avatar_emoji": "🎮",
+        "color": "#65a30d",
+        "badge_bg": "bg-lime-100 dark:bg-lime-950 text-lime-800 dark:text-lime-300",
+        "content": "「【ECLトピック】新川志音ゴールに石…」の布陣、サカつくで言えばケミストリーMAXの黄金連携だよ。今すぐこの形で固定すべき！"
+      },
+      {
+        "turn": 7,
+        "persona_id": "away-bus-veteran",
+        "speaker_name": "遠征夜行バス戦士",
+        "short_name": "遠征民",
+        "avatar_emoji": "🚌",
+        "color": "#4338ca",
+        "badge_bg": "bg-indigo-100 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300",
+        "content": "この展開が見られるなら深夜バス弾丸遠征も報われるよ！月曜の出社も気合で乗り切れる！"
+      }
+    ],
+    "punchy_quote": "「【ECLトピック】新川志音ゴールに石…」の布陣、サカつくで言えばケミストリーMAXの黄金連携だよ。今すぐこの形で固定すべき！"
+  },
+  {
     "id": "20261127-6c63e349",
     "slug": "20261127-6c63e349",
     "title": "新川志音が超絶ゴラッソでECL初得点! 日本人躍動のシントトロイデンが2試合ぶり白星で3位へ(ゲキサカ)",
